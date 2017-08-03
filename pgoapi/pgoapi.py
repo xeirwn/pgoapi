@@ -75,7 +75,7 @@ class PGoApi:
 
     @staticmethod
     def get_api_version():
-        return 6900
+        return 6901
 
     def set_authentication(self, provider=None, oauth2_refresh_token=None, username=None, password=None, proxy_config=None, user_agent=None, timeout=None):
         if provider == 'ptc':
@@ -147,7 +147,7 @@ class PGoApi:
         else:
             raise AttributeError
 
-    def app_simulation_login(self):
+    def app_simulation_login(self, country_code='US', timezone_str='America/Chicago'):
         self.log.info('Starting RPC login sequence (iOS app simulation)')
 
         # Send empty initial request
@@ -158,7 +158,7 @@ class PGoApi:
         
         # Send GET_PLAYER only
         request = self.create_request()
-        request.get_player(player_locale = {'country': 'US', 'language': 'en', 'timezone': 'America/Chicago'})
+        request.get_player(player_locale = {'country': country_code, 'language': 'en', 'timezone': timezone_str})
         response = request.call()
 
         if response.get('responses', {}).get('GET_PLAYER', {}).get('banned', False):
