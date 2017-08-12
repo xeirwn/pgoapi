@@ -70,6 +70,10 @@ class PGoApi:
 
         self.device_info = device_info
 
+        # low and high 32 bits of request id
+        self.RPC_ID_LOW = 2
+        self.RPC_ID_HIGH = 1
+
     def set_logger(self, logger=None):
         self.log = logger or logging.getLogger(__name__)
 
@@ -135,6 +139,13 @@ class PGoApi:
 
     def get_hash_server_token(self):
         return self._hash_server_token
+
+    def get_next_request_id(self):
+        self.RPC_ID_HIGH = ((7 ** 5) * self.RPC_ID_HIGH) % ((2 ** 31) - 1)
+        reqid = (self.RPC_ID_HIGH << 32) + self.RPC_ID_LOW
+        self.log.debug("New RPC Request ID: %s", reqid)
+        self.RPC_ID_LOW += 1
+        return reqid
 
     def __getattr__(self, func):
         def function(**kwargs):
@@ -240,7 +251,7 @@ class PGoApiRequest:
             self.log.info('Not logged in')
             raise NotLoggedInException
 
-        request = RpcApi(self._auth_provider, self.device_info)
+        request = RpcApi(self._auth_provider, self.device_info, self.__parent__.get_next_request_id())
         request._session = self.__parent__._session
 
         hash_server_token = self.__parent__.get_hash_server_token()
