@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/evolve_pokemon_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n=pogoprotos/networking/responses/evolve_pokemon_response.proto\x12\x1fpogoprotos.networking.responses\x1a\"pogoprotos/data/pokemon_data.proto\"\x9e\x03\n\x15\x45volvePokemonResponse\x12M\n\x06result\x18\x01 \x01(\x0e\x32=.pogoprotos.networking.responses.EvolvePokemonResponse.Result\x12:\n\x14\x65volved_pokemon_data\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x1a\n\x12\x65xperience_awarded\x18\x03 \x01(\x05\x12\x15\n\rcandy_awarded\x18\x04 \x01(\x05\"\xc6\x01\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x1a\n\x16\x46\x41ILED_POKEMON_MISSING\x10\x02\x12!\n\x1d\x46\x41ILED_INSUFFICIENT_RESOURCES\x10\x03\x12 \n\x1c\x46\x41ILED_POKEMON_CANNOT_EVOLVE\x10\x04\x12\x1e\n\x1a\x46\x41ILED_POKEMON_IS_DEPLOYED\x10\x05\x12#\n\x1f\x46\x41ILED_INVALID_ITEM_REQUIREMENT\x10\x06\x62\x06proto3')
+  serialized_pb=_b('\n=pogoprotos/networking/responses/evolve_pokemon_response.proto\x12\x1fpogoprotos.networking.responses\x1a\"pogoprotos/data/pokemon_data.proto\"\x92\x03\n\x15\x45volvePokemonResponse\x12M\n\x06result\x18\x01 \x01(\x0e\x32=.pogoprotos.networking.responses.EvolvePokemonResponse.Result\x12\x35\n\x0f\x65volved_pokemon\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x13\n\x0b\x65xp_awarded\x18\x03 \x01(\x05\x12\x15\n\rcandy_awarded\x18\x04 \x01(\x05\"\xc6\x01\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x1a\n\x16\x46\x41ILED_POKEMON_MISSING\x10\x02\x12!\n\x1d\x46\x41ILED_INSUFFICIENT_RESOURCES\x10\x03\x12 \n\x1c\x46\x41ILED_POKEMON_CANNOT_EVOLVE\x10\x04\x12\x1e\n\x1a\x46\x41ILED_POKEMON_IS_DEPLOYED\x10\x05\x12#\n\x1f\x46\x41ILED_INVALID_ITEM_REQUIREMENT\x10\x06\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,])
 
@@ -63,8 +63,8 @@ _EVOLVEPOKEMONRESPONSE_RESULT = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=351,
-  serialized_end=549,
+  serialized_start=339,
+  serialized_end=537,
 )
 _sym_db.RegisterEnumDescriptor(_EVOLVEPOKEMONRESPONSE_RESULT)
 
@@ -84,14 +84,14 @@ _EVOLVEPOKEMONRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='evolved_pokemon_data', full_name='pogoprotos.networking.responses.EvolvePokemonResponse.evolved_pokemon_data', index=1,
+      name='evolved_pokemon', full_name='pogoprotos.networking.responses.EvolvePokemonResponse.evolved_pokemon', index=1,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='experience_awarded', full_name='pogoprotos.networking.responses.EvolvePokemonResponse.experience_awarded', index=2,
+      name='exp_awarded', full_name='pogoprotos.networking.responses.EvolvePokemonResponse.exp_awarded', index=2,
       number=3, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -118,11 +118,11 @@ _EVOLVEPOKEMONRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=135,
-  serialized_end=549,
+  serialized_end=537,
 )
 
 _EVOLVEPOKEMONRESPONSE.fields_by_name['result'].enum_type = _EVOLVEPOKEMONRESPONSE_RESULT
-_EVOLVEPOKEMONRESPONSE.fields_by_name['evolved_pokemon_data'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
+_EVOLVEPOKEMONRESPONSE.fields_by_name['evolved_pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 _EVOLVEPOKEMONRESPONSE_RESULT.containing_type = _EVOLVEPOKEMONRESPONSE
 DESCRIPTOR.message_types_by_name['EvolvePokemonResponse'] = _EVOLVEPOKEMONRESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)

@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/encounter_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\n?pogoprotos/networking/requests/messages/encounter_message.proto\x12\'pogoprotos.networking.requests.messages\"s\n\x10\x45ncounterMessage\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x06\x12\x16\n\x0espawn_point_id\x18\x02 \x01(\t\x12\x17\n\x0fplayer_latitude\x18\x03 \x01(\x01\x12\x18\n\x10player_longitude\x18\x04 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\n?pogoprotos/networking/requests/messages/encounter_message.proto\x12\'pogoprotos.networking.requests.messages\"w\n\x10\x45ncounterMessage\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x06\x12\x15\n\rspawnpoint_id\x18\x02 \x01(\t\x12\x1a\n\x12player_lat_degrees\x18\x03 \x01(\x01\x12\x1a\n\x12player_lng_degrees\x18\x04 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -40,21 +40,21 @@ _ENCOUNTERMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='spawn_point_id', full_name='pogoprotos.networking.requests.messages.EncounterMessage.spawn_point_id', index=1,
+      name='spawnpoint_id', full_name='pogoprotos.networking.requests.messages.EncounterMessage.spawnpoint_id', index=1,
       number=2, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_latitude', full_name='pogoprotos.networking.requests.messages.EncounterMessage.player_latitude', index=2,
+      name='player_lat_degrees', full_name='pogoprotos.networking.requests.messages.EncounterMessage.player_lat_degrees', index=2,
       number=3, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_longitude', full_name='pogoprotos.networking.requests.messages.EncounterMessage.player_longitude', index=3,
+      name='player_lng_degrees', full_name='pogoprotos.networking.requests.messages.EncounterMessage.player_lng_degrees', index=3,
       number=4, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -73,7 +73,7 @@ _ENCOUNTERMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=108,
-  serialized_end=223,
+  serialized_end=227,
 )
 
 DESCRIPTOR.message_types_by_name['EncounterMessage'] = _ENCOUNTERMESSAGE

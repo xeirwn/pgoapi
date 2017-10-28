@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/start_gym_battle_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nFpogoprotos/networking/requests/messages/start_gym_battle_message.proto\x12\'pogoprotos.networking.requests.messages\"\x97\x01\n\x15StartGymBattleMessage\x12\x0e\n\x06gym_id\x18\x01 \x01(\t\x12\x1d\n\x15\x61ttacking_pokemon_ids\x18\x02 \x03(\x06\x12\x1c\n\x14\x64\x65\x66\x65nding_pokemon_id\x18\x03 \x01(\x06\x12\x17\n\x0fplayer_latitude\x18\x04 \x01(\x01\x12\x18\n\x10player_longitude\x18\x05 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\nFpogoprotos/networking/requests/messages/start_gym_battle_message.proto\x12\'pogoprotos.networking.requests.messages\"\x9b\x01\n\x15StartGymBattleMessage\x12\x0e\n\x06gym_id\x18\x01 \x01(\t\x12\x1c\n\x14\x61ttacking_pokemon_id\x18\x02 \x03(\x06\x12\x1c\n\x14\x64\x65\x66\x65nding_pokemon_id\x18\x03 \x01(\x06\x12\x1a\n\x12player_lat_degrees\x18\x04 \x01(\x01\x12\x1a\n\x12player_lng_degrees\x18\x05 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -40,7 +40,7 @@ _STARTGYMBATTLEMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='attacking_pokemon_ids', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.attacking_pokemon_ids', index=1,
+      name='attacking_pokemon_id', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.attacking_pokemon_id', index=1,
       number=2, type=6, cpp_type=4, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -54,14 +54,14 @@ _STARTGYMBATTLEMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_latitude', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.player_latitude', index=3,
+      name='player_lat_degrees', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.player_lat_degrees', index=3,
       number=4, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_longitude', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.player_longitude', index=4,
+      name='player_lng_degrees', full_name='pogoprotos.networking.requests.messages.StartGymBattleMessage.player_lng_degrees', index=4,
       number=5, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -80,7 +80,7 @@ _STARTGYMBATTLEMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=116,
-  serialized_end=267,
+  serialized_end=271,
 )
 
 DESCRIPTOR.message_types_by_name['StartGymBattleMessage'] = _STARTGYMBATTLEMESSAGE

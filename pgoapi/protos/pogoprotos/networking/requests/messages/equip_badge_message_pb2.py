@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/equip_badge_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nApogoprotos/networking/requests/messages/equip_badge_message.proto\x12\'pogoprotos.networking.requests.messages\x1a!pogoprotos/enums/badge_type.proto\"D\n\x11\x45quipBadgeMessage\x12/\n\nbadge_type\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.BadgeTypeb\x06proto3')
+  serialized_pb=_b('\nApogoprotos/networking/requests/messages/equip_badge_message.proto\x12\'pogoprotos.networking.requests.messages\x1a!pogoprotos/enums/badge_type.proto\"?\n\x11\x45quipBadgeMessage\x12*\n\x05\x62\x61\x64ge\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.BadgeTypeb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_badge__type__pb2.DESCRIPTOR,])
 
@@ -35,7 +35,7 @@ _EQUIPBADGEMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='badge_type', full_name='pogoprotos.networking.requests.messages.EquipBadgeMessage.badge_type', index=0,
+      name='badge', full_name='pogoprotos.networking.requests.messages.EquipBadgeMessage.badge', index=0,
       number=1, type=14, cpp_type=8, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -54,10 +54,10 @@ _EQUIPBADGEMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=145,
-  serialized_end=213,
+  serialized_end=208,
 )
 
-_EQUIPBADGEMESSAGE.fields_by_name['badge_type'].enum_type = pogoprotos_dot_enums_dot_badge__type__pb2._BADGETYPE
+_EQUIPBADGEMESSAGE.fields_by_name['badge'].enum_type = pogoprotos_dot_enums_dot_badge__type__pb2._BADGETYPE
 DESCRIPTOR.message_types_by_name['EquipBadgeMessage'] = _EQUIPBADGEMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

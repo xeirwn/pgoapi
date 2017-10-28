@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/set_player_team_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n>pogoprotos/networking/responses/set_player_team_response.proto\x12\x1fpogoprotos.networking.responses\x1a!pogoprotos/data/player_data.proto\"\xdd\x01\n\x15SetPlayerTeamResponse\x12M\n\x06status\x18\x01 \x01(\x0e\x32=.pogoprotos.networking.responses.SetPlayerTeamResponse.Status\x12\x30\n\x0bplayer_data\x18\x02 \x01(\x0b\x32\x1b.pogoprotos.data.PlayerData\"C\n\x06Status\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x14\n\x10TEAM_ALREADY_SET\x10\x02\x12\x0b\n\x07\x46\x41ILURE\x10\x03\x62\x06proto3')
+  serialized_pb=_b('\n>pogoprotos/networking/responses/set_player_team_response.proto\x12\x1fpogoprotos.networking.responses\x1a!pogoprotos/data/player_data.proto\"\xd8\x01\n\x15SetPlayerTeamResponse\x12M\n\x06status\x18\x01 \x01(\x0e\x32=.pogoprotos.networking.responses.SetPlayerTeamResponse.Status\x12+\n\x06player\x18\x02 \x01(\x0b\x32\x1b.pogoprotos.data.PlayerData\"C\n\x06Status\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x14\n\x10TEAM_ALREADY_SET\x10\x02\x12\x0b\n\x07\x46\x41ILURE\x10\x03\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_player__data__pb2.DESCRIPTOR,])
 
@@ -51,8 +51,8 @@ _SETPLAYERTEAMRESPONSE_STATUS = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=289,
-  serialized_end=356,
+  serialized_start=284,
+  serialized_end=351,
 )
 _sym_db.RegisterEnumDescriptor(_SETPLAYERTEAMRESPONSE_STATUS)
 
@@ -72,7 +72,7 @@ _SETPLAYERTEAMRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_data', full_name='pogoprotos.networking.responses.SetPlayerTeamResponse.player_data', index=1,
+      name='player', full_name='pogoprotos.networking.responses.SetPlayerTeamResponse.player', index=1,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -92,11 +92,11 @@ _SETPLAYERTEAMRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=135,
-  serialized_end=356,
+  serialized_end=351,
 )
 
 _SETPLAYERTEAMRESPONSE.fields_by_name['status'].enum_type = _SETPLAYERTEAMRESPONSE_STATUS
-_SETPLAYERTEAMRESPONSE.fields_by_name['player_data'].message_type = pogoprotos_dot_data_dot_player__data__pb2._PLAYERDATA
+_SETPLAYERTEAMRESPONSE.fields_by_name['player'].message_type = pogoprotos_dot_data_dot_player__data__pb2._PLAYERDATA
 _SETPLAYERTEAMRESPONSE_STATUS.containing_type = _SETPLAYERTEAMRESPONSE
 DESCRIPTOR.message_types_by_name['SetPlayerTeamResponse'] = _SETPLAYERTEAMRESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)

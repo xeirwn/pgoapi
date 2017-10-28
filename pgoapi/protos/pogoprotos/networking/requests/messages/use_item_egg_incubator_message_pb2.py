@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/use_item_egg_incubator_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nLpogoprotos/networking/requests/messages/use_item_egg_incubator_message.proto\x12\'pogoprotos.networking.requests.messages\"A\n\x1aUseItemEggIncubatorMessage\x12\x0f\n\x07item_id\x18\x01 \x01(\t\x12\x12\n\npokemon_id\x18\x02 \x01(\x04\x62\x06proto3')
+  serialized_pb=_b('\nLpogoprotos/networking/requests/messages/use_item_egg_incubator_message.proto\x12\'pogoprotos.networking.requests.messages\"B\n\x1aUseItemEggIncubatorMessage\x12\x0f\n\x07item_id\x18\x01 \x01(\t\x12\x13\n\x0bpokemond_id\x18\x02 \x01(\x03\x62\x06proto3')
 )
 
 
@@ -40,8 +40,8 @@ _USEITEMEGGINCUBATORMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pokemon_id', full_name='pogoprotos.networking.requests.messages.UseItemEggIncubatorMessage.pokemon_id', index=1,
-      number=2, type=4, cpp_type=4, label=1,
+      name='pokemond_id', full_name='pogoprotos.networking.requests.messages.UseItemEggIncubatorMessage.pokemond_id', index=1,
+      number=2, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -59,7 +59,7 @@ _USEITEMEGGINCUBATORMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=121,
-  serialized_end=186,
+  serialized_end=187,
 )
 
 DESCRIPTOR.message_types_by_name['UseItemEggIncubatorMessage'] = _USEITEMEGGINCUBATORMESSAGE

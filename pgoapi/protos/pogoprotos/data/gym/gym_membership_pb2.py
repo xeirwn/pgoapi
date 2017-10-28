@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/gym/gym_membership.proto',
   package='pogoprotos.data.gym',
   syntax='proto3',
-  serialized_pb=_b('\n(pogoprotos/data/gym/gym_membership.proto\x12\x13pogoprotos.data.gym\x1a\"pogoprotos/data/pokemon_data.proto\x1a\x32pogoprotos/data/player/player_public_profile.proto\"\xc8\x01\n\rGymMembership\x12\x32\n\x0cpokemon_data\x18\x01 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12K\n\x16trainer_public_profile\x18\x02 \x01(\x0b\x32+.pogoprotos.data.player.PlayerPublicProfile\x12\x36\n\x10training_pokemon\x18\x03 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonDatab\x06proto3')
+  serialized_pb=_b('\n(pogoprotos/data/gym/gym_membership.proto\x12\x13pogoprotos.data.gym\x1a\"pogoprotos/data/pokemon_data.proto\x1a\x32pogoprotos/data/player/player_public_profile.proto\"\xc3\x01\n\rGymMembership\x12-\n\x07pokemon\x18\x01 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12K\n\x16trainer_public_profile\x18\x02 \x01(\x0b\x32+.pogoprotos.data.player.PlayerPublicProfile\x12\x36\n\x10training_pokemon\x18\x03 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonDatab\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_player_dot_player__public__profile__pb2.DESCRIPTOR,])
 
@@ -36,7 +36,7 @@ _GYMMEMBERSHIP = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='pokemon_data', full_name='pogoprotos.data.gym.GymMembership.pokemon_data', index=0,
+      name='pokemon', full_name='pogoprotos.data.gym.GymMembership.pokemon', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -69,10 +69,10 @@ _GYMMEMBERSHIP = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=154,
-  serialized_end=354,
+  serialized_end=349,
 )
 
-_GYMMEMBERSHIP.fields_by_name['pokemon_data'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
+_GYMMEMBERSHIP.fields_by_name['pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 _GYMMEMBERSHIP.fields_by_name['trainer_public_profile'].message_type = pogoprotos_dot_data_dot_player_dot_player__public__profile__pb2._PLAYERPUBLICPROFILE
 _GYMMEMBERSHIP.fields_by_name['training_pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 DESCRIPTOR.message_types_by_name['GymMembership'] = _GYMMEMBERSHIP

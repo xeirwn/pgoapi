@@ -22,11 +22,237 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/pokemon_display.proto',
   package='pogoprotos.data',
   syntax='proto3',
-  serialized_pb=_b('\n%pogoprotos/data/pokemon_display.proto\x12\x0fpogoprotos.data\x1a\x1epogoprotos/enums/costume.proto\x1a\x1bpogoprotos/enums/form.proto\x1a\x1dpogoprotos/enums/gender.proto\"\x9b\x01\n\x0ePokemonDisplay\x12*\n\x07\x63ostume\x18\x01 \x01(\x0e\x32\x19.pogoprotos.enums.Costume\x12(\n\x06gender\x18\x02 \x01(\x0e\x32\x18.pogoprotos.enums.Gender\x12\r\n\x05shiny\x18\x03 \x01(\x08\x12$\n\x04\x66orm\x18\x04 \x01(\x0e\x32\x16.pogoprotos.enums.Formb\x06proto3')
+  serialized_pb=_b('\n%pogoprotos/data/pokemon_display.proto\x12\x0fpogoprotos.data\x1a\x1epogoprotos/enums/costume.proto\x1a\x1bpogoprotos/enums/form.proto\x1a\x1dpogoprotos/enums/gender.proto\"\x82\x07\n\x0ePokemonDisplay\x12*\n\x07\x63ostume\x18\x01 \x01(\x0e\x32\x19.pogoprotos.enums.Costume\x12(\n\x06gender\x18\x02 \x01(\x0e\x32\x18.pogoprotos.enums.Gender\x12\r\n\x05shiny\x18\x03 \x01(\x08\x12$\n\x04\x66orm\x18\x04 \x01(\x0e\x32\x16.pogoprotos.enums.Form\"e\n\x07\x43ostume\x12\t\n\x05UNSET\x10\x00\x12\x10\n\x0cHOLIDAY_2016\x10\x01\x12\x0f\n\x0b\x41NNIVERSARY\x10\x02\x12\x18\n\x14ONE_YEAR_ANNIVERSARY\x10\x03\x12\x12\n\x0eHALLOWEEN_2017\x10\x04\"@\n\x06Gender\x12\x10\n\x0cGENDER_UNSET\x10\x00\x12\x08\n\x04MALE\x10\x01\x12\n\n\x06\x46\x45MALE\x10\x02\x12\x0e\n\nGENDERLESS\x10\x03\"\xbb\x04\n\x04\x46orm\x12\x0e\n\nFORM_UNSET\x10\x00\x12\x0b\n\x07UNOWN_A\x10\x01\x12\x0b\n\x07UNOWN_B\x10\x02\x12\x0b\n\x07UNOWN_C\x10\x03\x12\x0b\n\x07UNOWN_D\x10\x04\x12\x0b\n\x07UNOWN_E\x10\x05\x12\x0b\n\x07UNOWN_F\x10\x06\x12\x0b\n\x07UNOWN_G\x10\x07\x12\x0b\n\x07UNOWN_H\x10\x08\x12\x0b\n\x07UNOWN_I\x10\t\x12\x0b\n\x07UNOWN_J\x10\n\x12\x0b\n\x07UNOWN_K\x10\x0b\x12\x0b\n\x07UNOWN_L\x10\x0c\x12\x0b\n\x07UNOWN_M\x10\r\x12\x0b\n\x07UNOWN_N\x10\x0e\x12\x0b\n\x07UNOWN_O\x10\x0f\x12\x0b\n\x07UNOWN_P\x10\x10\x12\x0b\n\x07UNOWN_Q\x10\x11\x12\x0b\n\x07UNOWN_R\x10\x12\x12\x0b\n\x07UNOWN_S\x10\x13\x12\x0b\n\x07UNOWN_T\x10\x14\x12\x0b\n\x07UNOWN_U\x10\x15\x12\x0b\n\x07UNOWN_V\x10\x16\x12\x0b\n\x07UNOWN_W\x10\x17\x12\x0b\n\x07UNOWN_X\x10\x18\x12\x0b\n\x07UNOWN_Y\x10\x19\x12\x0b\n\x07UNOWN_Z\x10\x1a\x12\x1b\n\x17UNOWN_EXCLAMATION_POINT\x10\x1b\x12\x17\n\x13UNOWN_QUESTION_MARK\x10\x1c\x12\x13\n\x0f\x43\x41STFORM_NORMAL\x10\x1d\x12\x12\n\x0e\x43\x41STFORM_SUNNY\x10\x1e\x12\x12\n\x0e\x43\x41STFORM_RAINY\x10\x1f\x12\x12\n\x0e\x43\x41STFORM_SNOWY\x10 \x12\x11\n\rDEOXYS_NORMAL\x10!\x12\x11\n\rDEOXYS_ATTACK\x10\"\x12\x12\n\x0e\x44\x45OXYS_DEFENSE\x10#\x12\x10\n\x0c\x44\x45OXYS_SPEED\x10$b\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_costume__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_form__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_gender__pb2.DESCRIPTOR,])
 
 
+
+_POKEMONDISPLAY_COSTUME = _descriptor.EnumDescriptor(
+  name='Costume',
+  full_name='pogoprotos.data.PokemonDisplay.Costume',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='UNSET', index=0, number=0,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='HOLIDAY_2016', index=1, number=1,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ANNIVERSARY', index=2, number=2,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ONE_YEAR_ANNIVERSARY', index=3, number=3,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='HALLOWEEN_2017', index=4, number=4,
+      options=None,
+      type=None),
+  ],
+  containing_type=None,
+  options=None,
+  serialized_start=308,
+  serialized_end=409,
+)
+_sym_db.RegisterEnumDescriptor(_POKEMONDISPLAY_COSTUME)
+
+_POKEMONDISPLAY_GENDER = _descriptor.EnumDescriptor(
+  name='Gender',
+  full_name='pogoprotos.data.PokemonDisplay.Gender',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='GENDER_UNSET', index=0, number=0,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='MALE', index=1, number=1,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='FEMALE', index=2, number=2,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='GENDERLESS', index=3, number=3,
+      options=None,
+      type=None),
+  ],
+  containing_type=None,
+  options=None,
+  serialized_start=411,
+  serialized_end=475,
+)
+_sym_db.RegisterEnumDescriptor(_POKEMONDISPLAY_GENDER)
+
+_POKEMONDISPLAY_FORM = _descriptor.EnumDescriptor(
+  name='Form',
+  full_name='pogoprotos.data.PokemonDisplay.Form',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='FORM_UNSET', index=0, number=0,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_A', index=1, number=1,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_B', index=2, number=2,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_C', index=3, number=3,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_D', index=4, number=4,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_E', index=5, number=5,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_F', index=6, number=6,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_G', index=7, number=7,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_H', index=8, number=8,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_I', index=9, number=9,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_J', index=10, number=10,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_K', index=11, number=11,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_L', index=12, number=12,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_M', index=13, number=13,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_N', index=14, number=14,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_O', index=15, number=15,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_P', index=16, number=16,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_Q', index=17, number=17,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_R', index=18, number=18,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_S', index=19, number=19,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_T', index=20, number=20,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_U', index=21, number=21,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_V', index=22, number=22,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_W', index=23, number=23,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_X', index=24, number=24,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_Y', index=25, number=25,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_Z', index=26, number=26,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_EXCLAMATION_POINT', index=27, number=27,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='UNOWN_QUESTION_MARK', index=28, number=28,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CASTFORM_NORMAL', index=29, number=29,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CASTFORM_SUNNY', index=30, number=30,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CASTFORM_RAINY', index=31, number=31,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='CASTFORM_SNOWY', index=32, number=32,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='DEOXYS_NORMAL', index=33, number=33,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='DEOXYS_ATTACK', index=34, number=34,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='DEOXYS_DEFENSE', index=35, number=35,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='DEOXYS_SPEED', index=36, number=36,
+      options=None,
+      type=None),
+  ],
+  containing_type=None,
+  options=None,
+  serialized_start=478,
+  serialized_end=1049,
+)
+_sym_db.RegisterEnumDescriptor(_POKEMONDISPLAY_FORM)
 
 
 _POKEMONDISPLAY = _descriptor.Descriptor(
@@ -69,6 +295,9 @@ _POKEMONDISPLAY = _descriptor.Descriptor(
   ],
   nested_types=[],
   enum_types=[
+    _POKEMONDISPLAY_COSTUME,
+    _POKEMONDISPLAY_GENDER,
+    _POKEMONDISPLAY_FORM,
   ],
   options=None,
   is_extendable=False,
@@ -77,12 +306,15 @@ _POKEMONDISPLAY = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=151,
-  serialized_end=306,
+  serialized_end=1049,
 )
 
 _POKEMONDISPLAY.fields_by_name['costume'].enum_type = pogoprotos_dot_enums_dot_costume__pb2._COSTUME
 _POKEMONDISPLAY.fields_by_name['gender'].enum_type = pogoprotos_dot_enums_dot_gender__pb2._GENDER
 _POKEMONDISPLAY.fields_by_name['form'].enum_type = pogoprotos_dot_enums_dot_form__pb2._FORM
+_POKEMONDISPLAY_COSTUME.containing_type = _POKEMONDISPLAY
+_POKEMONDISPLAY_GENDER.containing_type = _POKEMONDISPLAY
+_POKEMONDISPLAY_FORM.containing_type = _POKEMONDISPLAY
 DESCRIPTOR.message_types_by_name['PokemonDisplay'] = _POKEMONDISPLAY
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

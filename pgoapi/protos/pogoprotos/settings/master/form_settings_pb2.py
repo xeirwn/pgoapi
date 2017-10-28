@@ -21,49 +21,12 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/form_settings.proto',
   package='pogoprotos.settings.master',
   syntax='proto3',
-  serialized_pb=_b('\n.pogoprotos/settings/master/form_settings.proto\x12\x1apogoprotos.settings.master\x1a\x1bpogoprotos/enums/form.proto\x1a!pogoprotos/enums/pokemon_id.proto\"\xc4\x01\n\x0c\x46ormSettings\x12,\n\x07pokemon\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12<\n\x05\x66orms\x18\x02 \x03(\x0b\x32-.pogoprotos.settings.master.FormSettings.Form\x1aH\n\x04\x46orm\x12$\n\x04\x66orm\x18\x01 \x01(\x0e\x32\x16.pogoprotos.enums.Form\x12\x1a\n\x12\x61sset_bundle_value\x18\x02 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n.pogoprotos/settings/master/form_settings.proto\x12\x1apogoprotos.settings.master\x1a\x1bpogoprotos/enums/form.proto\x1a!pogoprotos/enums/pokemon_id.proto\"c\n\x0c\x46ormSettings\x12,\n\x07pokemon\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonId\x12%\n\x05\x66orms\x18\x02 \x03(\x0e\x32\x16.pogoprotos.enums.Formb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_form__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,])
 
 
 
-
-_FORMSETTINGS_FORM = _descriptor.Descriptor(
-  name='Form',
-  full_name='pogoprotos.settings.master.FormSettings.Form',
-  filename=None,
-  file=DESCRIPTOR,
-  containing_type=None,
-  fields=[
-    _descriptor.FieldDescriptor(
-      name='form', full_name='pogoprotos.settings.master.FormSettings.Form.form', index=0,
-      number=1, type=14, cpp_type=8, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='asset_bundle_value', full_name='pogoprotos.settings.master.FormSettings.Form.asset_bundle_value', index=1,
-      number=2, type=5, cpp_type=1, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-  ],
-  extensions=[
-  ],
-  nested_types=[],
-  enum_types=[
-  ],
-  options=None,
-  is_extendable=False,
-  syntax='proto3',
-  extension_ranges=[],
-  oneofs=[
-  ],
-  serialized_start=267,
-  serialized_end=339,
-)
 
 _FORMSETTINGS = _descriptor.Descriptor(
   name='FormSettings',
@@ -81,7 +44,7 @@ _FORMSETTINGS = _descriptor.Descriptor(
       options=None),
     _descriptor.FieldDescriptor(
       name='forms', full_name='pogoprotos.settings.master.FormSettings.forms', index=1,
-      number=2, type=11, cpp_type=10, label=3,
+      number=2, type=14, cpp_type=8, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -89,7 +52,7 @@ _FORMSETTINGS = _descriptor.Descriptor(
   ],
   extensions=[
   ],
-  nested_types=[_FORMSETTINGS_FORM, ],
+  nested_types=[],
   enum_types=[
   ],
   options=None,
@@ -98,31 +61,21 @@ _FORMSETTINGS = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=143,
-  serialized_end=339,
+  serialized_start=142,
+  serialized_end=241,
 )
 
-_FORMSETTINGS_FORM.fields_by_name['form'].enum_type = pogoprotos_dot_enums_dot_form__pb2._FORM
-_FORMSETTINGS_FORM.containing_type = _FORMSETTINGS
 _FORMSETTINGS.fields_by_name['pokemon'].enum_type = pogoprotos_dot_enums_dot_pokemon__id__pb2._POKEMONID
-_FORMSETTINGS.fields_by_name['forms'].message_type = _FORMSETTINGS_FORM
+_FORMSETTINGS.fields_by_name['forms'].enum_type = pogoprotos_dot_enums_dot_form__pb2._FORM
 DESCRIPTOR.message_types_by_name['FormSettings'] = _FORMSETTINGS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 FormSettings = _reflection.GeneratedProtocolMessageType('FormSettings', (_message.Message,), dict(
-
-  Form = _reflection.GeneratedProtocolMessageType('Form', (_message.Message,), dict(
-    DESCRIPTOR = _FORMSETTINGS_FORM,
-    __module__ = 'pogoprotos.settings.master.form_settings_pb2'
-    # @@protoc_insertion_point(class_scope:pogoprotos.settings.master.FormSettings.Form)
-    ))
-  ,
   DESCRIPTOR = _FORMSETTINGS,
   __module__ = 'pogoprotos.settings.master.form_settings_pb2'
   # @@protoc_insertion_point(class_scope:pogoprotos.settings.master.FormSettings)
   ))
 _sym_db.RegisterMessage(FormSettings)
-_sym_db.RegisterMessage(FormSettings.Form)
 
 
 # @@protoc_insertion_point(module_scope)

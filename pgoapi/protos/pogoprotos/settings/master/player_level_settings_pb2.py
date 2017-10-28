@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/player_level_settings.proto',
   package='pogoprotos.settings.master',
   syntax='proto3',
-  serialized_pb=_b('\n6pogoprotos/settings/master/player_level_settings.proto\x12\x1apogoprotos.settings.master\"\xc6\x01\n\x13PlayerLevelSettings\x12\x10\n\x08rank_num\x18\x01 \x03(\x05\x12\x1b\n\x13required_experience\x18\x02 \x03(\x05\x12\x15\n\rcp_multiplier\x18\x03 \x03(\x02\x12\x1c\n\x14max_egg_player_level\x18\x04 \x01(\x05\x12\"\n\x1amax_encounter_player_level\x18\x05 \x01(\x05\x12\'\n\x1fmax_raid_encounter_player_level\x18\x06 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n6pogoprotos/settings/master/player_level_settings.proto\x12\x1apogoprotos.settings.master\"\xbf\x01\n\x13PlayerLevelSettings\x12\x10\n\x08rank_num\x18\x01 \x03(\x05\x12\x14\n\x0crequired_exp\x18\x02 \x03(\x05\x12\x15\n\rcp_multiplier\x18\x03 \x03(\x02\x12\x1c\n\x14max_egg_player_level\x18\x04 \x01(\x05\x12\"\n\x1amax_encounter_player_level\x18\x05 \x01(\x05\x12\'\n\x1fmax_raid_encounter_player_level\x18\x06 \x01(\x05\x62\x06proto3')
 )
 
 
@@ -40,7 +40,7 @@ _PLAYERLEVELSETTINGS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='required_experience', full_name='pogoprotos.settings.master.PlayerLevelSettings.required_experience', index=1,
+      name='required_exp', full_name='pogoprotos.settings.master.PlayerLevelSettings.required_exp', index=1,
       number=2, type=5, cpp_type=1, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -87,7 +87,7 @@ _PLAYERLEVELSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=87,
-  serialized_end=285,
+  serialized_end=278,
 )
 
 DESCRIPTOR.message_types_by_name['PlayerLevelSettings'] = _PLAYERLEVELSETTINGS

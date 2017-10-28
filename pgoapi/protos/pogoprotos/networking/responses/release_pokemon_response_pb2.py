@@ -19,14 +19,14 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/release_pokemon_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n>pogoprotos/networking/responses/release_pokemon_response.proto\x12\x1fpogoprotos.networking.responses\"\xf9\x01\n\x16ReleasePokemonResponse\x12N\n\x06result\x18\x01 \x01(\x0e\x32>.pogoprotos.networking.responses.ReleasePokemonResponse.Result\x12\x15\n\rcandy_awarded\x18\x02 \x01(\x05\"x\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x14\n\x10POKEMON_DEPLOYED\x10\x02\x12\n\n\x06\x46\x41ILED\x10\x03\x12\x18\n\x14\x45RROR_POKEMON_IS_EGG\x10\x04\x12\x1a\n\x16\x45RROR_POKEMON_IS_BUDDY\x10\x05\x62\x06proto3')
+  serialized_pb=_b('\n>pogoprotos/networking/responses/release_pokemon_response.proto\x12\x1fpogoprotos.networking.responses\"\xf9\x01\n\x16ReleasePokemonResponse\x12N\n\x06status\x18\x01 \x01(\x0e\x32>.pogoprotos.networking.responses.ReleasePokemonResponse.Status\x12\x15\n\rcandy_awarded\x18\x02 \x01(\x05\"x\n\x06Status\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x14\n\x10POKEMON_DEPLOYED\x10\x02\x12\n\n\x06\x46\x41ILED\x10\x03\x12\x18\n\x14\x45RROR_POKEMON_IS_EGG\x10\x04\x12\x1a\n\x16\x45RROR_POKEMON_IS_BUDDY\x10\x05\x62\x06proto3')
 )
 
 
 
-_RELEASEPOKEMONRESPONSE_RESULT = _descriptor.EnumDescriptor(
-  name='Result',
-  full_name='pogoprotos.networking.responses.ReleasePokemonResponse.Result',
+_RELEASEPOKEMONRESPONSE_STATUS = _descriptor.EnumDescriptor(
+  name='Status',
+  full_name='pogoprotos.networking.responses.ReleasePokemonResponse.Status',
   filename=None,
   file=DESCRIPTOR,
   values=[
@@ -60,7 +60,7 @@ _RELEASEPOKEMONRESPONSE_RESULT = _descriptor.EnumDescriptor(
   serialized_start=229,
   serialized_end=349,
 )
-_sym_db.RegisterEnumDescriptor(_RELEASEPOKEMONRESPONSE_RESULT)
+_sym_db.RegisterEnumDescriptor(_RELEASEPOKEMONRESPONSE_STATUS)
 
 
 _RELEASEPOKEMONRESPONSE = _descriptor.Descriptor(
@@ -71,7 +71,7 @@ _RELEASEPOKEMONRESPONSE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='result', full_name='pogoprotos.networking.responses.ReleasePokemonResponse.result', index=0,
+      name='status', full_name='pogoprotos.networking.responses.ReleasePokemonResponse.status', index=0,
       number=1, type=14, cpp_type=8, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -89,7 +89,7 @@ _RELEASEPOKEMONRESPONSE = _descriptor.Descriptor(
   ],
   nested_types=[],
   enum_types=[
-    _RELEASEPOKEMONRESPONSE_RESULT,
+    _RELEASEPOKEMONRESPONSE_STATUS,
   ],
   options=None,
   is_extendable=False,
@@ -101,8 +101,8 @@ _RELEASEPOKEMONRESPONSE = _descriptor.Descriptor(
   serialized_end=349,
 )
 
-_RELEASEPOKEMONRESPONSE.fields_by_name['result'].enum_type = _RELEASEPOKEMONRESPONSE_RESULT
-_RELEASEPOKEMONRESPONSE_RESULT.containing_type = _RELEASEPOKEMONRESPONSE
+_RELEASEPOKEMONRESPONSE.fields_by_name['status'].enum_type = _RELEASEPOKEMONRESPONSE_STATUS
+_RELEASEPOKEMONRESPONSE_STATUS.containing_type = _RELEASEPOKEMONRESPONSE
 DESCRIPTOR.message_types_by_name['ReleasePokemonResponse'] = _RELEASEPOKEMONRESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

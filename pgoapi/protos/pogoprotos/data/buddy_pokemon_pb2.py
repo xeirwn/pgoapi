@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/buddy_pokemon.proto',
   package='pogoprotos.data',
   syntax='proto3',
-  serialized_pb=_b('\n#pogoprotos/data/buddy_pokemon.proto\x12\x0fpogoprotos.data\"L\n\x0c\x42uddyPokemon\x12\n\n\x02id\x18\x01 \x01(\x06\x12\x17\n\x0fstart_km_walked\x18\x02 \x01(\x01\x12\x17\n\x0flast_km_awarded\x18\x03 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\n#pogoprotos/data/buddy_pokemon.proto\x12\x0fpogoprotos.data\"Z\n\x0c\x42uddyPokemon\x12\x18\n\x10\x62uddy_pokemon_id\x18\x01 \x01(\x06\x12\x17\n\x0fstart_km_walked\x18\x02 \x01(\x01\x12\x17\n\x0flast_km_awarded\x18\x03 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _BUDDYPOKEMON = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='id', full_name='pogoprotos.data.BuddyPokemon.id', index=0,
+      name='buddy_pokemon_id', full_name='pogoprotos.data.BuddyPokemon.buddy_pokemon_id', index=0,
       number=1, type=6, cpp_type=4, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -66,7 +66,7 @@ _BUDDYPOKEMON = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=56,
-  serialized_end=132,
+  serialized_end=146,
 )
 
 DESCRIPTOR.message_types_by_name['BuddyPokemon'] = _BUDDYPOKEMON

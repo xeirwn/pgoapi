@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/player/player_camera.proto',
   package='pogoprotos.data.player',
   syntax='proto3',
-  serialized_pb=_b('\n*pogoprotos/data/player/player_camera.proto\x12\x16pogoprotos.data.player\")\n\x0cPlayerCamera\x12\x19\n\x11is_default_camera\x18\x01 \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n*pogoprotos/data/player/player_camera.proto\x12\x16pogoprotos.data.player\"&\n\x0cPlayerCamera\x12\x16\n\x0e\x64\x65\x66\x61ult_camera\x18\x01 \x01(\x08\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _PLAYERCAMERA = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='is_default_camera', full_name='pogoprotos.data.player.PlayerCamera.is_default_camera', index=0,
+      name='default_camera', full_name='pogoprotos.data.player.PlayerCamera.default_camera', index=0,
       number=1, type=8, cpp_type=7, label=1,
       has_default_value=False, default_value=False,
       message_type=None, enum_type=None, containing_type=None,
@@ -52,7 +52,7 @@ _PLAYERCAMERA = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=70,
-  serialized_end=111,
+  serialized_end=108,
 )
 
 DESCRIPTOR.message_types_by_name['PlayerCamera'] = _PLAYERCAMERA

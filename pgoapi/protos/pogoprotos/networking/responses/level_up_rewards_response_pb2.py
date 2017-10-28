@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/level_up_rewards_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n?pogoprotos/networking/responses/level_up_rewards_response.proto\x12\x1fpogoprotos.networking.responses\x1a\'pogoprotos/inventory/item/item_id.proto\x1a*pogoprotos/inventory/item/item_award.proto\"\xb4\x02\n\x16LevelUpRewardsResponse\x12N\n\x06result\x18\x01 \x01(\x0e\x32>.pogoprotos.networking.responses.LevelUpRewardsResponse.Result\x12;\n\ritems_awarded\x18\x02 \x03(\x0b\x32$.pogoprotos.inventory.item.ItemAward\x12\x39\n\x0eitems_unlocked\x18\x04 \x03(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12\x1b\n\x13\x61vatar_template_ids\x18\x05 \x03(\t\"5\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x13\n\x0f\x41WARDED_ALREADY\x10\x02\x62\x06proto3')
+  serialized_pb=_b('\n?pogoprotos/networking/responses/level_up_rewards_response.proto\x12\x1fpogoprotos.networking.responses\x1a\'pogoprotos/inventory/item/item_id.proto\x1a*pogoprotos/inventory/item/item_award.proto\"\xac\x02\n\x16LevelUpRewardsResponse\x12N\n\x06result\x18\x01 \x01(\x0e\x32>.pogoprotos.networking.responses.LevelUpRewardsResponse.Result\x12\x33\n\x05items\x18\x02 \x03(\x0b\x32$.pogoprotos.inventory.item.ItemAward\x12\x39\n\x0eitems_unlocked\x18\x04 \x03(\x0e\x32!.pogoprotos.inventory.item.ItemId\x12\x1b\n\x13\x61vatar_template_ids\x18\x05 \x03(\t\"5\n\x06Result\x12\t\n\x05UNSET\x10\x00\x12\x0b\n\x07SUCCESS\x10\x01\x12\x13\n\x0f\x41WARDED_ALREADY\x10\x02\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__award__pb2.DESCRIPTOR,])
 
@@ -48,8 +48,8 @@ _LEVELUPREWARDSRESPONSE_RESULT = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=441,
-  serialized_end=494,
+  serialized_start=433,
+  serialized_end=486,
 )
 _sym_db.RegisterEnumDescriptor(_LEVELUPREWARDSRESPONSE_RESULT)
 
@@ -69,7 +69,7 @@ _LEVELUPREWARDSRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='items_awarded', full_name='pogoprotos.networking.responses.LevelUpRewardsResponse.items_awarded', index=1,
+      name='items', full_name='pogoprotos.networking.responses.LevelUpRewardsResponse.items', index=1,
       number=2, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -103,11 +103,11 @@ _LEVELUPREWARDSRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=186,
-  serialized_end=494,
+  serialized_end=486,
 )
 
 _LEVELUPREWARDSRESPONSE.fields_by_name['result'].enum_type = _LEVELUPREWARDSRESPONSE_RESULT
-_LEVELUPREWARDSRESPONSE.fields_by_name['items_awarded'].message_type = pogoprotos_dot_inventory_dot_item_dot_item__award__pb2._ITEMAWARD
+_LEVELUPREWARDSRESPONSE.fields_by_name['items'].message_type = pogoprotos_dot_inventory_dot_item_dot_item__award__pb2._ITEMAWARD
 _LEVELUPREWARDSRESPONSE.fields_by_name['items_unlocked'].enum_type = pogoprotos_dot_inventory_dot_item_dot_item__id__pb2._ITEMID
 _LEVELUPREWARDSRESPONSE_RESULT.containing_type = _LEVELUPREWARDSRESPONSE
 DESCRIPTOR.message_types_by_name['LevelUpRewardsResponse'] = _LEVELUPREWARDSRESPONSE

@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/disk_encounter_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nDpogoprotos/networking/requests/messages/disk_encounter_message.proto\x12\'pogoprotos.networking.requests.messages\"p\n\x14\x44iskEncounterMessage\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x04\x12\x0f\n\x07\x66ort_id\x18\x02 \x01(\t\x12\x17\n\x0fplayer_latitude\x18\x03 \x01(\x01\x12\x18\n\x10player_longitude\x18\x04 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\nDpogoprotos/networking/requests/messages/disk_encounter_message.proto\x12\'pogoprotos.networking.requests.messages\"u\n\x14\x44iskEncounterMessage\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x03\x12\x0f\n\x07\x66ort_id\x18\x02 \x01(\t\x12\x1a\n\x12player_lat_degrees\x18\x03 \x01(\x01\x12\x1a\n\x12player_lng_degrees\x18\x04 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -34,7 +34,7 @@ _DISKENCOUNTERMESSAGE = _descriptor.Descriptor(
   fields=[
     _descriptor.FieldDescriptor(
       name='encounter_id', full_name='pogoprotos.networking.requests.messages.DiskEncounterMessage.encounter_id', index=0,
-      number=1, type=4, cpp_type=4, label=1,
+      number=1, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -47,14 +47,14 @@ _DISKENCOUNTERMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_latitude', full_name='pogoprotos.networking.requests.messages.DiskEncounterMessage.player_latitude', index=2,
+      name='player_lat_degrees', full_name='pogoprotos.networking.requests.messages.DiskEncounterMessage.player_lat_degrees', index=2,
       number=3, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_longitude', full_name='pogoprotos.networking.requests.messages.DiskEncounterMessage.player_longitude', index=3,
+      name='player_lng_degrees', full_name='pogoprotos.networking.requests.messages.DiskEncounterMessage.player_lng_degrees', index=3,
       number=4, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -73,7 +73,7 @@ _DISKENCOUNTERMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=113,
-  serialized_end=225,
+  serialized_end=230,
 )
 
 DESCRIPTOR.message_types_by_name['DiskEncounterMessage'] = _DISKENCOUNTERMESSAGE

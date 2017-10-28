@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/player/player_avatar.proto',
   package='pogoprotos.data.player',
   syntax='proto3',
-  serialized_pb=_b('\n*pogoprotos/data/player/player_avatar.proto\x12\x16pogoprotos.data.player\"\xa0\x03\n\x0cPlayerAvatar\x12\x0c\n\x04skin\x18\x02 \x01(\x05\x12\x0c\n\x04hair\x18\x03 \x01(\x05\x12\r\n\x05shirt\x18\x04 \x01(\x05\x12\r\n\x05pants\x18\x05 \x01(\x05\x12\x0b\n\x03hat\x18\x06 \x01(\x05\x12\r\n\x05shoes\x18\x07 \x01(\x05\x12\x0e\n\x06\x61vatar\x18\x08 \x01(\x05\x12\x0c\n\x04\x65yes\x18\t \x01(\x05\x12\x10\n\x08\x62\x61\x63kpack\x18\n \x01(\x05\x12\x13\n\x0b\x61vatar_hair\x18\x0b \x01(\t\x12\x14\n\x0c\x61vatar_shirt\x18\x0c \x01(\t\x12\x14\n\x0c\x61vatar_pants\x18\r \x01(\t\x12\x12\n\navatar_hat\x18\x0e \x01(\t\x12\x14\n\x0c\x61vatar_shoes\x18\x0f \x01(\t\x12\x13\n\x0b\x61vatar_eyes\x18\x10 \x01(\t\x12\x17\n\x0f\x61vatar_backpack\x18\x11 \x01(\t\x12\x15\n\ravatar_gloves\x18\x12 \x01(\t\x12\x14\n\x0c\x61vatar_socks\x18\x13 \x01(\t\x12\x13\n\x0b\x61vatar_belt\x18\x14 \x01(\t\x12\x16\n\x0e\x61vatar_glasses\x18\x15 \x01(\t\x12\x17\n\x0f\x61vatar_necklace\x18\x16 \x01(\tb\x06proto3')
+  serialized_pb=_b('\n*pogoprotos/data/player/player_avatar.proto\x12\x16pogoprotos.data.player\"\xa0\x03\n\x0cPlayerAvatar\x12\x0e\n\x06\x61vatar\x18\x08 \x01(\x05\x12\x0c\n\x04skin\x18\x02 \x01(\x05\x12\x0c\n\x04hair\x18\x03 \x01(\x05\x12\r\n\x05shirt\x18\x04 \x01(\x05\x12\r\n\x05pants\x18\x05 \x01(\x05\x12\x0b\n\x03hat\x18\x06 \x01(\x05\x12\r\n\x05shoes\x18\x07 \x01(\x05\x12\x0c\n\x04\x65yes\x18\t \x01(\x05\x12\x10\n\x08\x62\x61\x63kpack\x18\n \x01(\x05\x12\x13\n\x0b\x61vatar_hair\x18\x0b \x01(\t\x12\x14\n\x0c\x61vatar_shirt\x18\x0c \x01(\t\x12\x14\n\x0c\x61vatar_pants\x18\r \x01(\t\x12\x12\n\navatar_hat\x18\x0e \x01(\t\x12\x14\n\x0c\x61vatar_shoes\x18\x0f \x01(\t\x12\x13\n\x0b\x61vatar_eyes\x18\x10 \x01(\t\x12\x17\n\x0f\x61vatar_backpack\x18\x11 \x01(\t\x12\x15\n\ravatar_gloves\x18\x12 \x01(\t\x12\x14\n\x0c\x61vatar_socks\x18\x13 \x01(\t\x12\x13\n\x0b\x61vatar_belt\x18\x14 \x01(\t\x12\x16\n\x0e\x61vatar_glasses\x18\x15 \x01(\t\x12\x17\n\x0f\x61vatar_necklace\x18\x16 \x01(\tb\x06proto3')
 )
 
 
@@ -33,50 +33,50 @@ _PLAYERAVATAR = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='skin', full_name='pogoprotos.data.player.PlayerAvatar.skin', index=0,
+      name='avatar', full_name='pogoprotos.data.player.PlayerAvatar.avatar', index=0,
+      number=8, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='skin', full_name='pogoprotos.data.player.PlayerAvatar.skin', index=1,
       number=2, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='hair', full_name='pogoprotos.data.player.PlayerAvatar.hair', index=1,
+      name='hair', full_name='pogoprotos.data.player.PlayerAvatar.hair', index=2,
       number=3, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='shirt', full_name='pogoprotos.data.player.PlayerAvatar.shirt', index=2,
+      name='shirt', full_name='pogoprotos.data.player.PlayerAvatar.shirt', index=3,
       number=4, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pants', full_name='pogoprotos.data.player.PlayerAvatar.pants', index=3,
+      name='pants', full_name='pogoprotos.data.player.PlayerAvatar.pants', index=4,
       number=5, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='hat', full_name='pogoprotos.data.player.PlayerAvatar.hat', index=4,
+      name='hat', full_name='pogoprotos.data.player.PlayerAvatar.hat', index=5,
       number=6, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='shoes', full_name='pogoprotos.data.player.PlayerAvatar.shoes', index=5,
+      name='shoes', full_name='pogoprotos.data.player.PlayerAvatar.shoes', index=6,
       number=7, type=5, cpp_type=1, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
-    _descriptor.FieldDescriptor(
-      name='avatar', full_name='pogoprotos.data.player.PlayerAvatar.avatar', index=6,
-      number=8, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,

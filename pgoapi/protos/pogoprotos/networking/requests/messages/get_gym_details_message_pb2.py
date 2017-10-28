@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/get_gym_details_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nEpogoprotos/networking/requests/messages/get_gym_details_message.proto\x12\'pogoprotos.networking.requests.messages\"\x9e\x01\n\x14GetGymDetailsMessage\x12\x0e\n\x06gym_id\x18\x01 \x01(\t\x12\x17\n\x0fplayer_latitude\x18\x02 \x01(\x01\x12\x18\n\x10player_longitude\x18\x03 \x01(\x01\x12\x14\n\x0cgym_latitude\x18\x04 \x01(\x01\x12\x15\n\rgym_longitude\x18\x05 \x01(\x01\x12\x16\n\x0e\x63lient_version\x18\x06 \x01(\tb\x06proto3')
+  serialized_pb=_b('\nEpogoprotos/networking/requests/messages/get_gym_details_message.proto\x12\'pogoprotos.networking.requests.messages\"\xa8\x01\n\x14GetGymDetailsMessage\x12\x0e\n\x06gym_id\x18\x01 \x01(\t\x12\x1a\n\x12player_lat_degrees\x18\x02 \x01(\x01\x12\x1a\n\x12player_lng_degrees\x18\x03 \x01(\x01\x12\x17\n\x0fgym_lat_degrees\x18\x04 \x01(\x01\x12\x17\n\x0fgym_lng_degrees\x18\x05 \x01(\x01\x12\x16\n\x0e\x63lient_version\x18\x06 \x01(\tb\x06proto3')
 )
 
 
@@ -40,28 +40,28 @@ _GETGYMDETAILSMESSAGE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_latitude', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.player_latitude', index=1,
+      name='player_lat_degrees', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.player_lat_degrees', index=1,
       number=2, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_longitude', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.player_longitude', index=2,
+      name='player_lng_degrees', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.player_lng_degrees', index=2,
       number=3, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='gym_latitude', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.gym_latitude', index=3,
+      name='gym_lat_degrees', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.gym_lat_degrees', index=3,
       number=4, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='gym_longitude', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.gym_longitude', index=4,
+      name='gym_lng_degrees', full_name='pogoprotos.networking.requests.messages.GetGymDetailsMessage.gym_lng_degrees', index=4,
       number=5, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -87,7 +87,7 @@ _GETGYMDETAILSMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=115,
-  serialized_end=273,
+  serialized_end=283,
 )
 
 DESCRIPTOR.message_types_by_name['GetGymDetailsMessage'] = _GETGYMDETAILSMESSAGE

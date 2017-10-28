@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/battle/battle_pokemon_info.proto',
   package='pogoprotos.data.battle',
   syntax='proto3',
-  serialized_pb=_b('\n0pogoprotos/data/battle/battle_pokemon_info.proto\x12\x16pogoprotos.data.battle\x1a\"pogoprotos/data/pokemon_data.proto\"w\n\x11\x42\x61ttlePokemonInfo\x12\x32\n\x0cpokemon_data\x18\x01 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x16\n\x0e\x63urrent_health\x18\x02 \x01(\x05\x12\x16\n\x0e\x63urrent_energy\x18\x03 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n0pogoprotos/data/battle/battle_pokemon_info.proto\x12\x16pogoprotos.data.battle\x1a\"pogoprotos/data/pokemon_data.proto\"r\n\x11\x42\x61ttlePokemonInfo\x12-\n\x07pokemon\x18\x01 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x16\n\x0e\x63urrent_health\x18\x02 \x01(\x05\x12\x16\n\x0e\x63urrent_energy\x18\x03 \x01(\x05\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,])
 
@@ -35,7 +35,7 @@ _BATTLEPOKEMONINFO = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='pokemon_data', full_name='pogoprotos.data.battle.BattlePokemonInfo.pokemon_data', index=0,
+      name='pokemon', full_name='pogoprotos.data.battle.BattlePokemonInfo.pokemon', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -68,10 +68,10 @@ _BATTLEPOKEMONINFO = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=112,
-  serialized_end=231,
+  serialized_end=226,
 )
 
-_BATTLEPOKEMONINFO.fields_by_name['pokemon_data'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
+_BATTLEPOKEMONINFO.fields_by_name['pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 DESCRIPTOR.message_types_by_name['BattlePokemonInfo'] = _BATTLEPOKEMONINFO
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

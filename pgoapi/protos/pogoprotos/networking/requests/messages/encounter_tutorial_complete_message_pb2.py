@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/encounter_tutorial_complete_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nQpogoprotos/networking/requests/messages/encounter_tutorial_complete_message.proto\x12\'pogoprotos.networking.requests.messages\x1a!pogoprotos/enums/pokemon_id.proto\"S\n EncounterTutorialCompleteMessage\x12/\n\npokemon_id\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonIdb\x06proto3')
+  serialized_pb=_b('\nQpogoprotos/networking/requests/messages/encounter_tutorial_complete_message.proto\x12\'pogoprotos.networking.requests.messages\x1a!pogoprotos/enums/pokemon_id.proto\"S\n EncounterTutorialCompleteMessage\x12/\n\npokedex_id\x18\x01 \x01(\x0e\x32\x1b.pogoprotos.enums.PokemonIdb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_pokemon__id__pb2.DESCRIPTOR,])
 
@@ -35,7 +35,7 @@ _ENCOUNTERTUTORIALCOMPLETEMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='pokemon_id', full_name='pogoprotos.networking.requests.messages.EncounterTutorialCompleteMessage.pokemon_id', index=0,
+      name='pokedex_id', full_name='pogoprotos.networking.requests.messages.EncounterTutorialCompleteMessage.pokedex_id', index=0,
       number=1, type=14, cpp_type=8, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -57,7 +57,7 @@ _ENCOUNTERTUTORIALCOMPLETEMESSAGE = _descriptor.Descriptor(
   serialized_end=244,
 )
 
-_ENCOUNTERTUTORIALCOMPLETEMESSAGE.fields_by_name['pokemon_id'].enum_type = pogoprotos_dot_enums_dot_pokemon__id__pb2._POKEMONID
+_ENCOUNTERTUTORIALCOMPLETEMESSAGE.fields_by_name['pokedex_id'].enum_type = pogoprotos_dot_enums_dot_pokemon__id__pb2._POKEMONID
 DESCRIPTOR.message_types_by_name['EncounterTutorialCompleteMessage'] = _ENCOUNTERTUTORIALCOMPLETEMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
