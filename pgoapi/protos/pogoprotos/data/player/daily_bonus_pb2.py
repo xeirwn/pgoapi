@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/player/daily_bonus.proto',
   package='pogoprotos.data.player',
   syntax='proto3',
-  serialized_pb=_b('\n(pogoprotos/data/player/daily_bonus.proto\x12\x16pogoprotos.data.player\"a\n\nDailyBonus\x12!\n\x19next_collect_timestamp_ms\x18\x01 \x01(\x03\x12\x30\n(next_defender_bonus_collect_timestamp_ms\x18\x02 \x01(\x03\x62\x06proto3')
+  serialized_pb=_b('\n(pogoprotos/data/player/daily_bonus.proto\x12\x16pogoprotos.data.player\"c\n\nDailyBonus\x12#\n\x1bnext_collected_timestamp_ms\x18\x01 \x01(\x03\x12\x30\n(next_defender_bonus_collect_timestamp_ms\x18\x02 \x01(\x03\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _DAILYBONUS = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='next_collect_timestamp_ms', full_name='pogoprotos.data.player.DailyBonus.next_collect_timestamp_ms', index=0,
+      name='next_collected_timestamp_ms', full_name='pogoprotos.data.player.DailyBonus.next_collected_timestamp_ms', index=0,
       number=1, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -59,7 +59,7 @@ _DAILYBONUS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=68,
-  serialized_end=165,
+  serialized_end=167,
 )
 
 DESCRIPTOR.message_types_by_name['DailyBonus'] = _DAILYBONUS

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/set_avatar_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\n@pogoprotos/networking/requests/messages/set_avatar_message.proto\x12\'pogoprotos.networking.requests.messages\x1a*pogoprotos/data/player/player_avatar.proto\"U\n\x10SetAvatarMessage\x12\x41\n\x13player_avatar_proto\x18\x02 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatarb\x06proto3')
+  serialized_pb=_b('\n@pogoprotos/networking/requests/messages/set_avatar_message.proto\x12\'pogoprotos.networking.requests.messages\x1a*pogoprotos/data/player/player_avatar.proto\"O\n\x10SetAvatarMessage\x12;\n\rplayer_avatar\x18\x02 \x01(\x0b\x32$.pogoprotos.data.player.PlayerAvatarb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_player_dot_player__avatar__pb2.DESCRIPTOR,])
 
@@ -35,7 +35,7 @@ _SETAVATARMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='player_avatar_proto', full_name='pogoprotos.networking.requests.messages.SetAvatarMessage.player_avatar_proto', index=0,
+      name='player_avatar', full_name='pogoprotos.networking.requests.messages.SetAvatarMessage.player_avatar', index=0,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -54,10 +54,10 @@ _SETAVATARMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=153,
-  serialized_end=238,
+  serialized_end=232,
 )
 
-_SETAVATARMESSAGE.fields_by_name['player_avatar_proto'].message_type = pogoprotos_dot_data_dot_player_dot_player__avatar__pb2._PLAYERAVATAR
+_SETAVATARMESSAGE.fields_by_name['player_avatar'].message_type = pogoprotos_dot_data_dot_player_dot_player__avatar__pb2._PLAYERAVATAR
 DESCRIPTOR.message_types_by_name['SetAvatarMessage'] = _SETAVATARMESSAGE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

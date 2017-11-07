@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/get_incense_pokemon_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nIpogoprotos/networking/requests/messages/get_incense_pokemon_message.proto\x12\'pogoprotos.networking.requests.messages\"R\n\x18GetIncensePokemonMessage\x12\x1a\n\x12player_lat_degrees\x18\x01 \x01(\x01\x12\x1a\n\x12player_lng_degrees\x18\x02 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\nIpogoprotos/networking/requests/messages/get_incense_pokemon_message.proto\x12\'pogoprotos.networking.requests.messages\"M\n\x18GetIncensePokemonMessage\x12\x17\n\x0fplayer_latitude\x18\x01 \x01(\x01\x12\x18\n\x10player_longitude\x18\x02 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -33,14 +33,14 @@ _GETINCENSEPOKEMONMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='player_lat_degrees', full_name='pogoprotos.networking.requests.messages.GetIncensePokemonMessage.player_lat_degrees', index=0,
+      name='player_latitude', full_name='pogoprotos.networking.requests.messages.GetIncensePokemonMessage.player_latitude', index=0,
       number=1, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_lng_degrees', full_name='pogoprotos.networking.requests.messages.GetIncensePokemonMessage.player_lng_degrees', index=1,
+      name='player_longitude', full_name='pogoprotos.networking.requests.messages.GetIncensePokemonMessage.player_longitude', index=1,
       number=2, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -59,7 +59,7 @@ _GETINCENSEPOKEMONMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=118,
-  serialized_end=200,
+  serialized_end=195,
 )
 
 DESCRIPTOR.message_types_by_name['GetIncensePokemonMessage'] = _GETINCENSEPOKEMONMESSAGE

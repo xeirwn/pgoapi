@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/gym_level_settings.proto',
   package='pogoprotos.settings.master',
   syntax='proto3',
-  serialized_pb=_b('\n3pogoprotos/settings/master/gym_level_settings.proto\x12\x1apogoprotos.settings.master\"p\n\x10GymLevelSettings\x12\x14\n\x0crequired_exp\x18\x01 \x03(\x05\x12\x14\n\x0cleader_slots\x18\x02 \x03(\x05\x12\x15\n\rtrainer_slots\x18\x03 \x03(\x05\x12\x19\n\x11search_roll_bonus\x18\x04 \x03(\x05\x62\x06proto3')
+  serialized_pb=_b('\n3pogoprotos/settings/master/gym_level_settings.proto\x12\x1apogoprotos.settings.master\"w\n\x10GymLevelSettings\x12\x1b\n\x13required_experience\x18\x01 \x03(\x05\x12\x14\n\x0cleader_slots\x18\x02 \x03(\x05\x12\x15\n\rtrainer_slots\x18\x03 \x03(\x05\x12\x19\n\x11search_roll_bonus\x18\x04 \x03(\x05\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _GYMLEVELSETTINGS = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='required_exp', full_name='pogoprotos.settings.master.GymLevelSettings.required_exp', index=0,
+      name='required_experience', full_name='pogoprotos.settings.master.GymLevelSettings.required_experience', index=0,
       number=1, type=5, cpp_type=1, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -73,7 +73,7 @@ _GYMLEVELSETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=83,
-  serialized_end=195,
+  serialized_end=202,
 )
 
 DESCRIPTOR.message_types_by_name['GymLevelSettings'] = _GYMLEVELSETTINGS

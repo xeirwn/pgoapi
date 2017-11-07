@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/enums/pokemon_id.proto',
   package='pogoprotos.enums',
   syntax='proto3',
-  serialized_pb=_b('\n!pogoprotos/enums/pokemon_id.proto\x12\x10pogoprotos.enums*\xafT\n\tPokemonId\x12\x11\n\rPOKEMON_UNSET\x10\x00\x12\x1b\n\x17V0001_POKEMON_BULBASAUR\x10\x01\x12\x19\n\x15V0002_POKEMON_IVYSAUR\x10\x02\x12\x1a\n\x16V0003_POKEMON_VENUSAUR\x10\x03\x12\x1c\n\x18V0004_POKEMON_CHARMANDER\x10\x04\x12\x1c\n\x18V0005_POKEMON_CHARMELEON\x10\x05\x12\x1b\n\x17V0006_POKEMON_CHARIZARD\x10\x06\x12\x1a\n\x16V0007_POKEMON_SQUIRTLE\x10\x07\x12\x1b\n\x17V0008_POKEMON_WARTORTLE\x10\x08\x12\x1b\n\x17V0009_POKEMON_BLASTOISE\x10\t\x12\x1a\n\x16V0010_POKEMON_CATERPIE\x10\n\x12\x19\n\x15V0011_POKEMON_METAPOD\x10\x0b\x12\x1c\n\x18V0012_POKEMON_BUTTERFREE\x10\x0c\x12\x18\n\x14V0013_POKEMON_WEEDLE\x10\r\x12\x18\n\x14V0014_POKEMON_KAKUNA\x10\x0e\x12\x1a\n\x16V0015_POKEMON_BEEDRILL\x10\x0f\x12\x18\n\x14V0016_POKEMON_PIDGEY\x10\x10\x12\x1b\n\x17V0017_POKEMON_PIDGEOTTO\x10\x11\x12\x19\n\x15V0018_POKEMON_PIDGEOT\x10\x12\x12\x19\n\x15V0019_POKEMON_RATTATA\x10\x13\x12\x1a\n\x16V0020_POKEMON_RATICATE\x10\x14\x12\x19\n\x15V0021_POKEMON_SPEAROW\x10\x15\x12\x18\n\x14V0022_POKEMON_FEAROW\x10\x16\x12\x17\n\x13V0023_POKEMON_EKANS\x10\x17\x12\x17\n\x13V0024_POKEMON_ARBOK\x10\x18\x12\x19\n\x15V0025_POKEMON_PIKACHU\x10\x19\x12\x18\n\x14V0026_POKEMON_RAICHU\x10\x1a\x12\x1b\n\x17V0027_POKEMON_SANDSHREW\x10\x1b\x12\x1b\n\x17V0028_POKEMON_SANDSLASH\x10\x1c\x12\x19\n\x15V0029_POKEMON_NIDORAN\x10\x1d\x12\x1a\n\x16V0030_POKEMON_NIDORINA\x10\x1e\x12\x1b\n\x17V0031_POKEMON_NIDOQUEEN\x10\x1f\x12\x19\n\x15V0032_POKEMON_NIDORAN\x10 \x12\x1a\n\x16V0033_POKEMON_NIDORINO\x10!\x12\x1a\n\x16V0034_POKEMON_NIDOKING\x10\"\x12\x1a\n\x16V0035_POKEMON_CLEFAIRY\x10#\x12\x1a\n\x16V0036_POKEMON_CLEFABLE\x10$\x12\x18\n\x14V0037_POKEMON_VULPIX\x10%\x12\x1b\n\x17V0038_POKEMON_NINETALES\x10&\x12\x1c\n\x18V0039_POKEMON_JIGGLYPUFF\x10\'\x12\x1c\n\x18V0040_POKEMON_WIGGLYTUFF\x10(\x12\x17\n\x13V0041_POKEMON_ZUBAT\x10)\x12\x18\n\x14V0042_POKEMON_GOLBAT\x10*\x12\x18\n\x14V0043_POKEMON_ODDISH\x10+\x12\x17\n\x13V0044_POKEMON_GLOOM\x10,\x12\x1b\n\x17V0045_POKEMON_VILEPLUME\x10-\x12\x17\n\x13V0046_POKEMON_PARAS\x10.\x12\x1a\n\x16V0047_POKEMON_PARASECT\x10/\x12\x19\n\x15V0048_POKEMON_VENONAT\x10\x30\x12\x1a\n\x16V0049_POKEMON_VENOMOTH\x10\x31\x12\x19\n\x15V0050_POKEMON_DIGLETT\x10\x32\x12\x19\n\x15V0051_POKEMON_DUGTRIO\x10\x33\x12\x18\n\x14V0052_POKEMON_MEOWTH\x10\x34\x12\x19\n\x15V0053_POKEMON_PERSIAN\x10\x35\x12\x19\n\x15V0054_POKEMON_PSYDUCK\x10\x36\x12\x19\n\x15V0055_POKEMON_GOLDUCK\x10\x37\x12\x18\n\x14V0056_POKEMON_MANKEY\x10\x38\x12\x1a\n\x16V0057_POKEMON_PRIMEAPE\x10\x39\x12\x1b\n\x17V0058_POKEMON_GROWLITHE\x10:\x12\x1a\n\x16V0059_POKEMON_ARCANINE\x10;\x12\x19\n\x15V0060_POKEMON_POLIWAG\x10<\x12\x1b\n\x17V0061_POKEMON_POLIWHIRL\x10=\x12\x1b\n\x17V0062_POKEMON_POLIWRATH\x10>\x12\x16\n\x12V0063_POKEMON_ABRA\x10?\x12\x19\n\x15V0064_POKEMON_KADABRA\x10@\x12\x1a\n\x16V0065_POKEMON_ALAKAZAM\x10\x41\x12\x18\n\x14V0066_POKEMON_MACHOP\x10\x42\x12\x19\n\x15V0067_POKEMON_MACHOKE\x10\x43\x12\x19\n\x15V0068_POKEMON_MACHAMP\x10\x44\x12\x1c\n\x18V0069_POKEMON_BELLSPROUT\x10\x45\x12\x1c\n\x18V0070_POKEMON_WEEPINBELL\x10\x46\x12\x1c\n\x18V0071_POKEMON_VICTREEBEL\x10G\x12\x1b\n\x17V0072_POKEMON_TENTACOOL\x10H\x12\x1c\n\x18V0073_POKEMON_TENTACRUEL\x10I\x12\x19\n\x15V0074_POKEMON_GEODUDE\x10J\x12\x1a\n\x16V0075_POKEMON_GRAVELER\x10K\x12\x17\n\x13V0076_POKEMON_GOLEM\x10L\x12\x18\n\x14V0077_POKEMON_PONYTA\x10M\x12\x1a\n\x16V0078_POKEMON_RAPIDASH\x10N\x12\x1a\n\x16V0079_POKEMON_SLOWPOKE\x10O\x12\x19\n\x15V0080_POKEMON_SLOWBRO\x10P\x12\x1b\n\x17V0081_POKEMON_MAGNEMITE\x10Q\x12\x1a\n\x16V0082_POKEMON_MAGNETON\x10R\x12\x1b\n\x17V0083_POKEMON_FARFETCHD\x10S\x12\x17\n\x13V0084_POKEMON_DODUO\x10T\x12\x18\n\x14V0085_POKEMON_DODRIO\x10U\x12\x16\n\x12V0086_POKEMON_SEEL\x10V\x12\x19\n\x15V0087_POKEMON_DEWGONG\x10W\x12\x18\n\x14V0088_POKEMON_GRIMER\x10X\x12\x15\n\x11V0089_POKEMON_MUK\x10Y\x12\x1a\n\x16V0090_POKEMON_SHELLDER\x10Z\x12\x1a\n\x16V0091_POKEMON_CLOYSTER\x10[\x12\x18\n\x14V0092_POKEMON_GASTLY\x10\\\x12\x19\n\x15V0093_POKEMON_HAUNTER\x10]\x12\x18\n\x14V0094_POKEMON_GENGAR\x10^\x12\x16\n\x12V0095_POKEMON_ONIX\x10_\x12\x19\n\x15V0096_POKEMON_DROWZEE\x10`\x12\x17\n\x13V0097_POKEMON_HYPNO\x10\x61\x12\x18\n\x14V0098_POKEMON_KRABBY\x10\x62\x12\x19\n\x15V0099_POKEMON_KINGLER\x10\x63\x12\x19\n\x15V0100_POKEMON_VOLTORB\x10\x64\x12\x1b\n\x17V0101_POKEMON_ELECTRODE\x10\x65\x12\x1b\n\x17V0102_POKEMON_EXEGGCUTE\x10\x66\x12\x1b\n\x17V0103_POKEMON_EXEGGUTOR\x10g\x12\x18\n\x14V0104_POKEMON_CUBONE\x10h\x12\x19\n\x15V0105_POKEMON_MAROWAK\x10i\x12\x1b\n\x17V0106_POKEMON_HITMONLEE\x10j\x12\x1c\n\x18V0107_POKEMON_HITMONCHAN\x10k\x12\x1b\n\x17V0108_POKEMON_LICKITUNG\x10l\x12\x19\n\x15V0109_POKEMON_KOFFING\x10m\x12\x19\n\x15V0110_POKEMON_WEEZING\x10n\x12\x19\n\x15V0111_POKEMON_RHYHORN\x10o\x12\x18\n\x14V0112_POKEMON_RHYDON\x10p\x12\x19\n\x15V0113_POKEMON_CHANSEY\x10q\x12\x19\n\x15V0114_POKEMON_TANGELA\x10r\x12\x1c\n\x18V0115_POKEMON_KANGASKHAN\x10s\x12\x18\n\x14V0116_POKEMON_HORSEA\x10t\x12\x18\n\x14V0117_POKEMON_SEADRA\x10u\x12\x19\n\x15V0118_POKEMON_GOLDEEN\x10v\x12\x19\n\x15V0119_POKEMON_SEAKING\x10w\x12\x18\n\x14V0120_POKEMON_STARYU\x10x\x12\x19\n\x15V0121_POKEMON_STARMIE\x10y\x12\x19\n\x15V0122_POKEMON_MR_MIME\x10z\x12\x19\n\x15V0123_POKEMON_SCYTHER\x10{\x12\x16\n\x12V0124_POKEMON_JYNX\x10|\x12\x1c\n\x18V0125_POKEMON_ELECTABUZZ\x10}\x12\x18\n\x14V0126_POKEMON_MAGMAR\x10~\x12\x18\n\x14V0127_POKEMON_PINSIR\x10\x7f\x12\x19\n\x14V0128_POKEMON_TAUROS\x10\x80\x01\x12\x1b\n\x16V0129_POKEMON_MAGIKARP\x10\x81\x01\x12\x1b\n\x16V0130_POKEMON_GYARADOS\x10\x82\x01\x12\x19\n\x14V0131_POKEMON_LAPRAS\x10\x83\x01\x12\x18\n\x13V0132_POKEMON_DITTO\x10\x84\x01\x12\x18\n\x13V0133_POKEMON_EEVEE\x10\x85\x01\x12\x1b\n\x16V0134_POKEMON_VAPOREON\x10\x86\x01\x12\x1a\n\x15V0135_POKEMON_JOLTEON\x10\x87\x01\x12\x1a\n\x15V0136_POKEMON_FLAREON\x10\x88\x01\x12\x1a\n\x15V0137_POKEMON_PORYGON\x10\x89\x01\x12\x1a\n\x15V0138_POKEMON_OMANYTE\x10\x8a\x01\x12\x1a\n\x15V0139_POKEMON_OMASTAR\x10\x8b\x01\x12\x19\n\x14V0140_POKEMON_KABUTO\x10\x8c\x01\x12\x1b\n\x16V0141_POKEMON_KABUTOPS\x10\x8d\x01\x12\x1d\n\x18V0142_POKEMON_AERODACTYL\x10\x8e\x01\x12\x1a\n\x15V0143_POKEMON_SNORLAX\x10\x8f\x01\x12\x1b\n\x16V0144_POKEMON_ARTICUNO\x10\x90\x01\x12\x19\n\x14V0145_POKEMON_ZAPDOS\x10\x91\x01\x12\x1a\n\x15V0146_POKEMON_MOLTRES\x10\x92\x01\x12\x1a\n\x15V0147_POKEMON_DRATINI\x10\x93\x01\x12\x1c\n\x17V0148_POKEMON_DRAGONAIR\x10\x94\x01\x12\x1c\n\x17V0149_POKEMON_DRAGONITE\x10\x95\x01\x12\x19\n\x14V0150_POKEMON_MEWTWO\x10\x96\x01\x12\x16\n\x11V0151_POKEMON_MEW\x10\x97\x01\x12\x1c\n\x17V0152_POKEMON_CHIKORITA\x10\x98\x01\x12\x1a\n\x15V0153_POKEMON_BAYLEEF\x10\x99\x01\x12\x1b\n\x16V0154_POKEMON_MEGANIUM\x10\x9a\x01\x12\x1c\n\x17V0155_POKEMON_CYNDAQUIL\x10\x9b\x01\x12\x1a\n\x15V0156_POKEMON_QUILAVA\x10\x9c\x01\x12\x1d\n\x18V0157_POKEMON_TYPHLOSION\x10\x9d\x01\x12\x1b\n\x16V0158_POKEMON_TOTODILE\x10\x9e\x01\x12\x1b\n\x16V0159_POKEMON_CROCONAW\x10\x9f\x01\x12\x1d\n\x18V0160_POKEMON_FERALIGATR\x10\xa0\x01\x12\x1a\n\x15V0161_POKEMON_SENTRET\x10\xa1\x01\x12\x19\n\x14V0162_POKEMON_FURRET\x10\xa2\x01\x12\x1b\n\x16V0163_POKEMON_HOOTHOOT\x10\xa3\x01\x12\x1a\n\x15V0164_POKEMON_NOCTOWL\x10\xa4\x01\x12\x19\n\x14V0165_POKEMON_LEDYBA\x10\xa5\x01\x12\x19\n\x14V0166_POKEMON_LEDIAN\x10\xa6\x01\x12\x1b\n\x16V0167_POKEMON_SPINARAK\x10\xa7\x01\x12\x1a\n\x15V0168_POKEMON_ARIADOS\x10\xa8\x01\x12\x19\n\x14V0169_POKEMON_CROBAT\x10\xa9\x01\x12\x1b\n\x16V0170_POKEMON_CHINCHOU\x10\xaa\x01\x12\x1a\n\x15V0171_POKEMON_LANTURN\x10\xab\x01\x12\x18\n\x13V0172_POKEMON_PICHU\x10\xac\x01\x12\x19\n\x14V0173_POKEMON_CLEFFA\x10\xad\x01\x12\x1c\n\x17V0174_POKEMON_IGGLYBUFF\x10\xae\x01\x12\x19\n\x14V0175_POKEMON_TOGEPI\x10\xaf\x01\x12\x1a\n\x15V0176_POKEMON_TOGETIC\x10\xb0\x01\x12\x17\n\x12V0177_POKEMON_NATU\x10\xb1\x01\x12\x17\n\x12V0178_POKEMON_XATU\x10\xb2\x01\x12\x19\n\x14V0179_POKEMON_MAREEP\x10\xb3\x01\x12\x1a\n\x15V0180_POKEMON_FLAAFFY\x10\xb4\x01\x12\x1b\n\x16V0181_POKEMON_AMPHAROS\x10\xb5\x01\x12\x1c\n\x17V0182_POKEMON_BELLOSSOM\x10\xb6\x01\x12\x19\n\x14V0183_POKEMON_MARILL\x10\xb7\x01\x12\x1c\n\x17V0184_POKEMON_AZUMARILL\x10\xb8\x01\x12\x1c\n\x17V0185_POKEMON_SUDOWOODO\x10\xb9\x01\x12\x1b\n\x16V0186_POKEMON_POLITOED\x10\xba\x01\x12\x19\n\x14V0187_POKEMON_HOPPIP\x10\xbb\x01\x12\x1b\n\x16V0188_POKEMON_SKIPLOOM\x10\xbc\x01\x12\x1b\n\x16V0189_POKEMON_JUMPLUFF\x10\xbd\x01\x12\x18\n\x13V0190_POKEMON_AIPOM\x10\xbe\x01\x12\x1a\n\x15V0191_POKEMON_SUNKERN\x10\xbf\x01\x12\x1b\n\x16V0192_POKEMON_SUNFLORA\x10\xc0\x01\x12\x18\n\x13V0193_POKEMON_YANMA\x10\xc1\x01\x12\x19\n\x14V0194_POKEMON_WOOPER\x10\xc2\x01\x12\x1b\n\x16V0195_POKEMON_QUAGSIRE\x10\xc3\x01\x12\x19\n\x14V0196_POKEMON_ESPEON\x10\xc4\x01\x12\x1a\n\x15V0197_POKEMON_UMBREON\x10\xc5\x01\x12\x1a\n\x15V0198_POKEMON_MURKROW\x10\xc6\x01\x12\x1b\n\x16V0199_POKEMON_SLOWKING\x10\xc7\x01\x12\x1d\n\x18V0200_POKEMON_MISDREAVUS\x10\xc8\x01\x12\x18\n\x13V0201_POKEMON_UNOWN\x10\xc9\x01\x12\x1c\n\x17V0202_POKEMON_WOBBUFFET\x10\xca\x01\x12\x1c\n\x17V0203_POKEMON_GIRAFARIG\x10\xcb\x01\x12\x19\n\x14V0204_POKEMON_PINECO\x10\xcc\x01\x12\x1d\n\x18V0205_POKEMON_FORRETRESS\x10\xcd\x01\x12\x1c\n\x17V0206_POKEMON_DUNSPARCE\x10\xce\x01\x12\x19\n\x14V0207_POKEMON_GLIGAR\x10\xcf\x01\x12\x1a\n\x15V0208_POKEMON_STEELIX\x10\xd0\x01\x12\x1b\n\x16V0209_POKEMON_SNUBBULL\x10\xd1\x01\x12\x1b\n\x16V0210_POKEMON_GRANBULL\x10\xd2\x01\x12\x1b\n\x16V0211_POKEMON_QWILFISH\x10\xd3\x01\x12\x19\n\x14V0212_POKEMON_SCIZOR\x10\xd4\x01\x12\x1a\n\x15V0213_POKEMON_SHUCKLE\x10\xd5\x01\x12\x1c\n\x17V0214_POKEMON_HERACROSS\x10\xd6\x01\x12\x1a\n\x15V0215_POKEMON_SNEASEL\x10\xd7\x01\x12\x1c\n\x17V0216_POKEMON_TEDDIURSA\x10\xd8\x01\x12\x1b\n\x16V0217_POKEMON_URSARING\x10\xd9\x01\x12\x19\n\x14V0218_POKEMON_SLUGMA\x10\xda\x01\x12\x1b\n\x16V0219_POKEMON_MAGCARGO\x10\xdb\x01\x12\x19\n\x14V0220_POKEMON_SWINUB\x10\xdc\x01\x12\x1c\n\x17V0221_POKEMON_PILOSWINE\x10\xdd\x01\x12\x1a\n\x15V0222_POKEMON_CORSOLA\x10\xde\x01\x12\x1b\n\x16V0223_POKEMON_REMORAID\x10\xdf\x01\x12\x1c\n\x17V0224_POKEMON_OCTILLERY\x10\xe0\x01\x12\x1b\n\x16V0225_POKEMON_DELIBIRD\x10\xe1\x01\x12\x1a\n\x15V0226_POKEMON_MANTINE\x10\xe2\x01\x12\x1b\n\x16V0227_POKEMON_SKARMORY\x10\xe3\x01\x12\x1b\n\x16V0228_POKEMON_HOUNDOUR\x10\xe4\x01\x12\x1b\n\x16V0229_POKEMON_HOUNDOOM\x10\xe5\x01\x12\x1a\n\x15V0230_POKEMON_KINGDRA\x10\xe6\x01\x12\x19\n\x14V0231_POKEMON_PHANPY\x10\xe7\x01\x12\x1a\n\x15V0232_POKEMON_DONPHAN\x10\xe8\x01\x12\x1b\n\x16V0233_POKEMON_PORYGON2\x10\xe9\x01\x12\x1b\n\x16V0234_POKEMON_STANTLER\x10\xea\x01\x12\x1b\n\x16V0235_POKEMON_SMEARGLE\x10\xeb\x01\x12\x1a\n\x15V0236_POKEMON_TYROGUE\x10\xec\x01\x12\x1c\n\x17V0237_POKEMON_HITMONTOP\x10\xed\x01\x12\x1b\n\x16V0238_POKEMON_SMOOCHUM\x10\xee\x01\x12\x19\n\x14V0239_POKEMON_ELEKID\x10\xef\x01\x12\x18\n\x13V0240_POKEMON_MAGBY\x10\xf0\x01\x12\x1a\n\x15V0241_POKEMON_MILTANK\x10\xf1\x01\x12\x1a\n\x15V0242_POKEMON_BLISSEY\x10\xf2\x01\x12\x19\n\x14V0243_POKEMON_RAIKOU\x10\xf3\x01\x12\x18\n\x13V0244_POKEMON_ENTEI\x10\xf4\x01\x12\x1a\n\x15V0245_POKEMON_SUICUNE\x10\xf5\x01\x12\x1b\n\x16V0246_POKEMON_LARVITAR\x10\xf6\x01\x12\x1a\n\x15V0247_POKEMON_PUPITAR\x10\xf7\x01\x12\x1c\n\x17V0248_POKEMON_TYRANITAR\x10\xf8\x01\x12\x18\n\x13V0249_POKEMON_LUGIA\x10\xf9\x01\x12\x18\n\x13V0250_POKEMON_HO_OH\x10\xfa\x01\x12\x19\n\x14V0251_POKEMON_CELEBI\x10\xfb\x01\x12\x1a\n\x15V0252_POKEMON_TREECKO\x10\xfc\x01\x12\x1a\n\x15V0253_POKEMON_GROVYLE\x10\xfd\x01\x12\x1b\n\x16V0254_POKEMON_SCEPTILE\x10\xfe\x01\x12\x1a\n\x15V0255_POKEMON_TORCHIC\x10\xff\x01\x12\x1c\n\x17V0256_POKEMON_COMBUSKEN\x10\x80\x02\x12\x1b\n\x16V0257_POKEMON_BLAZIKEN\x10\x81\x02\x12\x19\n\x14V0258_POKEMON_MUDKIP\x10\x82\x02\x12\x1c\n\x17V0259_POKEMON_MARSHTOMP\x10\x83\x02\x12\x1b\n\x16V0260_POKEMON_SWAMPERT\x10\x84\x02\x12\x1c\n\x17V0261_POKEMON_POOCHYENA\x10\x85\x02\x12\x1c\n\x17V0262_POKEMON_MIGHTYENA\x10\x86\x02\x12\x1c\n\x17V0263_POKEMON_ZIGZAGOON\x10\x87\x02\x12\x1a\n\x15V0264_POKEMON_LINOONE\x10\x88\x02\x12\x1a\n\x15V0265_POKEMON_WURMPLE\x10\x89\x02\x12\x1a\n\x15V0266_POKEMON_SILCOON\x10\x8a\x02\x12\x1c\n\x17V0267_POKEMON_BEAUTIFLY\x10\x8b\x02\x12\x1a\n\x15V0268_POKEMON_CASCOON\x10\x8c\x02\x12\x19\n\x14V0269_POKEMON_DUSTOX\x10\x8d\x02\x12\x18\n\x13V0270_POKEMON_LOTAD\x10\x8e\x02\x12\x19\n\x14V0271_POKEMON_LOMBRE\x10\x8f\x02\x12\x1b\n\x16V0272_POKEMON_LUDICOLO\x10\x90\x02\x12\x19\n\x14V0273_POKEMON_SEEDOT\x10\x91\x02\x12\x1a\n\x15V0274_POKEMON_NUZLEAF\x10\x92\x02\x12\x1a\n\x15V0275_POKEMON_SHIFTRY\x10\x93\x02\x12\x1a\n\x15V0276_POKEMON_TAILLOW\x10\x94\x02\x12\x1a\n\x15V0277_POKEMON_SWELLOW\x10\x95\x02\x12\x1a\n\x15V0278_POKEMON_WINGULL\x10\x96\x02\x12\x1b\n\x16V0279_POKEMON_PELIPPER\x10\x97\x02\x12\x18\n\x13V0280_POKEMON_RALTS\x10\x98\x02\x12\x19\n\x14V0281_POKEMON_KIRLIA\x10\x99\x02\x12\x1c\n\x17V0282_POKEMON_GARDEVOIR\x10\x9a\x02\x12\x1a\n\x15V0283_POKEMON_SURSKIT\x10\x9b\x02\x12\x1d\n\x18V0284_POKEMON_MASQUERAIN\x10\x9c\x02\x12\x1c\n\x17V0285_POKEMON_SHROOMISH\x10\x9d\x02\x12\x1a\n\x15V0286_POKEMON_BRELOOM\x10\x9e\x02\x12\x1a\n\x15V0287_POKEMON_SLAKOTH\x10\x9f\x02\x12\x1b\n\x16V0288_POKEMON_VIGOROTH\x10\xa0\x02\x12\x1a\n\x15V0289_POKEMON_SLAKING\x10\xa1\x02\x12\x1a\n\x15V0290_POKEMON_NINCADA\x10\xa2\x02\x12\x1a\n\x15V0291_POKEMON_NINJASK\x10\xa3\x02\x12\x1b\n\x16V0292_POKEMON_SHEDINJA\x10\xa4\x02\x12\x1a\n\x15V0293_POKEMON_WHISMUR\x10\xa5\x02\x12\x1a\n\x15V0294_POKEMON_LOUDRED\x10\xa6\x02\x12\x1a\n\x15V0295_POKEMON_EXPLOUD\x10\xa7\x02\x12\x1b\n\x16V0296_POKEMON_MAKUHITA\x10\xa8\x02\x12\x1b\n\x16V0297_POKEMON_HARIYAMA\x10\xa9\x02\x12\x1a\n\x15V0298_POKEMON_AZURILL\x10\xaa\x02\x12\x1b\n\x16V0299_POKEMON_NOSEPASS\x10\xab\x02\x12\x19\n\x14V0300_POKEMON_SKITTY\x10\xac\x02\x12\x1b\n\x16V0301_POKEMON_DELCATTY\x10\xad\x02\x12\x1a\n\x15V0302_POKEMON_SABLEYE\x10\xae\x02\x12\x19\n\x14V0303_POKEMON_MAWILE\x10\xaf\x02\x12\x17\n\x12V0304_POKEMON_ARON\x10\xb0\x02\x12\x19\n\x14V0305_POKEMON_LAIRON\x10\xb1\x02\x12\x19\n\x14V0306_POKEMON_AGGRON\x10\xb2\x02\x12\x1b\n\x16V0307_POKEMON_MEDITITE\x10\xb3\x02\x12\x1b\n\x16V0308_POKEMON_MEDICHAM\x10\xb4\x02\x12\x1c\n\x17V0309_POKEMON_ELECTRIKE\x10\xb5\x02\x12\x1c\n\x17V0310_POKEMON_MANECTRIC\x10\xb6\x02\x12\x19\n\x14V0311_POKEMON_PLUSLE\x10\xb7\x02\x12\x18\n\x13V0312_POKEMON_MINUN\x10\xb8\x02\x12\x1a\n\x15V0313_POKEMON_VOLBEAT\x10\xb9\x02\x12\x1b\n\x16V0314_POKEMON_ILLUMISE\x10\xba\x02\x12\x1a\n\x15V0315_POKEMON_ROSELIA\x10\xbb\x02\x12\x19\n\x14V0316_POKEMON_GULPIN\x10\xbc\x02\x12\x19\n\x14V0317_POKEMON_SWALOT\x10\xbd\x02\x12\x1b\n\x16V0318_POKEMON_CARVANHA\x10\xbe\x02\x12\x1b\n\x16V0319_POKEMON_SHARPEDO\x10\xbf\x02\x12\x1a\n\x15V0320_POKEMON_WAILMER\x10\xc0\x02\x12\x1a\n\x15V0321_POKEMON_WAILORD\x10\xc1\x02\x12\x18\n\x13V0322_POKEMON_NUMEL\x10\xc2\x02\x12\x1b\n\x16V0323_POKEMON_CAMERUPT\x10\xc3\x02\x12\x1a\n\x15V0324_POKEMON_TORKOAL\x10\xc4\x02\x12\x19\n\x14V0325_POKEMON_SPOINK\x10\xc5\x02\x12\x1a\n\x15V0326_POKEMON_GRUMPIG\x10\xc6\x02\x12\x19\n\x14V0327_POKEMON_SPINDA\x10\xc7\x02\x12\x1b\n\x16V0328_POKEMON_TRAPINCH\x10\xc8\x02\x12\x1a\n\x15V0329_POKEMON_VIBRAVA\x10\xc9\x02\x12\x19\n\x14V0330_POKEMON_FLYGON\x10\xca\x02\x12\x19\n\x14V0331_POKEMON_CACNEA\x10\xcb\x02\x12\x1b\n\x16V0332_POKEMON_CACTURNE\x10\xcc\x02\x12\x19\n\x14V0333_POKEMON_SWABLU\x10\xcd\x02\x12\x1a\n\x15V0334_POKEMON_ALTARIA\x10\xce\x02\x12\x1b\n\x16V0335_POKEMON_ZANGOOSE\x10\xcf\x02\x12\x1a\n\x15V0336_POKEMON_SEVIPER\x10\xd0\x02\x12\x1b\n\x16V0337_POKEMON_LUNATONE\x10\xd1\x02\x12\x1a\n\x15V0338_POKEMON_SOLROCK\x10\xd2\x02\x12\x1b\n\x16V0339_POKEMON_BARBOACH\x10\xd3\x02\x12\x1b\n\x16V0340_POKEMON_WHISCASH\x10\xd4\x02\x12\x1b\n\x16V0341_POKEMON_CORPHISH\x10\xd5\x02\x12\x1c\n\x17V0342_POKEMON_CRAWDAUNT\x10\xd6\x02\x12\x19\n\x14V0343_POKEMON_BALTOY\x10\xd7\x02\x12\x1a\n\x15V0344_POKEMON_CLAYDOL\x10\xd8\x02\x12\x19\n\x14V0345_POKEMON_LILEEP\x10\xd9\x02\x12\x1a\n\x15V0346_POKEMON_CRADILY\x10\xda\x02\x12\x1a\n\x15V0347_POKEMON_ANORITH\x10\xdb\x02\x12\x1a\n\x15V0348_POKEMON_ARMALDO\x10\xdc\x02\x12\x19\n\x14V0349_POKEMON_FEEBAS\x10\xdd\x02\x12\x1a\n\x15V0350_POKEMON_MILOTIC\x10\xde\x02\x12\x1b\n\x16V0351_POKEMON_CASTFORM\x10\xdf\x02\x12\x1a\n\x15V0352_POKEMON_KECLEON\x10\xe0\x02\x12\x1a\n\x15V0353_POKEMON_SHUPPET\x10\xe1\x02\x12\x1a\n\x15V0354_POKEMON_BANETTE\x10\xe2\x02\x12\x1a\n\x15V0355_POKEMON_DUSKULL\x10\xe3\x02\x12\x1b\n\x16V0356_POKEMON_DUSCLOPS\x10\xe4\x02\x12\x1a\n\x15V0357_POKEMON_TROPIUS\x10\xe5\x02\x12\x1b\n\x16V0358_POKEMON_CHIMECHO\x10\xe6\x02\x12\x18\n\x13V0359_POKEMON_ABSOL\x10\xe7\x02\x12\x19\n\x14V0360_POKEMON_WYNAUT\x10\xe8\x02\x12\x1a\n\x15V0361_POKEMON_SNORUNT\x10\xe9\x02\x12\x19\n\x14V0362_POKEMON_GLALIE\x10\xea\x02\x12\x19\n\x14V0363_POKEMON_SPHEAL\x10\xeb\x02\x12\x19\n\x14V0364_POKEMON_SEALEO\x10\xec\x02\x12\x1a\n\x15V0365_POKEMON_WALREIN\x10\xed\x02\x12\x1b\n\x16V0366_POKEMON_CLAMPERL\x10\xee\x02\x12\x1a\n\x15V0367_POKEMON_HUNTAIL\x10\xef\x02\x12\x1b\n\x16V0368_POKEMON_GOREBYSS\x10\xf0\x02\x12\x1c\n\x17V0369_POKEMON_RELICANTH\x10\xf1\x02\x12\x1a\n\x15V0370_POKEMON_LUVDISC\x10\xf2\x02\x12\x18\n\x13V0371_POKEMON_BAGON\x10\xf3\x02\x12\x1a\n\x15V0372_POKEMON_SHELGON\x10\xf4\x02\x12\x1c\n\x17V0373_POKEMON_SALAMENCE\x10\xf5\x02\x12\x19\n\x14V0374_POKEMON_BELDUM\x10\xf6\x02\x12\x19\n\x14V0375_POKEMON_METANG\x10\xf7\x02\x12\x1c\n\x17V0376_POKEMON_METAGROSS\x10\xf8\x02\x12\x1b\n\x16V0377_POKEMON_REGIROCK\x10\xf9\x02\x12\x19\n\x14V0378_POKEMON_REGICE\x10\xfa\x02\x12\x1c\n\x17V0379_POKEMON_REGISTEEL\x10\xfb\x02\x12\x19\n\x14V0380_POKEMON_LATIAS\x10\xfc\x02\x12\x19\n\x14V0381_POKEMON_LATIOS\x10\xfd\x02\x12\x19\n\x14V0382_POKEMON_KYOGRE\x10\xfe\x02\x12\x1a\n\x15V0383_POKEMON_GROUDON\x10\xff\x02\x12\x1b\n\x16V0384_POKEMON_RAYQUAZA\x10\x80\x03\x12\x1a\n\x15V0385_POKEMON_JIRACHI\x10\x81\x03\x12\x19\n\x14V0386_POKEMON_DEOXYS\x10\x82\x03\x62\x06proto3')
+  serialized_pb=_b('\n!pogoprotos/enums/pokemon_id.proto\x12\x10pogoprotos.enums*\x9b*\n\tPokemonId\x12\r\n\tMISSINGNO\x10\x00\x12\r\n\tBULBASAUR\x10\x01\x12\x0b\n\x07IVYSAUR\x10\x02\x12\x0c\n\x08VENUSAUR\x10\x03\x12\x0e\n\nCHARMANDER\x10\x04\x12\x0e\n\nCHARMELEON\x10\x05\x12\r\n\tCHARIZARD\x10\x06\x12\x0c\n\x08SQUIRTLE\x10\x07\x12\r\n\tWARTORTLE\x10\x08\x12\r\n\tBLASTOISE\x10\t\x12\x0c\n\x08\x43\x41TERPIE\x10\n\x12\x0b\n\x07METAPOD\x10\x0b\x12\x0e\n\nBUTTERFREE\x10\x0c\x12\n\n\x06WEEDLE\x10\r\x12\n\n\x06KAKUNA\x10\x0e\x12\x0c\n\x08\x42\x45\x45\x44RILL\x10\x0f\x12\n\n\x06PIDGEY\x10\x10\x12\r\n\tPIDGEOTTO\x10\x11\x12\x0b\n\x07PIDGEOT\x10\x12\x12\x0b\n\x07RATTATA\x10\x13\x12\x0c\n\x08RATICATE\x10\x14\x12\x0b\n\x07SPEAROW\x10\x15\x12\n\n\x06\x46\x45\x41ROW\x10\x16\x12\t\n\x05\x45KANS\x10\x17\x12\t\n\x05\x41RBOK\x10\x18\x12\x0b\n\x07PIKACHU\x10\x19\x12\n\n\x06RAICHU\x10\x1a\x12\r\n\tSANDSHREW\x10\x1b\x12\r\n\tSANDSLASH\x10\x1c\x12\x12\n\x0eNIDORAN_FEMALE\x10\x1d\x12\x0c\n\x08NIDORINA\x10\x1e\x12\r\n\tNIDOQUEEN\x10\x1f\x12\x10\n\x0cNIDORAN_MALE\x10 \x12\x0c\n\x08NIDORINO\x10!\x12\x0c\n\x08NIDOKING\x10\"\x12\x0c\n\x08\x43LEFAIRY\x10#\x12\x0c\n\x08\x43LEFABLE\x10$\x12\n\n\x06VULPIX\x10%\x12\r\n\tNINETALES\x10&\x12\x0e\n\nJIGGLYPUFF\x10\'\x12\x0e\n\nWIGGLYTUFF\x10(\x12\t\n\x05ZUBAT\x10)\x12\n\n\x06GOLBAT\x10*\x12\n\n\x06ODDISH\x10+\x12\t\n\x05GLOOM\x10,\x12\r\n\tVILEPLUME\x10-\x12\t\n\x05PARAS\x10.\x12\x0c\n\x08PARASECT\x10/\x12\x0b\n\x07VENONAT\x10\x30\x12\x0c\n\x08VENOMOTH\x10\x31\x12\x0b\n\x07\x44IGLETT\x10\x32\x12\x0b\n\x07\x44UGTRIO\x10\x33\x12\n\n\x06MEOWTH\x10\x34\x12\x0b\n\x07PERSIAN\x10\x35\x12\x0b\n\x07PSYDUCK\x10\x36\x12\x0b\n\x07GOLDUCK\x10\x37\x12\n\n\x06MANKEY\x10\x38\x12\x0c\n\x08PRIMEAPE\x10\x39\x12\r\n\tGROWLITHE\x10:\x12\x0c\n\x08\x41RCANINE\x10;\x12\x0b\n\x07POLIWAG\x10<\x12\r\n\tPOLIWHIRL\x10=\x12\r\n\tPOLIWRATH\x10>\x12\x08\n\x04\x41\x42RA\x10?\x12\x0b\n\x07KADABRA\x10@\x12\x0c\n\x08\x41LAKAZAM\x10\x41\x12\n\n\x06MACHOP\x10\x42\x12\x0b\n\x07MACHOKE\x10\x43\x12\x0b\n\x07MACHAMP\x10\x44\x12\x0e\n\nBELLSPROUT\x10\x45\x12\x0e\n\nWEEPINBELL\x10\x46\x12\x0e\n\nVICTREEBEL\x10G\x12\r\n\tTENTACOOL\x10H\x12\x0e\n\nTENTACRUEL\x10I\x12\x0b\n\x07GEODUDE\x10J\x12\x0c\n\x08GRAVELER\x10K\x12\t\n\x05GOLEM\x10L\x12\n\n\x06PONYTA\x10M\x12\x0c\n\x08RAPIDASH\x10N\x12\x0c\n\x08SLOWPOKE\x10O\x12\x0b\n\x07SLOWBRO\x10P\x12\r\n\tMAGNEMITE\x10Q\x12\x0c\n\x08MAGNETON\x10R\x12\r\n\tFARFETCHD\x10S\x12\t\n\x05\x44ODUO\x10T\x12\n\n\x06\x44ODRIO\x10U\x12\x08\n\x04SEEL\x10V\x12\x0b\n\x07\x44\x45WGONG\x10W\x12\n\n\x06GRIMER\x10X\x12\x07\n\x03MUK\x10Y\x12\x0c\n\x08SHELLDER\x10Z\x12\x0c\n\x08\x43LOYSTER\x10[\x12\n\n\x06GASTLY\x10\\\x12\x0b\n\x07HAUNTER\x10]\x12\n\n\x06GENGAR\x10^\x12\x08\n\x04ONIX\x10_\x12\x0b\n\x07\x44ROWZEE\x10`\x12\t\n\x05HYPNO\x10\x61\x12\n\n\x06KRABBY\x10\x62\x12\x0b\n\x07KINGLER\x10\x63\x12\x0b\n\x07VOLTORB\x10\x64\x12\r\n\tELECTRODE\x10\x65\x12\r\n\tEXEGGCUTE\x10\x66\x12\r\n\tEXEGGUTOR\x10g\x12\n\n\x06\x43UBONE\x10h\x12\x0b\n\x07MAROWAK\x10i\x12\r\n\tHITMONLEE\x10j\x12\x0e\n\nHITMONCHAN\x10k\x12\r\n\tLICKITUNG\x10l\x12\x0b\n\x07KOFFING\x10m\x12\x0b\n\x07WEEZING\x10n\x12\x0b\n\x07RHYHORN\x10o\x12\n\n\x06RHYDON\x10p\x12\x0b\n\x07\x43HANSEY\x10q\x12\x0b\n\x07TANGELA\x10r\x12\x0e\n\nKANGASKHAN\x10s\x12\n\n\x06HORSEA\x10t\x12\n\n\x06SEADRA\x10u\x12\x0b\n\x07GOLDEEN\x10v\x12\x0b\n\x07SEAKING\x10w\x12\n\n\x06STARYU\x10x\x12\x0b\n\x07STARMIE\x10y\x12\x0b\n\x07MR_MIME\x10z\x12\x0b\n\x07SCYTHER\x10{\x12\x08\n\x04JYNX\x10|\x12\x0e\n\nELECTABUZZ\x10}\x12\n\n\x06MAGMAR\x10~\x12\n\n\x06PINSIR\x10\x7f\x12\x0b\n\x06TAUROS\x10\x80\x01\x12\r\n\x08MAGIKARP\x10\x81\x01\x12\r\n\x08GYARADOS\x10\x82\x01\x12\x0b\n\x06LAPRAS\x10\x83\x01\x12\n\n\x05\x44ITTO\x10\x84\x01\x12\n\n\x05\x45\x45VEE\x10\x85\x01\x12\r\n\x08VAPOREON\x10\x86\x01\x12\x0c\n\x07JOLTEON\x10\x87\x01\x12\x0c\n\x07\x46LAREON\x10\x88\x01\x12\x0c\n\x07PORYGON\x10\x89\x01\x12\x0c\n\x07OMANYTE\x10\x8a\x01\x12\x0c\n\x07OMASTAR\x10\x8b\x01\x12\x0b\n\x06KABUTO\x10\x8c\x01\x12\r\n\x08KABUTOPS\x10\x8d\x01\x12\x0f\n\nAERODACTYL\x10\x8e\x01\x12\x0c\n\x07SNORLAX\x10\x8f\x01\x12\r\n\x08\x41RTICUNO\x10\x90\x01\x12\x0b\n\x06ZAPDOS\x10\x91\x01\x12\x0c\n\x07MOLTRES\x10\x92\x01\x12\x0c\n\x07\x44RATINI\x10\x93\x01\x12\x0e\n\tDRAGONAIR\x10\x94\x01\x12\x0e\n\tDRAGONITE\x10\x95\x01\x12\x0b\n\x06MEWTWO\x10\x96\x01\x12\x08\n\x03MEW\x10\x97\x01\x12\x0e\n\tCHIKORITA\x10\x98\x01\x12\x0c\n\x07\x42\x41YLEEF\x10\x99\x01\x12\r\n\x08MEGANIUM\x10\x9a\x01\x12\x0e\n\tCYNDAQUIL\x10\x9b\x01\x12\x0c\n\x07QUILAVA\x10\x9c\x01\x12\x0f\n\nTYPHLOSION\x10\x9d\x01\x12\r\n\x08TOTODILE\x10\x9e\x01\x12\r\n\x08\x43ROCONAW\x10\x9f\x01\x12\x0f\n\nFERALIGATR\x10\xa0\x01\x12\x0c\n\x07SENTRET\x10\xa1\x01\x12\x0b\n\x06\x46URRET\x10\xa2\x01\x12\r\n\x08HOOTHOOT\x10\xa3\x01\x12\x0c\n\x07NOCTOWL\x10\xa4\x01\x12\x0b\n\x06LEDYBA\x10\xa5\x01\x12\x0b\n\x06LEDIAN\x10\xa6\x01\x12\r\n\x08SPINARAK\x10\xa7\x01\x12\x0c\n\x07\x41RIADOS\x10\xa8\x01\x12\x0b\n\x06\x43ROBAT\x10\xa9\x01\x12\r\n\x08\x43HINCHOU\x10\xaa\x01\x12\x0c\n\x07LANTURN\x10\xab\x01\x12\n\n\x05PICHU\x10\xac\x01\x12\x0b\n\x06\x43LEFFA\x10\xad\x01\x12\x0e\n\tIGGLYBUFF\x10\xae\x01\x12\x0b\n\x06TOGEPI\x10\xaf\x01\x12\x0c\n\x07TOGETIC\x10\xb0\x01\x12\t\n\x04NATU\x10\xb1\x01\x12\t\n\x04XATU\x10\xb2\x01\x12\x0b\n\x06MAREEP\x10\xb3\x01\x12\x0c\n\x07\x46LAAFFY\x10\xb4\x01\x12\r\n\x08\x41MPHAROS\x10\xb5\x01\x12\x0e\n\tBELLOSSOM\x10\xb6\x01\x12\x0b\n\x06MARILL\x10\xb7\x01\x12\x0e\n\tAZUMARILL\x10\xb8\x01\x12\x0e\n\tSUDOWOODO\x10\xb9\x01\x12\r\n\x08POLITOED\x10\xba\x01\x12\x0b\n\x06HOPPIP\x10\xbb\x01\x12\r\n\x08SKIPLOOM\x10\xbc\x01\x12\r\n\x08JUMPLUFF\x10\xbd\x01\x12\n\n\x05\x41IPOM\x10\xbe\x01\x12\x0c\n\x07SUNKERN\x10\xbf\x01\x12\r\n\x08SUNFLORA\x10\xc0\x01\x12\n\n\x05YANMA\x10\xc1\x01\x12\x0b\n\x06WOOPER\x10\xc2\x01\x12\r\n\x08QUAGSIRE\x10\xc3\x01\x12\x0b\n\x06\x45SPEON\x10\xc4\x01\x12\x0c\n\x07UMBREON\x10\xc5\x01\x12\x0c\n\x07MURKROW\x10\xc6\x01\x12\r\n\x08SLOWKING\x10\xc7\x01\x12\x0f\n\nMISDREAVUS\x10\xc8\x01\x12\n\n\x05UNOWN\x10\xc9\x01\x12\x0e\n\tWOBBUFFET\x10\xca\x01\x12\x0e\n\tGIRAFARIG\x10\xcb\x01\x12\x0b\n\x06PINECO\x10\xcc\x01\x12\x0f\n\nFORRETRESS\x10\xcd\x01\x12\x0e\n\tDUNSPARCE\x10\xce\x01\x12\x0b\n\x06GLIGAR\x10\xcf\x01\x12\x0c\n\x07STEELIX\x10\xd0\x01\x12\r\n\x08SNUBBULL\x10\xd1\x01\x12\r\n\x08GRANBULL\x10\xd2\x01\x12\r\n\x08QWILFISH\x10\xd3\x01\x12\x0b\n\x06SCIZOR\x10\xd4\x01\x12\x0c\n\x07SHUCKLE\x10\xd5\x01\x12\x0e\n\tHERACROSS\x10\xd6\x01\x12\x0c\n\x07SNEASEL\x10\xd7\x01\x12\x0e\n\tTEDDIURSA\x10\xd8\x01\x12\r\n\x08URSARING\x10\xd9\x01\x12\x0b\n\x06SLUGMA\x10\xda\x01\x12\r\n\x08MAGCARGO\x10\xdb\x01\x12\x0b\n\x06SWINUB\x10\xdc\x01\x12\x0e\n\tPILOSWINE\x10\xdd\x01\x12\x0c\n\x07\x43ORSOLA\x10\xde\x01\x12\r\n\x08REMORAID\x10\xdf\x01\x12\x0e\n\tOCTILLERY\x10\xe0\x01\x12\r\n\x08\x44\x45LIBIRD\x10\xe1\x01\x12\x0c\n\x07MANTINE\x10\xe2\x01\x12\r\n\x08SKARMORY\x10\xe3\x01\x12\r\n\x08HOUNDOUR\x10\xe4\x01\x12\r\n\x08HOUNDOOM\x10\xe5\x01\x12\x0c\n\x07KINGDRA\x10\xe6\x01\x12\x0b\n\x06PHANPY\x10\xe7\x01\x12\x0c\n\x07\x44ONPHAN\x10\xe8\x01\x12\r\n\x08PORYGON2\x10\xe9\x01\x12\r\n\x08STANTLER\x10\xea\x01\x12\r\n\x08SMEARGLE\x10\xeb\x01\x12\x0c\n\x07TYROGUE\x10\xec\x01\x12\x0e\n\tHITMONTOP\x10\xed\x01\x12\r\n\x08SMOOCHUM\x10\xee\x01\x12\x0b\n\x06\x45LEKID\x10\xef\x01\x12\n\n\x05MAGBY\x10\xf0\x01\x12\x0c\n\x07MILTANK\x10\xf1\x01\x12\x0c\n\x07\x42LISSEY\x10\xf2\x01\x12\x0b\n\x06RAIKOU\x10\xf3\x01\x12\n\n\x05\x45NTEI\x10\xf4\x01\x12\x0c\n\x07SUICUNE\x10\xf5\x01\x12\r\n\x08LARVITAR\x10\xf6\x01\x12\x0c\n\x07PUPITAR\x10\xf7\x01\x12\x0e\n\tTYRANITAR\x10\xf8\x01\x12\n\n\x05LUGIA\x10\xf9\x01\x12\n\n\x05HO_OH\x10\xfa\x01\x12\x0b\n\x06\x43\x45LEBI\x10\xfb\x01\x12\x0c\n\x07TREECKO\x10\xfc\x01\x12\x0c\n\x07GROVYLE\x10\xfd\x01\x12\r\n\x08SCEPTILE\x10\xfe\x01\x12\x0c\n\x07TORCHIC\x10\xff\x01\x12\x0e\n\tCOMBUSKEN\x10\x80\x02\x12\r\n\x08\x42LAZIKEN\x10\x81\x02\x12\x0b\n\x06MUDKIP\x10\x82\x02\x12\x0e\n\tMARSHTOMP\x10\x83\x02\x12\r\n\x08SWAMPERT\x10\x84\x02\x12\x0e\n\tPOOCHYENA\x10\x85\x02\x12\x0e\n\tMIGHTYENA\x10\x86\x02\x12\x0e\n\tZIGZAGOON\x10\x87\x02\x12\x0c\n\x07LINOONE\x10\x88\x02\x12\x0c\n\x07WURMPLE\x10\x89\x02\x12\x0c\n\x07SILCOON\x10\x8a\x02\x12\x0e\n\tBEAUTIFLY\x10\x8b\x02\x12\x0c\n\x07\x43\x41SCOON\x10\x8c\x02\x12\x0b\n\x06\x44USTOX\x10\x8d\x02\x12\n\n\x05LOTAD\x10\x8e\x02\x12\x0b\n\x06LOMBRE\x10\x8f\x02\x12\r\n\x08LUDICOLO\x10\x90\x02\x12\x0b\n\x06SEEDOT\x10\x91\x02\x12\x0c\n\x07NUZLEAF\x10\x92\x02\x12\x0c\n\x07SHIFTRY\x10\x93\x02\x12\x0c\n\x07TAILLOW\x10\x94\x02\x12\x0c\n\x07SWELLOW\x10\x95\x02\x12\x0c\n\x07WINGULL\x10\x96\x02\x12\r\n\x08PELIPPER\x10\x97\x02\x12\n\n\x05RALTS\x10\x98\x02\x12\x0b\n\x06KIRLIA\x10\x99\x02\x12\x0e\n\tGARDEVOIR\x10\x9a\x02\x12\x0c\n\x07SURSKIT\x10\x9b\x02\x12\x0f\n\nMASQUERAIN\x10\x9c\x02\x12\x0e\n\tSHROOMISH\x10\x9d\x02\x12\x0c\n\x07\x42RELOOM\x10\x9e\x02\x12\x0c\n\x07SLAKOTH\x10\x9f\x02\x12\r\n\x08VIGOROTH\x10\xa0\x02\x12\x0c\n\x07SLAKING\x10\xa1\x02\x12\x0c\n\x07NINCADA\x10\xa2\x02\x12\x0c\n\x07NINJASK\x10\xa3\x02\x12\r\n\x08SHEDINJA\x10\xa4\x02\x12\x0c\n\x07WHISMUR\x10\xa5\x02\x12\x0c\n\x07LOUDRED\x10\xa6\x02\x12\x0c\n\x07\x45XPLOUD\x10\xa7\x02\x12\r\n\x08MAKUHITA\x10\xa8\x02\x12\r\n\x08HARIYAMA\x10\xa9\x02\x12\x0c\n\x07\x41ZURILL\x10\xaa\x02\x12\r\n\x08NOSEPASS\x10\xab\x02\x12\x0b\n\x06SKITTY\x10\xac\x02\x12\r\n\x08\x44\x45LCATTY\x10\xad\x02\x12\x0c\n\x07SABLEYE\x10\xae\x02\x12\x0b\n\x06MAWILE\x10\xaf\x02\x12\t\n\x04\x41RON\x10\xb0\x02\x12\x0b\n\x06LAIRON\x10\xb1\x02\x12\x0b\n\x06\x41GGRON\x10\xb2\x02\x12\r\n\x08MEDITITE\x10\xb3\x02\x12\r\n\x08MEDICHAM\x10\xb4\x02\x12\x0e\n\tELECTRIKE\x10\xb5\x02\x12\x0e\n\tMANECTRIC\x10\xb6\x02\x12\x0b\n\x06PLUSLE\x10\xb7\x02\x12\n\n\x05MINUN\x10\xb8\x02\x12\x0c\n\x07VOLBEAT\x10\xb9\x02\x12\r\n\x08ILLUMISE\x10\xba\x02\x12\x0c\n\x07ROSELIA\x10\xbb\x02\x12\x0b\n\x06GULPIN\x10\xbc\x02\x12\x0b\n\x06SWALOT\x10\xbd\x02\x12\r\n\x08\x43\x41RVANHA\x10\xbe\x02\x12\r\n\x08SHARPEDO\x10\xbf\x02\x12\x0c\n\x07WAILMER\x10\xc0\x02\x12\x0c\n\x07WAILORD\x10\xc1\x02\x12\n\n\x05NUMEL\x10\xc2\x02\x12\r\n\x08\x43\x41MERUPT\x10\xc3\x02\x12\x0c\n\x07TORKOAL\x10\xc4\x02\x12\x0b\n\x06SPOINK\x10\xc5\x02\x12\x0c\n\x07GRUMPIG\x10\xc6\x02\x12\x0b\n\x06SPINDA\x10\xc7\x02\x12\r\n\x08TRAPINCH\x10\xc8\x02\x12\x0c\n\x07VIBRAVA\x10\xc9\x02\x12\x0b\n\x06\x46LYGON\x10\xca\x02\x12\x0b\n\x06\x43\x41\x43NEA\x10\xcb\x02\x12\r\n\x08\x43\x41\x43TURNE\x10\xcc\x02\x12\x0b\n\x06SWABLU\x10\xcd\x02\x12\x0c\n\x07\x41LTARIA\x10\xce\x02\x12\r\n\x08ZANGOOSE\x10\xcf\x02\x12\x0c\n\x07SEVIPER\x10\xd0\x02\x12\r\n\x08LUNATONE\x10\xd1\x02\x12\x0c\n\x07SOLROCK\x10\xd2\x02\x12\r\n\x08\x42\x41RBOACH\x10\xd3\x02\x12\r\n\x08WHISCASH\x10\xd4\x02\x12\r\n\x08\x43ORPHISH\x10\xd5\x02\x12\x0e\n\tCRAWDAUNT\x10\xd6\x02\x12\x0b\n\x06\x42\x41LTOY\x10\xd7\x02\x12\x0c\n\x07\x43LAYDOL\x10\xd8\x02\x12\x0b\n\x06LILEEP\x10\xd9\x02\x12\x0c\n\x07\x43RADILY\x10\xda\x02\x12\x0c\n\x07\x41NORITH\x10\xdb\x02\x12\x0c\n\x07\x41RMALDO\x10\xdc\x02\x12\x0b\n\x06\x46\x45\x45\x42\x41S\x10\xdd\x02\x12\x0c\n\x07MILOTIC\x10\xde\x02\x12\r\n\x08\x43\x41STFORM\x10\xdf\x02\x12\x0c\n\x07KECLEON\x10\xe0\x02\x12\x0c\n\x07SHUPPET\x10\xe1\x02\x12\x0c\n\x07\x42\x41NETTE\x10\xe2\x02\x12\x0c\n\x07\x44USKULL\x10\xe3\x02\x12\r\n\x08\x44USCLOPS\x10\xe4\x02\x12\x0c\n\x07TROPIUS\x10\xe5\x02\x12\r\n\x08\x43HIMECHO\x10\xe6\x02\x12\n\n\x05\x41\x42SOL\x10\xe7\x02\x12\x0b\n\x06WYNAUT\x10\xe8\x02\x12\x0c\n\x07SNORUNT\x10\xe9\x02\x12\x0b\n\x06GLALIE\x10\xea\x02\x12\x0b\n\x06SPHEAL\x10\xeb\x02\x12\x0b\n\x06SEALEO\x10\xec\x02\x12\x0c\n\x07WALREIN\x10\xed\x02\x12\r\n\x08\x43LAMPERL\x10\xee\x02\x12\x0c\n\x07HUNTAIL\x10\xef\x02\x12\r\n\x08GOREBYSS\x10\xf0\x02\x12\x0e\n\tRELICANTH\x10\xf1\x02\x12\x0c\n\x07LUVDISC\x10\xf2\x02\x12\n\n\x05\x42\x41GON\x10\xf3\x02\x12\x0c\n\x07SHELGON\x10\xf4\x02\x12\x0e\n\tSALAMENCE\x10\xf5\x02\x12\x0b\n\x06\x42\x45LDUM\x10\xf6\x02\x12\x0b\n\x06METANG\x10\xf7\x02\x12\x0e\n\tMETAGROSS\x10\xf8\x02\x12\r\n\x08REGIROCK\x10\xf9\x02\x12\x0b\n\x06REGICE\x10\xfa\x02\x12\x0e\n\tREGISTEEL\x10\xfb\x02\x12\x0b\n\x06LATIAS\x10\xfc\x02\x12\x0b\n\x06LATIOS\x10\xfd\x02\x12\x0b\n\x06KYOGRE\x10\xfe\x02\x12\x0c\n\x07GROUDON\x10\xff\x02\x12\r\n\x08RAYQUAZA\x10\x80\x03\x12\x0c\n\x07JIRACHI\x10\x81\x03\x12\x0b\n\x06\x44\x45OXYS\x10\x82\x03\x62\x06proto3')
 )
 
 _POKEMONID = _descriptor.EnumDescriptor(
@@ -30,1949 +30,1949 @@ _POKEMONID = _descriptor.EnumDescriptor(
   file=DESCRIPTOR,
   values=[
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_UNSET', index=0, number=0,
+      name='MISSINGNO', index=0, number=0,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0001_POKEMON_BULBASAUR', index=1, number=1,
+      name='BULBASAUR', index=1, number=1,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0002_POKEMON_IVYSAUR', index=2, number=2,
+      name='IVYSAUR', index=2, number=2,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0003_POKEMON_VENUSAUR', index=3, number=3,
+      name='VENUSAUR', index=3, number=3,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0004_POKEMON_CHARMANDER', index=4, number=4,
+      name='CHARMANDER', index=4, number=4,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0005_POKEMON_CHARMELEON', index=5, number=5,
+      name='CHARMELEON', index=5, number=5,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0006_POKEMON_CHARIZARD', index=6, number=6,
+      name='CHARIZARD', index=6, number=6,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0007_POKEMON_SQUIRTLE', index=7, number=7,
+      name='SQUIRTLE', index=7, number=7,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0008_POKEMON_WARTORTLE', index=8, number=8,
+      name='WARTORTLE', index=8, number=8,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0009_POKEMON_BLASTOISE', index=9, number=9,
+      name='BLASTOISE', index=9, number=9,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0010_POKEMON_CATERPIE', index=10, number=10,
+      name='CATERPIE', index=10, number=10,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0011_POKEMON_METAPOD', index=11, number=11,
+      name='METAPOD', index=11, number=11,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0012_POKEMON_BUTTERFREE', index=12, number=12,
+      name='BUTTERFREE', index=12, number=12,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0013_POKEMON_WEEDLE', index=13, number=13,
+      name='WEEDLE', index=13, number=13,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0014_POKEMON_KAKUNA', index=14, number=14,
+      name='KAKUNA', index=14, number=14,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0015_POKEMON_BEEDRILL', index=15, number=15,
+      name='BEEDRILL', index=15, number=15,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0016_POKEMON_PIDGEY', index=16, number=16,
+      name='PIDGEY', index=16, number=16,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0017_POKEMON_PIDGEOTTO', index=17, number=17,
+      name='PIDGEOTTO', index=17, number=17,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0018_POKEMON_PIDGEOT', index=18, number=18,
+      name='PIDGEOT', index=18, number=18,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0019_POKEMON_RATTATA', index=19, number=19,
+      name='RATTATA', index=19, number=19,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0020_POKEMON_RATICATE', index=20, number=20,
+      name='RATICATE', index=20, number=20,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0021_POKEMON_SPEAROW', index=21, number=21,
+      name='SPEAROW', index=21, number=21,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0022_POKEMON_FEAROW', index=22, number=22,
+      name='FEAROW', index=22, number=22,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0023_POKEMON_EKANS', index=23, number=23,
+      name='EKANS', index=23, number=23,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0024_POKEMON_ARBOK', index=24, number=24,
+      name='ARBOK', index=24, number=24,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0025_POKEMON_PIKACHU', index=25, number=25,
+      name='PIKACHU', index=25, number=25,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0026_POKEMON_RAICHU', index=26, number=26,
+      name='RAICHU', index=26, number=26,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0027_POKEMON_SANDSHREW', index=27, number=27,
+      name='SANDSHREW', index=27, number=27,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0028_POKEMON_SANDSLASH', index=28, number=28,
+      name='SANDSLASH', index=28, number=28,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0029_POKEMON_NIDORAN', index=29, number=29,
+      name='NIDORAN_FEMALE', index=29, number=29,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0030_POKEMON_NIDORINA', index=30, number=30,
+      name='NIDORINA', index=30, number=30,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0031_POKEMON_NIDOQUEEN', index=31, number=31,
+      name='NIDOQUEEN', index=31, number=31,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0032_POKEMON_NIDORAN', index=32, number=32,
+      name='NIDORAN_MALE', index=32, number=32,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0033_POKEMON_NIDORINO', index=33, number=33,
+      name='NIDORINO', index=33, number=33,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0034_POKEMON_NIDOKING', index=34, number=34,
+      name='NIDOKING', index=34, number=34,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0035_POKEMON_CLEFAIRY', index=35, number=35,
+      name='CLEFAIRY', index=35, number=35,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0036_POKEMON_CLEFABLE', index=36, number=36,
+      name='CLEFABLE', index=36, number=36,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0037_POKEMON_VULPIX', index=37, number=37,
+      name='VULPIX', index=37, number=37,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0038_POKEMON_NINETALES', index=38, number=38,
+      name='NINETALES', index=38, number=38,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0039_POKEMON_JIGGLYPUFF', index=39, number=39,
+      name='JIGGLYPUFF', index=39, number=39,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0040_POKEMON_WIGGLYTUFF', index=40, number=40,
+      name='WIGGLYTUFF', index=40, number=40,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0041_POKEMON_ZUBAT', index=41, number=41,
+      name='ZUBAT', index=41, number=41,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0042_POKEMON_GOLBAT', index=42, number=42,
+      name='GOLBAT', index=42, number=42,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0043_POKEMON_ODDISH', index=43, number=43,
+      name='ODDISH', index=43, number=43,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0044_POKEMON_GLOOM', index=44, number=44,
+      name='GLOOM', index=44, number=44,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0045_POKEMON_VILEPLUME', index=45, number=45,
+      name='VILEPLUME', index=45, number=45,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0046_POKEMON_PARAS', index=46, number=46,
+      name='PARAS', index=46, number=46,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0047_POKEMON_PARASECT', index=47, number=47,
+      name='PARASECT', index=47, number=47,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0048_POKEMON_VENONAT', index=48, number=48,
+      name='VENONAT', index=48, number=48,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0049_POKEMON_VENOMOTH', index=49, number=49,
+      name='VENOMOTH', index=49, number=49,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0050_POKEMON_DIGLETT', index=50, number=50,
+      name='DIGLETT', index=50, number=50,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0051_POKEMON_DUGTRIO', index=51, number=51,
+      name='DUGTRIO', index=51, number=51,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0052_POKEMON_MEOWTH', index=52, number=52,
+      name='MEOWTH', index=52, number=52,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0053_POKEMON_PERSIAN', index=53, number=53,
+      name='PERSIAN', index=53, number=53,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0054_POKEMON_PSYDUCK', index=54, number=54,
+      name='PSYDUCK', index=54, number=54,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0055_POKEMON_GOLDUCK', index=55, number=55,
+      name='GOLDUCK', index=55, number=55,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0056_POKEMON_MANKEY', index=56, number=56,
+      name='MANKEY', index=56, number=56,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0057_POKEMON_PRIMEAPE', index=57, number=57,
+      name='PRIMEAPE', index=57, number=57,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0058_POKEMON_GROWLITHE', index=58, number=58,
+      name='GROWLITHE', index=58, number=58,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0059_POKEMON_ARCANINE', index=59, number=59,
+      name='ARCANINE', index=59, number=59,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0060_POKEMON_POLIWAG', index=60, number=60,
+      name='POLIWAG', index=60, number=60,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0061_POKEMON_POLIWHIRL', index=61, number=61,
+      name='POLIWHIRL', index=61, number=61,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0062_POKEMON_POLIWRATH', index=62, number=62,
+      name='POLIWRATH', index=62, number=62,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0063_POKEMON_ABRA', index=63, number=63,
+      name='ABRA', index=63, number=63,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0064_POKEMON_KADABRA', index=64, number=64,
+      name='KADABRA', index=64, number=64,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0065_POKEMON_ALAKAZAM', index=65, number=65,
+      name='ALAKAZAM', index=65, number=65,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0066_POKEMON_MACHOP', index=66, number=66,
+      name='MACHOP', index=66, number=66,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0067_POKEMON_MACHOKE', index=67, number=67,
+      name='MACHOKE', index=67, number=67,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0068_POKEMON_MACHAMP', index=68, number=68,
+      name='MACHAMP', index=68, number=68,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0069_POKEMON_BELLSPROUT', index=69, number=69,
+      name='BELLSPROUT', index=69, number=69,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0070_POKEMON_WEEPINBELL', index=70, number=70,
+      name='WEEPINBELL', index=70, number=70,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0071_POKEMON_VICTREEBEL', index=71, number=71,
+      name='VICTREEBEL', index=71, number=71,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0072_POKEMON_TENTACOOL', index=72, number=72,
+      name='TENTACOOL', index=72, number=72,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0073_POKEMON_TENTACRUEL', index=73, number=73,
+      name='TENTACRUEL', index=73, number=73,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0074_POKEMON_GEODUDE', index=74, number=74,
+      name='GEODUDE', index=74, number=74,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0075_POKEMON_GRAVELER', index=75, number=75,
+      name='GRAVELER', index=75, number=75,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0076_POKEMON_GOLEM', index=76, number=76,
+      name='GOLEM', index=76, number=76,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0077_POKEMON_PONYTA', index=77, number=77,
+      name='PONYTA', index=77, number=77,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0078_POKEMON_RAPIDASH', index=78, number=78,
+      name='RAPIDASH', index=78, number=78,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0079_POKEMON_SLOWPOKE', index=79, number=79,
+      name='SLOWPOKE', index=79, number=79,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0080_POKEMON_SLOWBRO', index=80, number=80,
+      name='SLOWBRO', index=80, number=80,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0081_POKEMON_MAGNEMITE', index=81, number=81,
+      name='MAGNEMITE', index=81, number=81,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0082_POKEMON_MAGNETON', index=82, number=82,
+      name='MAGNETON', index=82, number=82,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0083_POKEMON_FARFETCHD', index=83, number=83,
+      name='FARFETCHD', index=83, number=83,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0084_POKEMON_DODUO', index=84, number=84,
+      name='DODUO', index=84, number=84,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0085_POKEMON_DODRIO', index=85, number=85,
+      name='DODRIO', index=85, number=85,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0086_POKEMON_SEEL', index=86, number=86,
+      name='SEEL', index=86, number=86,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0087_POKEMON_DEWGONG', index=87, number=87,
+      name='DEWGONG', index=87, number=87,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0088_POKEMON_GRIMER', index=88, number=88,
+      name='GRIMER', index=88, number=88,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0089_POKEMON_MUK', index=89, number=89,
+      name='MUK', index=89, number=89,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0090_POKEMON_SHELLDER', index=90, number=90,
+      name='SHELLDER', index=90, number=90,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0091_POKEMON_CLOYSTER', index=91, number=91,
+      name='CLOYSTER', index=91, number=91,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0092_POKEMON_GASTLY', index=92, number=92,
+      name='GASTLY', index=92, number=92,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0093_POKEMON_HAUNTER', index=93, number=93,
+      name='HAUNTER', index=93, number=93,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0094_POKEMON_GENGAR', index=94, number=94,
+      name='GENGAR', index=94, number=94,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0095_POKEMON_ONIX', index=95, number=95,
+      name='ONIX', index=95, number=95,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0096_POKEMON_DROWZEE', index=96, number=96,
+      name='DROWZEE', index=96, number=96,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0097_POKEMON_HYPNO', index=97, number=97,
+      name='HYPNO', index=97, number=97,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0098_POKEMON_KRABBY', index=98, number=98,
+      name='KRABBY', index=98, number=98,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0099_POKEMON_KINGLER', index=99, number=99,
+      name='KINGLER', index=99, number=99,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0100_POKEMON_VOLTORB', index=100, number=100,
+      name='VOLTORB', index=100, number=100,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0101_POKEMON_ELECTRODE', index=101, number=101,
+      name='ELECTRODE', index=101, number=101,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0102_POKEMON_EXEGGCUTE', index=102, number=102,
+      name='EXEGGCUTE', index=102, number=102,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0103_POKEMON_EXEGGUTOR', index=103, number=103,
+      name='EXEGGUTOR', index=103, number=103,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0104_POKEMON_CUBONE', index=104, number=104,
+      name='CUBONE', index=104, number=104,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0105_POKEMON_MAROWAK', index=105, number=105,
+      name='MAROWAK', index=105, number=105,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0106_POKEMON_HITMONLEE', index=106, number=106,
+      name='HITMONLEE', index=106, number=106,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0107_POKEMON_HITMONCHAN', index=107, number=107,
+      name='HITMONCHAN', index=107, number=107,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0108_POKEMON_LICKITUNG', index=108, number=108,
+      name='LICKITUNG', index=108, number=108,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0109_POKEMON_KOFFING', index=109, number=109,
+      name='KOFFING', index=109, number=109,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0110_POKEMON_WEEZING', index=110, number=110,
+      name='WEEZING', index=110, number=110,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0111_POKEMON_RHYHORN', index=111, number=111,
+      name='RHYHORN', index=111, number=111,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0112_POKEMON_RHYDON', index=112, number=112,
+      name='RHYDON', index=112, number=112,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0113_POKEMON_CHANSEY', index=113, number=113,
+      name='CHANSEY', index=113, number=113,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0114_POKEMON_TANGELA', index=114, number=114,
+      name='TANGELA', index=114, number=114,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0115_POKEMON_KANGASKHAN', index=115, number=115,
+      name='KANGASKHAN', index=115, number=115,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0116_POKEMON_HORSEA', index=116, number=116,
+      name='HORSEA', index=116, number=116,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0117_POKEMON_SEADRA', index=117, number=117,
+      name='SEADRA', index=117, number=117,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0118_POKEMON_GOLDEEN', index=118, number=118,
+      name='GOLDEEN', index=118, number=118,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0119_POKEMON_SEAKING', index=119, number=119,
+      name='SEAKING', index=119, number=119,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0120_POKEMON_STARYU', index=120, number=120,
+      name='STARYU', index=120, number=120,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0121_POKEMON_STARMIE', index=121, number=121,
+      name='STARMIE', index=121, number=121,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0122_POKEMON_MR_MIME', index=122, number=122,
+      name='MR_MIME', index=122, number=122,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0123_POKEMON_SCYTHER', index=123, number=123,
+      name='SCYTHER', index=123, number=123,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0124_POKEMON_JYNX', index=124, number=124,
+      name='JYNX', index=124, number=124,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0125_POKEMON_ELECTABUZZ', index=125, number=125,
+      name='ELECTABUZZ', index=125, number=125,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0126_POKEMON_MAGMAR', index=126, number=126,
+      name='MAGMAR', index=126, number=126,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0127_POKEMON_PINSIR', index=127, number=127,
+      name='PINSIR', index=127, number=127,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0128_POKEMON_TAUROS', index=128, number=128,
+      name='TAUROS', index=128, number=128,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0129_POKEMON_MAGIKARP', index=129, number=129,
+      name='MAGIKARP', index=129, number=129,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0130_POKEMON_GYARADOS', index=130, number=130,
+      name='GYARADOS', index=130, number=130,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0131_POKEMON_LAPRAS', index=131, number=131,
+      name='LAPRAS', index=131, number=131,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0132_POKEMON_DITTO', index=132, number=132,
+      name='DITTO', index=132, number=132,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0133_POKEMON_EEVEE', index=133, number=133,
+      name='EEVEE', index=133, number=133,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0134_POKEMON_VAPOREON', index=134, number=134,
+      name='VAPOREON', index=134, number=134,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0135_POKEMON_JOLTEON', index=135, number=135,
+      name='JOLTEON', index=135, number=135,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0136_POKEMON_FLAREON', index=136, number=136,
+      name='FLAREON', index=136, number=136,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0137_POKEMON_PORYGON', index=137, number=137,
+      name='PORYGON', index=137, number=137,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0138_POKEMON_OMANYTE', index=138, number=138,
+      name='OMANYTE', index=138, number=138,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0139_POKEMON_OMASTAR', index=139, number=139,
+      name='OMASTAR', index=139, number=139,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0140_POKEMON_KABUTO', index=140, number=140,
+      name='KABUTO', index=140, number=140,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0141_POKEMON_KABUTOPS', index=141, number=141,
+      name='KABUTOPS', index=141, number=141,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0142_POKEMON_AERODACTYL', index=142, number=142,
+      name='AERODACTYL', index=142, number=142,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0143_POKEMON_SNORLAX', index=143, number=143,
+      name='SNORLAX', index=143, number=143,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0144_POKEMON_ARTICUNO', index=144, number=144,
+      name='ARTICUNO', index=144, number=144,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0145_POKEMON_ZAPDOS', index=145, number=145,
+      name='ZAPDOS', index=145, number=145,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0146_POKEMON_MOLTRES', index=146, number=146,
+      name='MOLTRES', index=146, number=146,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0147_POKEMON_DRATINI', index=147, number=147,
+      name='DRATINI', index=147, number=147,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0148_POKEMON_DRAGONAIR', index=148, number=148,
+      name='DRAGONAIR', index=148, number=148,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0149_POKEMON_DRAGONITE', index=149, number=149,
+      name='DRAGONITE', index=149, number=149,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0150_POKEMON_MEWTWO', index=150, number=150,
+      name='MEWTWO', index=150, number=150,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0151_POKEMON_MEW', index=151, number=151,
+      name='MEW', index=151, number=151,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0152_POKEMON_CHIKORITA', index=152, number=152,
+      name='CHIKORITA', index=152, number=152,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0153_POKEMON_BAYLEEF', index=153, number=153,
+      name='BAYLEEF', index=153, number=153,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0154_POKEMON_MEGANIUM', index=154, number=154,
+      name='MEGANIUM', index=154, number=154,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0155_POKEMON_CYNDAQUIL', index=155, number=155,
+      name='CYNDAQUIL', index=155, number=155,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0156_POKEMON_QUILAVA', index=156, number=156,
+      name='QUILAVA', index=156, number=156,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0157_POKEMON_TYPHLOSION', index=157, number=157,
+      name='TYPHLOSION', index=157, number=157,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0158_POKEMON_TOTODILE', index=158, number=158,
+      name='TOTODILE', index=158, number=158,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0159_POKEMON_CROCONAW', index=159, number=159,
+      name='CROCONAW', index=159, number=159,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0160_POKEMON_FERALIGATR', index=160, number=160,
+      name='FERALIGATR', index=160, number=160,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0161_POKEMON_SENTRET', index=161, number=161,
+      name='SENTRET', index=161, number=161,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0162_POKEMON_FURRET', index=162, number=162,
+      name='FURRET', index=162, number=162,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0163_POKEMON_HOOTHOOT', index=163, number=163,
+      name='HOOTHOOT', index=163, number=163,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0164_POKEMON_NOCTOWL', index=164, number=164,
+      name='NOCTOWL', index=164, number=164,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0165_POKEMON_LEDYBA', index=165, number=165,
+      name='LEDYBA', index=165, number=165,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0166_POKEMON_LEDIAN', index=166, number=166,
+      name='LEDIAN', index=166, number=166,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0167_POKEMON_SPINARAK', index=167, number=167,
+      name='SPINARAK', index=167, number=167,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0168_POKEMON_ARIADOS', index=168, number=168,
+      name='ARIADOS', index=168, number=168,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0169_POKEMON_CROBAT', index=169, number=169,
+      name='CROBAT', index=169, number=169,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0170_POKEMON_CHINCHOU', index=170, number=170,
+      name='CHINCHOU', index=170, number=170,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0171_POKEMON_LANTURN', index=171, number=171,
+      name='LANTURN', index=171, number=171,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0172_POKEMON_PICHU', index=172, number=172,
+      name='PICHU', index=172, number=172,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0173_POKEMON_CLEFFA', index=173, number=173,
+      name='CLEFFA', index=173, number=173,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0174_POKEMON_IGGLYBUFF', index=174, number=174,
+      name='IGGLYBUFF', index=174, number=174,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0175_POKEMON_TOGEPI', index=175, number=175,
+      name='TOGEPI', index=175, number=175,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0176_POKEMON_TOGETIC', index=176, number=176,
+      name='TOGETIC', index=176, number=176,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0177_POKEMON_NATU', index=177, number=177,
+      name='NATU', index=177, number=177,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0178_POKEMON_XATU', index=178, number=178,
+      name='XATU', index=178, number=178,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0179_POKEMON_MAREEP', index=179, number=179,
+      name='MAREEP', index=179, number=179,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0180_POKEMON_FLAAFFY', index=180, number=180,
+      name='FLAAFFY', index=180, number=180,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0181_POKEMON_AMPHAROS', index=181, number=181,
+      name='AMPHAROS', index=181, number=181,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0182_POKEMON_BELLOSSOM', index=182, number=182,
+      name='BELLOSSOM', index=182, number=182,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0183_POKEMON_MARILL', index=183, number=183,
+      name='MARILL', index=183, number=183,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0184_POKEMON_AZUMARILL', index=184, number=184,
+      name='AZUMARILL', index=184, number=184,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0185_POKEMON_SUDOWOODO', index=185, number=185,
+      name='SUDOWOODO', index=185, number=185,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0186_POKEMON_POLITOED', index=186, number=186,
+      name='POLITOED', index=186, number=186,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0187_POKEMON_HOPPIP', index=187, number=187,
+      name='HOPPIP', index=187, number=187,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0188_POKEMON_SKIPLOOM', index=188, number=188,
+      name='SKIPLOOM', index=188, number=188,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0189_POKEMON_JUMPLUFF', index=189, number=189,
+      name='JUMPLUFF', index=189, number=189,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0190_POKEMON_AIPOM', index=190, number=190,
+      name='AIPOM', index=190, number=190,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0191_POKEMON_SUNKERN', index=191, number=191,
+      name='SUNKERN', index=191, number=191,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0192_POKEMON_SUNFLORA', index=192, number=192,
+      name='SUNFLORA', index=192, number=192,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0193_POKEMON_YANMA', index=193, number=193,
+      name='YANMA', index=193, number=193,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0194_POKEMON_WOOPER', index=194, number=194,
+      name='WOOPER', index=194, number=194,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0195_POKEMON_QUAGSIRE', index=195, number=195,
+      name='QUAGSIRE', index=195, number=195,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0196_POKEMON_ESPEON', index=196, number=196,
+      name='ESPEON', index=196, number=196,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0197_POKEMON_UMBREON', index=197, number=197,
+      name='UMBREON', index=197, number=197,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0198_POKEMON_MURKROW', index=198, number=198,
+      name='MURKROW', index=198, number=198,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0199_POKEMON_SLOWKING', index=199, number=199,
+      name='SLOWKING', index=199, number=199,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0200_POKEMON_MISDREAVUS', index=200, number=200,
+      name='MISDREAVUS', index=200, number=200,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0201_POKEMON_UNOWN', index=201, number=201,
+      name='UNOWN', index=201, number=201,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0202_POKEMON_WOBBUFFET', index=202, number=202,
+      name='WOBBUFFET', index=202, number=202,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0203_POKEMON_GIRAFARIG', index=203, number=203,
+      name='GIRAFARIG', index=203, number=203,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0204_POKEMON_PINECO', index=204, number=204,
+      name='PINECO', index=204, number=204,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0205_POKEMON_FORRETRESS', index=205, number=205,
+      name='FORRETRESS', index=205, number=205,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0206_POKEMON_DUNSPARCE', index=206, number=206,
+      name='DUNSPARCE', index=206, number=206,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0207_POKEMON_GLIGAR', index=207, number=207,
+      name='GLIGAR', index=207, number=207,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0208_POKEMON_STEELIX', index=208, number=208,
+      name='STEELIX', index=208, number=208,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0209_POKEMON_SNUBBULL', index=209, number=209,
+      name='SNUBBULL', index=209, number=209,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0210_POKEMON_GRANBULL', index=210, number=210,
+      name='GRANBULL', index=210, number=210,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0211_POKEMON_QWILFISH', index=211, number=211,
+      name='QWILFISH', index=211, number=211,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0212_POKEMON_SCIZOR', index=212, number=212,
+      name='SCIZOR', index=212, number=212,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0213_POKEMON_SHUCKLE', index=213, number=213,
+      name='SHUCKLE', index=213, number=213,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0214_POKEMON_HERACROSS', index=214, number=214,
+      name='HERACROSS', index=214, number=214,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0215_POKEMON_SNEASEL', index=215, number=215,
+      name='SNEASEL', index=215, number=215,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0216_POKEMON_TEDDIURSA', index=216, number=216,
+      name='TEDDIURSA', index=216, number=216,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0217_POKEMON_URSARING', index=217, number=217,
+      name='URSARING', index=217, number=217,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0218_POKEMON_SLUGMA', index=218, number=218,
+      name='SLUGMA', index=218, number=218,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0219_POKEMON_MAGCARGO', index=219, number=219,
+      name='MAGCARGO', index=219, number=219,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0220_POKEMON_SWINUB', index=220, number=220,
+      name='SWINUB', index=220, number=220,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0221_POKEMON_PILOSWINE', index=221, number=221,
+      name='PILOSWINE', index=221, number=221,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0222_POKEMON_CORSOLA', index=222, number=222,
+      name='CORSOLA', index=222, number=222,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0223_POKEMON_REMORAID', index=223, number=223,
+      name='REMORAID', index=223, number=223,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0224_POKEMON_OCTILLERY', index=224, number=224,
+      name='OCTILLERY', index=224, number=224,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0225_POKEMON_DELIBIRD', index=225, number=225,
+      name='DELIBIRD', index=225, number=225,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0226_POKEMON_MANTINE', index=226, number=226,
+      name='MANTINE', index=226, number=226,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0227_POKEMON_SKARMORY', index=227, number=227,
+      name='SKARMORY', index=227, number=227,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0228_POKEMON_HOUNDOUR', index=228, number=228,
+      name='HOUNDOUR', index=228, number=228,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0229_POKEMON_HOUNDOOM', index=229, number=229,
+      name='HOUNDOOM', index=229, number=229,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0230_POKEMON_KINGDRA', index=230, number=230,
+      name='KINGDRA', index=230, number=230,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0231_POKEMON_PHANPY', index=231, number=231,
+      name='PHANPY', index=231, number=231,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0232_POKEMON_DONPHAN', index=232, number=232,
+      name='DONPHAN', index=232, number=232,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0233_POKEMON_PORYGON2', index=233, number=233,
+      name='PORYGON2', index=233, number=233,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0234_POKEMON_STANTLER', index=234, number=234,
+      name='STANTLER', index=234, number=234,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0235_POKEMON_SMEARGLE', index=235, number=235,
+      name='SMEARGLE', index=235, number=235,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0236_POKEMON_TYROGUE', index=236, number=236,
+      name='TYROGUE', index=236, number=236,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0237_POKEMON_HITMONTOP', index=237, number=237,
+      name='HITMONTOP', index=237, number=237,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0238_POKEMON_SMOOCHUM', index=238, number=238,
+      name='SMOOCHUM', index=238, number=238,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0239_POKEMON_ELEKID', index=239, number=239,
+      name='ELEKID', index=239, number=239,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0240_POKEMON_MAGBY', index=240, number=240,
+      name='MAGBY', index=240, number=240,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0241_POKEMON_MILTANK', index=241, number=241,
+      name='MILTANK', index=241, number=241,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0242_POKEMON_BLISSEY', index=242, number=242,
+      name='BLISSEY', index=242, number=242,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0243_POKEMON_RAIKOU', index=243, number=243,
+      name='RAIKOU', index=243, number=243,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0244_POKEMON_ENTEI', index=244, number=244,
+      name='ENTEI', index=244, number=244,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0245_POKEMON_SUICUNE', index=245, number=245,
+      name='SUICUNE', index=245, number=245,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0246_POKEMON_LARVITAR', index=246, number=246,
+      name='LARVITAR', index=246, number=246,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0247_POKEMON_PUPITAR', index=247, number=247,
+      name='PUPITAR', index=247, number=247,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0248_POKEMON_TYRANITAR', index=248, number=248,
+      name='TYRANITAR', index=248, number=248,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0249_POKEMON_LUGIA', index=249, number=249,
+      name='LUGIA', index=249, number=249,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0250_POKEMON_HO_OH', index=250, number=250,
+      name='HO_OH', index=250, number=250,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0251_POKEMON_CELEBI', index=251, number=251,
+      name='CELEBI', index=251, number=251,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0252_POKEMON_TREECKO', index=252, number=252,
+      name='TREECKO', index=252, number=252,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0253_POKEMON_GROVYLE', index=253, number=253,
+      name='GROVYLE', index=253, number=253,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0254_POKEMON_SCEPTILE', index=254, number=254,
+      name='SCEPTILE', index=254, number=254,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0255_POKEMON_TORCHIC', index=255, number=255,
+      name='TORCHIC', index=255, number=255,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0256_POKEMON_COMBUSKEN', index=256, number=256,
+      name='COMBUSKEN', index=256, number=256,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0257_POKEMON_BLAZIKEN', index=257, number=257,
+      name='BLAZIKEN', index=257, number=257,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0258_POKEMON_MUDKIP', index=258, number=258,
+      name='MUDKIP', index=258, number=258,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0259_POKEMON_MARSHTOMP', index=259, number=259,
+      name='MARSHTOMP', index=259, number=259,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0260_POKEMON_SWAMPERT', index=260, number=260,
+      name='SWAMPERT', index=260, number=260,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0261_POKEMON_POOCHYENA', index=261, number=261,
+      name='POOCHYENA', index=261, number=261,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0262_POKEMON_MIGHTYENA', index=262, number=262,
+      name='MIGHTYENA', index=262, number=262,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0263_POKEMON_ZIGZAGOON', index=263, number=263,
+      name='ZIGZAGOON', index=263, number=263,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0264_POKEMON_LINOONE', index=264, number=264,
+      name='LINOONE', index=264, number=264,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0265_POKEMON_WURMPLE', index=265, number=265,
+      name='WURMPLE', index=265, number=265,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0266_POKEMON_SILCOON', index=266, number=266,
+      name='SILCOON', index=266, number=266,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0267_POKEMON_BEAUTIFLY', index=267, number=267,
+      name='BEAUTIFLY', index=267, number=267,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0268_POKEMON_CASCOON', index=268, number=268,
+      name='CASCOON', index=268, number=268,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0269_POKEMON_DUSTOX', index=269, number=269,
+      name='DUSTOX', index=269, number=269,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0270_POKEMON_LOTAD', index=270, number=270,
+      name='LOTAD', index=270, number=270,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0271_POKEMON_LOMBRE', index=271, number=271,
+      name='LOMBRE', index=271, number=271,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0272_POKEMON_LUDICOLO', index=272, number=272,
+      name='LUDICOLO', index=272, number=272,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0273_POKEMON_SEEDOT', index=273, number=273,
+      name='SEEDOT', index=273, number=273,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0274_POKEMON_NUZLEAF', index=274, number=274,
+      name='NUZLEAF', index=274, number=274,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0275_POKEMON_SHIFTRY', index=275, number=275,
+      name='SHIFTRY', index=275, number=275,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0276_POKEMON_TAILLOW', index=276, number=276,
+      name='TAILLOW', index=276, number=276,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0277_POKEMON_SWELLOW', index=277, number=277,
+      name='SWELLOW', index=277, number=277,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0278_POKEMON_WINGULL', index=278, number=278,
+      name='WINGULL', index=278, number=278,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0279_POKEMON_PELIPPER', index=279, number=279,
+      name='PELIPPER', index=279, number=279,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0280_POKEMON_RALTS', index=280, number=280,
+      name='RALTS', index=280, number=280,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0281_POKEMON_KIRLIA', index=281, number=281,
+      name='KIRLIA', index=281, number=281,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0282_POKEMON_GARDEVOIR', index=282, number=282,
+      name='GARDEVOIR', index=282, number=282,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0283_POKEMON_SURSKIT', index=283, number=283,
+      name='SURSKIT', index=283, number=283,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0284_POKEMON_MASQUERAIN', index=284, number=284,
+      name='MASQUERAIN', index=284, number=284,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0285_POKEMON_SHROOMISH', index=285, number=285,
+      name='SHROOMISH', index=285, number=285,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0286_POKEMON_BRELOOM', index=286, number=286,
+      name='BRELOOM', index=286, number=286,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0287_POKEMON_SLAKOTH', index=287, number=287,
+      name='SLAKOTH', index=287, number=287,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0288_POKEMON_VIGOROTH', index=288, number=288,
+      name='VIGOROTH', index=288, number=288,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0289_POKEMON_SLAKING', index=289, number=289,
+      name='SLAKING', index=289, number=289,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0290_POKEMON_NINCADA', index=290, number=290,
+      name='NINCADA', index=290, number=290,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0291_POKEMON_NINJASK', index=291, number=291,
+      name='NINJASK', index=291, number=291,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0292_POKEMON_SHEDINJA', index=292, number=292,
+      name='SHEDINJA', index=292, number=292,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0293_POKEMON_WHISMUR', index=293, number=293,
+      name='WHISMUR', index=293, number=293,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0294_POKEMON_LOUDRED', index=294, number=294,
+      name='LOUDRED', index=294, number=294,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0295_POKEMON_EXPLOUD', index=295, number=295,
+      name='EXPLOUD', index=295, number=295,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0296_POKEMON_MAKUHITA', index=296, number=296,
+      name='MAKUHITA', index=296, number=296,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0297_POKEMON_HARIYAMA', index=297, number=297,
+      name='HARIYAMA', index=297, number=297,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0298_POKEMON_AZURILL', index=298, number=298,
+      name='AZURILL', index=298, number=298,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0299_POKEMON_NOSEPASS', index=299, number=299,
+      name='NOSEPASS', index=299, number=299,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0300_POKEMON_SKITTY', index=300, number=300,
+      name='SKITTY', index=300, number=300,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0301_POKEMON_DELCATTY', index=301, number=301,
+      name='DELCATTY', index=301, number=301,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0302_POKEMON_SABLEYE', index=302, number=302,
+      name='SABLEYE', index=302, number=302,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0303_POKEMON_MAWILE', index=303, number=303,
+      name='MAWILE', index=303, number=303,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0304_POKEMON_ARON', index=304, number=304,
+      name='ARON', index=304, number=304,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0305_POKEMON_LAIRON', index=305, number=305,
+      name='LAIRON', index=305, number=305,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0306_POKEMON_AGGRON', index=306, number=306,
+      name='AGGRON', index=306, number=306,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0307_POKEMON_MEDITITE', index=307, number=307,
+      name='MEDITITE', index=307, number=307,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0308_POKEMON_MEDICHAM', index=308, number=308,
+      name='MEDICHAM', index=308, number=308,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0309_POKEMON_ELECTRIKE', index=309, number=309,
+      name='ELECTRIKE', index=309, number=309,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0310_POKEMON_MANECTRIC', index=310, number=310,
+      name='MANECTRIC', index=310, number=310,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0311_POKEMON_PLUSLE', index=311, number=311,
+      name='PLUSLE', index=311, number=311,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0312_POKEMON_MINUN', index=312, number=312,
+      name='MINUN', index=312, number=312,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0313_POKEMON_VOLBEAT', index=313, number=313,
+      name='VOLBEAT', index=313, number=313,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0314_POKEMON_ILLUMISE', index=314, number=314,
+      name='ILLUMISE', index=314, number=314,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0315_POKEMON_ROSELIA', index=315, number=315,
+      name='ROSELIA', index=315, number=315,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0316_POKEMON_GULPIN', index=316, number=316,
+      name='GULPIN', index=316, number=316,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0317_POKEMON_SWALOT', index=317, number=317,
+      name='SWALOT', index=317, number=317,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0318_POKEMON_CARVANHA', index=318, number=318,
+      name='CARVANHA', index=318, number=318,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0319_POKEMON_SHARPEDO', index=319, number=319,
+      name='SHARPEDO', index=319, number=319,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0320_POKEMON_WAILMER', index=320, number=320,
+      name='WAILMER', index=320, number=320,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0321_POKEMON_WAILORD', index=321, number=321,
+      name='WAILORD', index=321, number=321,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0322_POKEMON_NUMEL', index=322, number=322,
+      name='NUMEL', index=322, number=322,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0323_POKEMON_CAMERUPT', index=323, number=323,
+      name='CAMERUPT', index=323, number=323,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0324_POKEMON_TORKOAL', index=324, number=324,
+      name='TORKOAL', index=324, number=324,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0325_POKEMON_SPOINK', index=325, number=325,
+      name='SPOINK', index=325, number=325,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0326_POKEMON_GRUMPIG', index=326, number=326,
+      name='GRUMPIG', index=326, number=326,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0327_POKEMON_SPINDA', index=327, number=327,
+      name='SPINDA', index=327, number=327,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0328_POKEMON_TRAPINCH', index=328, number=328,
+      name='TRAPINCH', index=328, number=328,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0329_POKEMON_VIBRAVA', index=329, number=329,
+      name='VIBRAVA', index=329, number=329,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0330_POKEMON_FLYGON', index=330, number=330,
+      name='FLYGON', index=330, number=330,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0331_POKEMON_CACNEA', index=331, number=331,
+      name='CACNEA', index=331, number=331,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0332_POKEMON_CACTURNE', index=332, number=332,
+      name='CACTURNE', index=332, number=332,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0333_POKEMON_SWABLU', index=333, number=333,
+      name='SWABLU', index=333, number=333,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0334_POKEMON_ALTARIA', index=334, number=334,
+      name='ALTARIA', index=334, number=334,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0335_POKEMON_ZANGOOSE', index=335, number=335,
+      name='ZANGOOSE', index=335, number=335,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0336_POKEMON_SEVIPER', index=336, number=336,
+      name='SEVIPER', index=336, number=336,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0337_POKEMON_LUNATONE', index=337, number=337,
+      name='LUNATONE', index=337, number=337,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0338_POKEMON_SOLROCK', index=338, number=338,
+      name='SOLROCK', index=338, number=338,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0339_POKEMON_BARBOACH', index=339, number=339,
+      name='BARBOACH', index=339, number=339,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0340_POKEMON_WHISCASH', index=340, number=340,
+      name='WHISCASH', index=340, number=340,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0341_POKEMON_CORPHISH', index=341, number=341,
+      name='CORPHISH', index=341, number=341,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0342_POKEMON_CRAWDAUNT', index=342, number=342,
+      name='CRAWDAUNT', index=342, number=342,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0343_POKEMON_BALTOY', index=343, number=343,
+      name='BALTOY', index=343, number=343,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0344_POKEMON_CLAYDOL', index=344, number=344,
+      name='CLAYDOL', index=344, number=344,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0345_POKEMON_LILEEP', index=345, number=345,
+      name='LILEEP', index=345, number=345,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0346_POKEMON_CRADILY', index=346, number=346,
+      name='CRADILY', index=346, number=346,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0347_POKEMON_ANORITH', index=347, number=347,
+      name='ANORITH', index=347, number=347,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0348_POKEMON_ARMALDO', index=348, number=348,
+      name='ARMALDO', index=348, number=348,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0349_POKEMON_FEEBAS', index=349, number=349,
+      name='FEEBAS', index=349, number=349,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0350_POKEMON_MILOTIC', index=350, number=350,
+      name='MILOTIC', index=350, number=350,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0351_POKEMON_CASTFORM', index=351, number=351,
+      name='CASTFORM', index=351, number=351,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0352_POKEMON_KECLEON', index=352, number=352,
+      name='KECLEON', index=352, number=352,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0353_POKEMON_SHUPPET', index=353, number=353,
+      name='SHUPPET', index=353, number=353,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0354_POKEMON_BANETTE', index=354, number=354,
+      name='BANETTE', index=354, number=354,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0355_POKEMON_DUSKULL', index=355, number=355,
+      name='DUSKULL', index=355, number=355,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0356_POKEMON_DUSCLOPS', index=356, number=356,
+      name='DUSCLOPS', index=356, number=356,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0357_POKEMON_TROPIUS', index=357, number=357,
+      name='TROPIUS', index=357, number=357,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0358_POKEMON_CHIMECHO', index=358, number=358,
+      name='CHIMECHO', index=358, number=358,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0359_POKEMON_ABSOL', index=359, number=359,
+      name='ABSOL', index=359, number=359,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0360_POKEMON_WYNAUT', index=360, number=360,
+      name='WYNAUT', index=360, number=360,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0361_POKEMON_SNORUNT', index=361, number=361,
+      name='SNORUNT', index=361, number=361,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0362_POKEMON_GLALIE', index=362, number=362,
+      name='GLALIE', index=362, number=362,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0363_POKEMON_SPHEAL', index=363, number=363,
+      name='SPHEAL', index=363, number=363,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0364_POKEMON_SEALEO', index=364, number=364,
+      name='SEALEO', index=364, number=364,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0365_POKEMON_WALREIN', index=365, number=365,
+      name='WALREIN', index=365, number=365,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0366_POKEMON_CLAMPERL', index=366, number=366,
+      name='CLAMPERL', index=366, number=366,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0367_POKEMON_HUNTAIL', index=367, number=367,
+      name='HUNTAIL', index=367, number=367,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0368_POKEMON_GOREBYSS', index=368, number=368,
+      name='GOREBYSS', index=368, number=368,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0369_POKEMON_RELICANTH', index=369, number=369,
+      name='RELICANTH', index=369, number=369,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0370_POKEMON_LUVDISC', index=370, number=370,
+      name='LUVDISC', index=370, number=370,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0371_POKEMON_BAGON', index=371, number=371,
+      name='BAGON', index=371, number=371,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0372_POKEMON_SHELGON', index=372, number=372,
+      name='SHELGON', index=372, number=372,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0373_POKEMON_SALAMENCE', index=373, number=373,
+      name='SALAMENCE', index=373, number=373,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0374_POKEMON_BELDUM', index=374, number=374,
+      name='BELDUM', index=374, number=374,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0375_POKEMON_METANG', index=375, number=375,
+      name='METANG', index=375, number=375,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0376_POKEMON_METAGROSS', index=376, number=376,
+      name='METAGROSS', index=376, number=376,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0377_POKEMON_REGIROCK', index=377, number=377,
+      name='REGIROCK', index=377, number=377,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0378_POKEMON_REGICE', index=378, number=378,
+      name='REGICE', index=378, number=378,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0379_POKEMON_REGISTEEL', index=379, number=379,
+      name='REGISTEEL', index=379, number=379,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0380_POKEMON_LATIAS', index=380, number=380,
+      name='LATIAS', index=380, number=380,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0381_POKEMON_LATIOS', index=381, number=381,
+      name='LATIOS', index=381, number=381,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0382_POKEMON_KYOGRE', index=382, number=382,
+      name='KYOGRE', index=382, number=382,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0383_POKEMON_GROUDON', index=383, number=383,
+      name='GROUDON', index=383, number=383,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0384_POKEMON_RAYQUAZA', index=384, number=384,
+      name='RAYQUAZA', index=384, number=384,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0385_POKEMON_JIRACHI', index=385, number=385,
+      name='JIRACHI', index=385, number=385,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0386_POKEMON_DEOXYS', index=386, number=386,
+      name='DEOXYS', index=386, number=386,
       options=None,
       type=None),
   ],
   containing_type=None,
   options=None,
   serialized_start=56,
-  serialized_end=10855,
+  serialized_end=5459,
 )
 _sym_db.RegisterEnumDescriptor(_POKEMONID)
 
 PokemonId = enum_type_wrapper.EnumTypeWrapper(_POKEMONID)
-POKEMON_UNSET = 0
-V0001_POKEMON_BULBASAUR = 1
-V0002_POKEMON_IVYSAUR = 2
-V0003_POKEMON_VENUSAUR = 3
-V0004_POKEMON_CHARMANDER = 4
-V0005_POKEMON_CHARMELEON = 5
-V0006_POKEMON_CHARIZARD = 6
-V0007_POKEMON_SQUIRTLE = 7
-V0008_POKEMON_WARTORTLE = 8
-V0009_POKEMON_BLASTOISE = 9
-V0010_POKEMON_CATERPIE = 10
-V0011_POKEMON_METAPOD = 11
-V0012_POKEMON_BUTTERFREE = 12
-V0013_POKEMON_WEEDLE = 13
-V0014_POKEMON_KAKUNA = 14
-V0015_POKEMON_BEEDRILL = 15
-V0016_POKEMON_PIDGEY = 16
-V0017_POKEMON_PIDGEOTTO = 17
-V0018_POKEMON_PIDGEOT = 18
-V0019_POKEMON_RATTATA = 19
-V0020_POKEMON_RATICATE = 20
-V0021_POKEMON_SPEAROW = 21
-V0022_POKEMON_FEAROW = 22
-V0023_POKEMON_EKANS = 23
-V0024_POKEMON_ARBOK = 24
-V0025_POKEMON_PIKACHU = 25
-V0026_POKEMON_RAICHU = 26
-V0027_POKEMON_SANDSHREW = 27
-V0028_POKEMON_SANDSLASH = 28
-V0029_POKEMON_NIDORAN = 29
-V0030_POKEMON_NIDORINA = 30
-V0031_POKEMON_NIDOQUEEN = 31
-V0032_POKEMON_NIDORAN = 32
-V0033_POKEMON_NIDORINO = 33
-V0034_POKEMON_NIDOKING = 34
-V0035_POKEMON_CLEFAIRY = 35
-V0036_POKEMON_CLEFABLE = 36
-V0037_POKEMON_VULPIX = 37
-V0038_POKEMON_NINETALES = 38
-V0039_POKEMON_JIGGLYPUFF = 39
-V0040_POKEMON_WIGGLYTUFF = 40
-V0041_POKEMON_ZUBAT = 41
-V0042_POKEMON_GOLBAT = 42
-V0043_POKEMON_ODDISH = 43
-V0044_POKEMON_GLOOM = 44
-V0045_POKEMON_VILEPLUME = 45
-V0046_POKEMON_PARAS = 46
-V0047_POKEMON_PARASECT = 47
-V0048_POKEMON_VENONAT = 48
-V0049_POKEMON_VENOMOTH = 49
-V0050_POKEMON_DIGLETT = 50
-V0051_POKEMON_DUGTRIO = 51
-V0052_POKEMON_MEOWTH = 52
-V0053_POKEMON_PERSIAN = 53
-V0054_POKEMON_PSYDUCK = 54
-V0055_POKEMON_GOLDUCK = 55
-V0056_POKEMON_MANKEY = 56
-V0057_POKEMON_PRIMEAPE = 57
-V0058_POKEMON_GROWLITHE = 58
-V0059_POKEMON_ARCANINE = 59
-V0060_POKEMON_POLIWAG = 60
-V0061_POKEMON_POLIWHIRL = 61
-V0062_POKEMON_POLIWRATH = 62
-V0063_POKEMON_ABRA = 63
-V0064_POKEMON_KADABRA = 64
-V0065_POKEMON_ALAKAZAM = 65
-V0066_POKEMON_MACHOP = 66
-V0067_POKEMON_MACHOKE = 67
-V0068_POKEMON_MACHAMP = 68
-V0069_POKEMON_BELLSPROUT = 69
-V0070_POKEMON_WEEPINBELL = 70
-V0071_POKEMON_VICTREEBEL = 71
-V0072_POKEMON_TENTACOOL = 72
-V0073_POKEMON_TENTACRUEL = 73
-V0074_POKEMON_GEODUDE = 74
-V0075_POKEMON_GRAVELER = 75
-V0076_POKEMON_GOLEM = 76
-V0077_POKEMON_PONYTA = 77
-V0078_POKEMON_RAPIDASH = 78
-V0079_POKEMON_SLOWPOKE = 79
-V0080_POKEMON_SLOWBRO = 80
-V0081_POKEMON_MAGNEMITE = 81
-V0082_POKEMON_MAGNETON = 82
-V0083_POKEMON_FARFETCHD = 83
-V0084_POKEMON_DODUO = 84
-V0085_POKEMON_DODRIO = 85
-V0086_POKEMON_SEEL = 86
-V0087_POKEMON_DEWGONG = 87
-V0088_POKEMON_GRIMER = 88
-V0089_POKEMON_MUK = 89
-V0090_POKEMON_SHELLDER = 90
-V0091_POKEMON_CLOYSTER = 91
-V0092_POKEMON_GASTLY = 92
-V0093_POKEMON_HAUNTER = 93
-V0094_POKEMON_GENGAR = 94
-V0095_POKEMON_ONIX = 95
-V0096_POKEMON_DROWZEE = 96
-V0097_POKEMON_HYPNO = 97
-V0098_POKEMON_KRABBY = 98
-V0099_POKEMON_KINGLER = 99
-V0100_POKEMON_VOLTORB = 100
-V0101_POKEMON_ELECTRODE = 101
-V0102_POKEMON_EXEGGCUTE = 102
-V0103_POKEMON_EXEGGUTOR = 103
-V0104_POKEMON_CUBONE = 104
-V0105_POKEMON_MAROWAK = 105
-V0106_POKEMON_HITMONLEE = 106
-V0107_POKEMON_HITMONCHAN = 107
-V0108_POKEMON_LICKITUNG = 108
-V0109_POKEMON_KOFFING = 109
-V0110_POKEMON_WEEZING = 110
-V0111_POKEMON_RHYHORN = 111
-V0112_POKEMON_RHYDON = 112
-V0113_POKEMON_CHANSEY = 113
-V0114_POKEMON_TANGELA = 114
-V0115_POKEMON_KANGASKHAN = 115
-V0116_POKEMON_HORSEA = 116
-V0117_POKEMON_SEADRA = 117
-V0118_POKEMON_GOLDEEN = 118
-V0119_POKEMON_SEAKING = 119
-V0120_POKEMON_STARYU = 120
-V0121_POKEMON_STARMIE = 121
-V0122_POKEMON_MR_MIME = 122
-V0123_POKEMON_SCYTHER = 123
-V0124_POKEMON_JYNX = 124
-V0125_POKEMON_ELECTABUZZ = 125
-V0126_POKEMON_MAGMAR = 126
-V0127_POKEMON_PINSIR = 127
-V0128_POKEMON_TAUROS = 128
-V0129_POKEMON_MAGIKARP = 129
-V0130_POKEMON_GYARADOS = 130
-V0131_POKEMON_LAPRAS = 131
-V0132_POKEMON_DITTO = 132
-V0133_POKEMON_EEVEE = 133
-V0134_POKEMON_VAPOREON = 134
-V0135_POKEMON_JOLTEON = 135
-V0136_POKEMON_FLAREON = 136
-V0137_POKEMON_PORYGON = 137
-V0138_POKEMON_OMANYTE = 138
-V0139_POKEMON_OMASTAR = 139
-V0140_POKEMON_KABUTO = 140
-V0141_POKEMON_KABUTOPS = 141
-V0142_POKEMON_AERODACTYL = 142
-V0143_POKEMON_SNORLAX = 143
-V0144_POKEMON_ARTICUNO = 144
-V0145_POKEMON_ZAPDOS = 145
-V0146_POKEMON_MOLTRES = 146
-V0147_POKEMON_DRATINI = 147
-V0148_POKEMON_DRAGONAIR = 148
-V0149_POKEMON_DRAGONITE = 149
-V0150_POKEMON_MEWTWO = 150
-V0151_POKEMON_MEW = 151
-V0152_POKEMON_CHIKORITA = 152
-V0153_POKEMON_BAYLEEF = 153
-V0154_POKEMON_MEGANIUM = 154
-V0155_POKEMON_CYNDAQUIL = 155
-V0156_POKEMON_QUILAVA = 156
-V0157_POKEMON_TYPHLOSION = 157
-V0158_POKEMON_TOTODILE = 158
-V0159_POKEMON_CROCONAW = 159
-V0160_POKEMON_FERALIGATR = 160
-V0161_POKEMON_SENTRET = 161
-V0162_POKEMON_FURRET = 162
-V0163_POKEMON_HOOTHOOT = 163
-V0164_POKEMON_NOCTOWL = 164
-V0165_POKEMON_LEDYBA = 165
-V0166_POKEMON_LEDIAN = 166
-V0167_POKEMON_SPINARAK = 167
-V0168_POKEMON_ARIADOS = 168
-V0169_POKEMON_CROBAT = 169
-V0170_POKEMON_CHINCHOU = 170
-V0171_POKEMON_LANTURN = 171
-V0172_POKEMON_PICHU = 172
-V0173_POKEMON_CLEFFA = 173
-V0174_POKEMON_IGGLYBUFF = 174
-V0175_POKEMON_TOGEPI = 175
-V0176_POKEMON_TOGETIC = 176
-V0177_POKEMON_NATU = 177
-V0178_POKEMON_XATU = 178
-V0179_POKEMON_MAREEP = 179
-V0180_POKEMON_FLAAFFY = 180
-V0181_POKEMON_AMPHAROS = 181
-V0182_POKEMON_BELLOSSOM = 182
-V0183_POKEMON_MARILL = 183
-V0184_POKEMON_AZUMARILL = 184
-V0185_POKEMON_SUDOWOODO = 185
-V0186_POKEMON_POLITOED = 186
-V0187_POKEMON_HOPPIP = 187
-V0188_POKEMON_SKIPLOOM = 188
-V0189_POKEMON_JUMPLUFF = 189
-V0190_POKEMON_AIPOM = 190
-V0191_POKEMON_SUNKERN = 191
-V0192_POKEMON_SUNFLORA = 192
-V0193_POKEMON_YANMA = 193
-V0194_POKEMON_WOOPER = 194
-V0195_POKEMON_QUAGSIRE = 195
-V0196_POKEMON_ESPEON = 196
-V0197_POKEMON_UMBREON = 197
-V0198_POKEMON_MURKROW = 198
-V0199_POKEMON_SLOWKING = 199
-V0200_POKEMON_MISDREAVUS = 200
-V0201_POKEMON_UNOWN = 201
-V0202_POKEMON_WOBBUFFET = 202
-V0203_POKEMON_GIRAFARIG = 203
-V0204_POKEMON_PINECO = 204
-V0205_POKEMON_FORRETRESS = 205
-V0206_POKEMON_DUNSPARCE = 206
-V0207_POKEMON_GLIGAR = 207
-V0208_POKEMON_STEELIX = 208
-V0209_POKEMON_SNUBBULL = 209
-V0210_POKEMON_GRANBULL = 210
-V0211_POKEMON_QWILFISH = 211
-V0212_POKEMON_SCIZOR = 212
-V0213_POKEMON_SHUCKLE = 213
-V0214_POKEMON_HERACROSS = 214
-V0215_POKEMON_SNEASEL = 215
-V0216_POKEMON_TEDDIURSA = 216
-V0217_POKEMON_URSARING = 217
-V0218_POKEMON_SLUGMA = 218
-V0219_POKEMON_MAGCARGO = 219
-V0220_POKEMON_SWINUB = 220
-V0221_POKEMON_PILOSWINE = 221
-V0222_POKEMON_CORSOLA = 222
-V0223_POKEMON_REMORAID = 223
-V0224_POKEMON_OCTILLERY = 224
-V0225_POKEMON_DELIBIRD = 225
-V0226_POKEMON_MANTINE = 226
-V0227_POKEMON_SKARMORY = 227
-V0228_POKEMON_HOUNDOUR = 228
-V0229_POKEMON_HOUNDOOM = 229
-V0230_POKEMON_KINGDRA = 230
-V0231_POKEMON_PHANPY = 231
-V0232_POKEMON_DONPHAN = 232
-V0233_POKEMON_PORYGON2 = 233
-V0234_POKEMON_STANTLER = 234
-V0235_POKEMON_SMEARGLE = 235
-V0236_POKEMON_TYROGUE = 236
-V0237_POKEMON_HITMONTOP = 237
-V0238_POKEMON_SMOOCHUM = 238
-V0239_POKEMON_ELEKID = 239
-V0240_POKEMON_MAGBY = 240
-V0241_POKEMON_MILTANK = 241
-V0242_POKEMON_BLISSEY = 242
-V0243_POKEMON_RAIKOU = 243
-V0244_POKEMON_ENTEI = 244
-V0245_POKEMON_SUICUNE = 245
-V0246_POKEMON_LARVITAR = 246
-V0247_POKEMON_PUPITAR = 247
-V0248_POKEMON_TYRANITAR = 248
-V0249_POKEMON_LUGIA = 249
-V0250_POKEMON_HO_OH = 250
-V0251_POKEMON_CELEBI = 251
-V0252_POKEMON_TREECKO = 252
-V0253_POKEMON_GROVYLE = 253
-V0254_POKEMON_SCEPTILE = 254
-V0255_POKEMON_TORCHIC = 255
-V0256_POKEMON_COMBUSKEN = 256
-V0257_POKEMON_BLAZIKEN = 257
-V0258_POKEMON_MUDKIP = 258
-V0259_POKEMON_MARSHTOMP = 259
-V0260_POKEMON_SWAMPERT = 260
-V0261_POKEMON_POOCHYENA = 261
-V0262_POKEMON_MIGHTYENA = 262
-V0263_POKEMON_ZIGZAGOON = 263
-V0264_POKEMON_LINOONE = 264
-V0265_POKEMON_WURMPLE = 265
-V0266_POKEMON_SILCOON = 266
-V0267_POKEMON_BEAUTIFLY = 267
-V0268_POKEMON_CASCOON = 268
-V0269_POKEMON_DUSTOX = 269
-V0270_POKEMON_LOTAD = 270
-V0271_POKEMON_LOMBRE = 271
-V0272_POKEMON_LUDICOLO = 272
-V0273_POKEMON_SEEDOT = 273
-V0274_POKEMON_NUZLEAF = 274
-V0275_POKEMON_SHIFTRY = 275
-V0276_POKEMON_TAILLOW = 276
-V0277_POKEMON_SWELLOW = 277
-V0278_POKEMON_WINGULL = 278
-V0279_POKEMON_PELIPPER = 279
-V0280_POKEMON_RALTS = 280
-V0281_POKEMON_KIRLIA = 281
-V0282_POKEMON_GARDEVOIR = 282
-V0283_POKEMON_SURSKIT = 283
-V0284_POKEMON_MASQUERAIN = 284
-V0285_POKEMON_SHROOMISH = 285
-V0286_POKEMON_BRELOOM = 286
-V0287_POKEMON_SLAKOTH = 287
-V0288_POKEMON_VIGOROTH = 288
-V0289_POKEMON_SLAKING = 289
-V0290_POKEMON_NINCADA = 290
-V0291_POKEMON_NINJASK = 291
-V0292_POKEMON_SHEDINJA = 292
-V0293_POKEMON_WHISMUR = 293
-V0294_POKEMON_LOUDRED = 294
-V0295_POKEMON_EXPLOUD = 295
-V0296_POKEMON_MAKUHITA = 296
-V0297_POKEMON_HARIYAMA = 297
-V0298_POKEMON_AZURILL = 298
-V0299_POKEMON_NOSEPASS = 299
-V0300_POKEMON_SKITTY = 300
-V0301_POKEMON_DELCATTY = 301
-V0302_POKEMON_SABLEYE = 302
-V0303_POKEMON_MAWILE = 303
-V0304_POKEMON_ARON = 304
-V0305_POKEMON_LAIRON = 305
-V0306_POKEMON_AGGRON = 306
-V0307_POKEMON_MEDITITE = 307
-V0308_POKEMON_MEDICHAM = 308
-V0309_POKEMON_ELECTRIKE = 309
-V0310_POKEMON_MANECTRIC = 310
-V0311_POKEMON_PLUSLE = 311
-V0312_POKEMON_MINUN = 312
-V0313_POKEMON_VOLBEAT = 313
-V0314_POKEMON_ILLUMISE = 314
-V0315_POKEMON_ROSELIA = 315
-V0316_POKEMON_GULPIN = 316
-V0317_POKEMON_SWALOT = 317
-V0318_POKEMON_CARVANHA = 318
-V0319_POKEMON_SHARPEDO = 319
-V0320_POKEMON_WAILMER = 320
-V0321_POKEMON_WAILORD = 321
-V0322_POKEMON_NUMEL = 322
-V0323_POKEMON_CAMERUPT = 323
-V0324_POKEMON_TORKOAL = 324
-V0325_POKEMON_SPOINK = 325
-V0326_POKEMON_GRUMPIG = 326
-V0327_POKEMON_SPINDA = 327
-V0328_POKEMON_TRAPINCH = 328
-V0329_POKEMON_VIBRAVA = 329
-V0330_POKEMON_FLYGON = 330
-V0331_POKEMON_CACNEA = 331
-V0332_POKEMON_CACTURNE = 332
-V0333_POKEMON_SWABLU = 333
-V0334_POKEMON_ALTARIA = 334
-V0335_POKEMON_ZANGOOSE = 335
-V0336_POKEMON_SEVIPER = 336
-V0337_POKEMON_LUNATONE = 337
-V0338_POKEMON_SOLROCK = 338
-V0339_POKEMON_BARBOACH = 339
-V0340_POKEMON_WHISCASH = 340
-V0341_POKEMON_CORPHISH = 341
-V0342_POKEMON_CRAWDAUNT = 342
-V0343_POKEMON_BALTOY = 343
-V0344_POKEMON_CLAYDOL = 344
-V0345_POKEMON_LILEEP = 345
-V0346_POKEMON_CRADILY = 346
-V0347_POKEMON_ANORITH = 347
-V0348_POKEMON_ARMALDO = 348
-V0349_POKEMON_FEEBAS = 349
-V0350_POKEMON_MILOTIC = 350
-V0351_POKEMON_CASTFORM = 351
-V0352_POKEMON_KECLEON = 352
-V0353_POKEMON_SHUPPET = 353
-V0354_POKEMON_BANETTE = 354
-V0355_POKEMON_DUSKULL = 355
-V0356_POKEMON_DUSCLOPS = 356
-V0357_POKEMON_TROPIUS = 357
-V0358_POKEMON_CHIMECHO = 358
-V0359_POKEMON_ABSOL = 359
-V0360_POKEMON_WYNAUT = 360
-V0361_POKEMON_SNORUNT = 361
-V0362_POKEMON_GLALIE = 362
-V0363_POKEMON_SPHEAL = 363
-V0364_POKEMON_SEALEO = 364
-V0365_POKEMON_WALREIN = 365
-V0366_POKEMON_CLAMPERL = 366
-V0367_POKEMON_HUNTAIL = 367
-V0368_POKEMON_GOREBYSS = 368
-V0369_POKEMON_RELICANTH = 369
-V0370_POKEMON_LUVDISC = 370
-V0371_POKEMON_BAGON = 371
-V0372_POKEMON_SHELGON = 372
-V0373_POKEMON_SALAMENCE = 373
-V0374_POKEMON_BELDUM = 374
-V0375_POKEMON_METANG = 375
-V0376_POKEMON_METAGROSS = 376
-V0377_POKEMON_REGIROCK = 377
-V0378_POKEMON_REGICE = 378
-V0379_POKEMON_REGISTEEL = 379
-V0380_POKEMON_LATIAS = 380
-V0381_POKEMON_LATIOS = 381
-V0382_POKEMON_KYOGRE = 382
-V0383_POKEMON_GROUDON = 383
-V0384_POKEMON_RAYQUAZA = 384
-V0385_POKEMON_JIRACHI = 385
-V0386_POKEMON_DEOXYS = 386
+MISSINGNO = 0
+BULBASAUR = 1
+IVYSAUR = 2
+VENUSAUR = 3
+CHARMANDER = 4
+CHARMELEON = 5
+CHARIZARD = 6
+SQUIRTLE = 7
+WARTORTLE = 8
+BLASTOISE = 9
+CATERPIE = 10
+METAPOD = 11
+BUTTERFREE = 12
+WEEDLE = 13
+KAKUNA = 14
+BEEDRILL = 15
+PIDGEY = 16
+PIDGEOTTO = 17
+PIDGEOT = 18
+RATTATA = 19
+RATICATE = 20
+SPEAROW = 21
+FEAROW = 22
+EKANS = 23
+ARBOK = 24
+PIKACHU = 25
+RAICHU = 26
+SANDSHREW = 27
+SANDSLASH = 28
+NIDORAN_FEMALE = 29
+NIDORINA = 30
+NIDOQUEEN = 31
+NIDORAN_MALE = 32
+NIDORINO = 33
+NIDOKING = 34
+CLEFAIRY = 35
+CLEFABLE = 36
+VULPIX = 37
+NINETALES = 38
+JIGGLYPUFF = 39
+WIGGLYTUFF = 40
+ZUBAT = 41
+GOLBAT = 42
+ODDISH = 43
+GLOOM = 44
+VILEPLUME = 45
+PARAS = 46
+PARASECT = 47
+VENONAT = 48
+VENOMOTH = 49
+DIGLETT = 50
+DUGTRIO = 51
+MEOWTH = 52
+PERSIAN = 53
+PSYDUCK = 54
+GOLDUCK = 55
+MANKEY = 56
+PRIMEAPE = 57
+GROWLITHE = 58
+ARCANINE = 59
+POLIWAG = 60
+POLIWHIRL = 61
+POLIWRATH = 62
+ABRA = 63
+KADABRA = 64
+ALAKAZAM = 65
+MACHOP = 66
+MACHOKE = 67
+MACHAMP = 68
+BELLSPROUT = 69
+WEEPINBELL = 70
+VICTREEBEL = 71
+TENTACOOL = 72
+TENTACRUEL = 73
+GEODUDE = 74
+GRAVELER = 75
+GOLEM = 76
+PONYTA = 77
+RAPIDASH = 78
+SLOWPOKE = 79
+SLOWBRO = 80
+MAGNEMITE = 81
+MAGNETON = 82
+FARFETCHD = 83
+DODUO = 84
+DODRIO = 85
+SEEL = 86
+DEWGONG = 87
+GRIMER = 88
+MUK = 89
+SHELLDER = 90
+CLOYSTER = 91
+GASTLY = 92
+HAUNTER = 93
+GENGAR = 94
+ONIX = 95
+DROWZEE = 96
+HYPNO = 97
+KRABBY = 98
+KINGLER = 99
+VOLTORB = 100
+ELECTRODE = 101
+EXEGGCUTE = 102
+EXEGGUTOR = 103
+CUBONE = 104
+MAROWAK = 105
+HITMONLEE = 106
+HITMONCHAN = 107
+LICKITUNG = 108
+KOFFING = 109
+WEEZING = 110
+RHYHORN = 111
+RHYDON = 112
+CHANSEY = 113
+TANGELA = 114
+KANGASKHAN = 115
+HORSEA = 116
+SEADRA = 117
+GOLDEEN = 118
+SEAKING = 119
+STARYU = 120
+STARMIE = 121
+MR_MIME = 122
+SCYTHER = 123
+JYNX = 124
+ELECTABUZZ = 125
+MAGMAR = 126
+PINSIR = 127
+TAUROS = 128
+MAGIKARP = 129
+GYARADOS = 130
+LAPRAS = 131
+DITTO = 132
+EEVEE = 133
+VAPOREON = 134
+JOLTEON = 135
+FLAREON = 136
+PORYGON = 137
+OMANYTE = 138
+OMASTAR = 139
+KABUTO = 140
+KABUTOPS = 141
+AERODACTYL = 142
+SNORLAX = 143
+ARTICUNO = 144
+ZAPDOS = 145
+MOLTRES = 146
+DRATINI = 147
+DRAGONAIR = 148
+DRAGONITE = 149
+MEWTWO = 150
+MEW = 151
+CHIKORITA = 152
+BAYLEEF = 153
+MEGANIUM = 154
+CYNDAQUIL = 155
+QUILAVA = 156
+TYPHLOSION = 157
+TOTODILE = 158
+CROCONAW = 159
+FERALIGATR = 160
+SENTRET = 161
+FURRET = 162
+HOOTHOOT = 163
+NOCTOWL = 164
+LEDYBA = 165
+LEDIAN = 166
+SPINARAK = 167
+ARIADOS = 168
+CROBAT = 169
+CHINCHOU = 170
+LANTURN = 171
+PICHU = 172
+CLEFFA = 173
+IGGLYBUFF = 174
+TOGEPI = 175
+TOGETIC = 176
+NATU = 177
+XATU = 178
+MAREEP = 179
+FLAAFFY = 180
+AMPHAROS = 181
+BELLOSSOM = 182
+MARILL = 183
+AZUMARILL = 184
+SUDOWOODO = 185
+POLITOED = 186
+HOPPIP = 187
+SKIPLOOM = 188
+JUMPLUFF = 189
+AIPOM = 190
+SUNKERN = 191
+SUNFLORA = 192
+YANMA = 193
+WOOPER = 194
+QUAGSIRE = 195
+ESPEON = 196
+UMBREON = 197
+MURKROW = 198
+SLOWKING = 199
+MISDREAVUS = 200
+UNOWN = 201
+WOBBUFFET = 202
+GIRAFARIG = 203
+PINECO = 204
+FORRETRESS = 205
+DUNSPARCE = 206
+GLIGAR = 207
+STEELIX = 208
+SNUBBULL = 209
+GRANBULL = 210
+QWILFISH = 211
+SCIZOR = 212
+SHUCKLE = 213
+HERACROSS = 214
+SNEASEL = 215
+TEDDIURSA = 216
+URSARING = 217
+SLUGMA = 218
+MAGCARGO = 219
+SWINUB = 220
+PILOSWINE = 221
+CORSOLA = 222
+REMORAID = 223
+OCTILLERY = 224
+DELIBIRD = 225
+MANTINE = 226
+SKARMORY = 227
+HOUNDOUR = 228
+HOUNDOOM = 229
+KINGDRA = 230
+PHANPY = 231
+DONPHAN = 232
+PORYGON2 = 233
+STANTLER = 234
+SMEARGLE = 235
+TYROGUE = 236
+HITMONTOP = 237
+SMOOCHUM = 238
+ELEKID = 239
+MAGBY = 240
+MILTANK = 241
+BLISSEY = 242
+RAIKOU = 243
+ENTEI = 244
+SUICUNE = 245
+LARVITAR = 246
+PUPITAR = 247
+TYRANITAR = 248
+LUGIA = 249
+HO_OH = 250
+CELEBI = 251
+TREECKO = 252
+GROVYLE = 253
+SCEPTILE = 254
+TORCHIC = 255
+COMBUSKEN = 256
+BLAZIKEN = 257
+MUDKIP = 258
+MARSHTOMP = 259
+SWAMPERT = 260
+POOCHYENA = 261
+MIGHTYENA = 262
+ZIGZAGOON = 263
+LINOONE = 264
+WURMPLE = 265
+SILCOON = 266
+BEAUTIFLY = 267
+CASCOON = 268
+DUSTOX = 269
+LOTAD = 270
+LOMBRE = 271
+LUDICOLO = 272
+SEEDOT = 273
+NUZLEAF = 274
+SHIFTRY = 275
+TAILLOW = 276
+SWELLOW = 277
+WINGULL = 278
+PELIPPER = 279
+RALTS = 280
+KIRLIA = 281
+GARDEVOIR = 282
+SURSKIT = 283
+MASQUERAIN = 284
+SHROOMISH = 285
+BRELOOM = 286
+SLAKOTH = 287
+VIGOROTH = 288
+SLAKING = 289
+NINCADA = 290
+NINJASK = 291
+SHEDINJA = 292
+WHISMUR = 293
+LOUDRED = 294
+EXPLOUD = 295
+MAKUHITA = 296
+HARIYAMA = 297
+AZURILL = 298
+NOSEPASS = 299
+SKITTY = 300
+DELCATTY = 301
+SABLEYE = 302
+MAWILE = 303
+ARON = 304
+LAIRON = 305
+AGGRON = 306
+MEDITITE = 307
+MEDICHAM = 308
+ELECTRIKE = 309
+MANECTRIC = 310
+PLUSLE = 311
+MINUN = 312
+VOLBEAT = 313
+ILLUMISE = 314
+ROSELIA = 315
+GULPIN = 316
+SWALOT = 317
+CARVANHA = 318
+SHARPEDO = 319
+WAILMER = 320
+WAILORD = 321
+NUMEL = 322
+CAMERUPT = 323
+TORKOAL = 324
+SPOINK = 325
+GRUMPIG = 326
+SPINDA = 327
+TRAPINCH = 328
+VIBRAVA = 329
+FLYGON = 330
+CACNEA = 331
+CACTURNE = 332
+SWABLU = 333
+ALTARIA = 334
+ZANGOOSE = 335
+SEVIPER = 336
+LUNATONE = 337
+SOLROCK = 338
+BARBOACH = 339
+WHISCASH = 340
+CORPHISH = 341
+CRAWDAUNT = 342
+BALTOY = 343
+CLAYDOL = 344
+LILEEP = 345
+CRADILY = 346
+ANORITH = 347
+ARMALDO = 348
+FEEBAS = 349
+MILOTIC = 350
+CASTFORM = 351
+KECLEON = 352
+SHUPPET = 353
+BANETTE = 354
+DUSKULL = 355
+DUSCLOPS = 356
+TROPIUS = 357
+CHIMECHO = 358
+ABSOL = 359
+WYNAUT = 360
+SNORUNT = 361
+GLALIE = 362
+SPHEAL = 363
+SEALEO = 364
+WALREIN = 365
+CLAMPERL = 366
+HUNTAIL = 367
+GOREBYSS = 368
+RELICANTH = 369
+LUVDISC = 370
+BAGON = 371
+SHELGON = 372
+SALAMENCE = 373
+BELDUM = 374
+METANG = 375
+METAGROSS = 376
+REGIROCK = 377
+REGICE = 378
+REGISTEEL = 379
+LATIAS = 380
+LATIOS = 381
+KYOGRE = 382
+GROUDON = 383
+RAYQUAZA = 384
+JIRACHI = 385
+DEOXYS = 386
 
 
 DESCRIPTOR.enum_types_by_name['PokemonId'] = _POKEMONID

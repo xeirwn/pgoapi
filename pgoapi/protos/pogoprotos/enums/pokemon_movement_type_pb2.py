@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/enums/pokemon_movement_type.proto',
   package='pogoprotos.enums',
   syntax='proto3',
-  serialized_pb=_b('\n,pogoprotos/enums/pokemon_movement_type.proto\x12\x10pogoprotos.enums*\x81\x02\n\x13PokemonMovementType\x12\x1f\n\x1bPOKEMON_ENC_MOVEMENT_STATIC\x10\x00\x12\x1d\n\x19POKEMON_ENC_MOVEMENT_JUMP\x10\x01\x12!\n\x1dPOKEMON_ENC_MOVEMENT_VERTICAL\x10\x02\x12 \n\x1cPOKEMON_ENC_MOVEMENT_PSYCHIC\x10\x03\x12!\n\x1dPOKEMON_ENC_MOVEMENT_ELECTRIC\x10\x04\x12\x1f\n\x1bPOKEMON_ENC_MOVEMENT_FLYING\x10\x05\x12!\n\x1dPOKEMON_ENC_MOVEMENT_HOVERING\x10\x06\x62\x06proto3')
+  serialized_pb=_b('\n,pogoprotos/enums/pokemon_movement_type.proto\x12\x10pogoprotos.enums*\xad\x01\n\x13PokemonMovementType\x12\x13\n\x0fMOVEMENT_STATIC\x10\x00\x12\x11\n\rMOVEMENT_JUMP\x10\x01\x12\x15\n\x11MOVEMENT_VERTICAL\x10\x02\x12\x14\n\x10MOVEMENT_PSYCHIC\x10\x03\x12\x15\n\x11MOVEMENT_ELECTRIC\x10\x04\x12\x13\n\x0fMOVEMENT_FLYING\x10\x05\x12\x15\n\x11MOVEMENT_HOVERING\x10\x06\x62\x06proto3')
 )
 
 _POKEMONMOVEMENTTYPE = _descriptor.EnumDescriptor(
@@ -30,49 +30,49 @@ _POKEMONMOVEMENTTYPE = _descriptor.EnumDescriptor(
   file=DESCRIPTOR,
   values=[
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_STATIC', index=0, number=0,
+      name='MOVEMENT_STATIC', index=0, number=0,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_JUMP', index=1, number=1,
+      name='MOVEMENT_JUMP', index=1, number=1,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_VERTICAL', index=2, number=2,
+      name='MOVEMENT_VERTICAL', index=2, number=2,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_PSYCHIC', index=3, number=3,
+      name='MOVEMENT_PSYCHIC', index=3, number=3,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_ELECTRIC', index=4, number=4,
+      name='MOVEMENT_ELECTRIC', index=4, number=4,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_FLYING', index=5, number=5,
+      name='MOVEMENT_FLYING', index=5, number=5,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='POKEMON_ENC_MOVEMENT_HOVERING', index=6, number=6,
+      name='MOVEMENT_HOVERING', index=6, number=6,
       options=None,
       type=None),
   ],
   containing_type=None,
   options=None,
   serialized_start=67,
-  serialized_end=324,
+  serialized_end=240,
 )
 _sym_db.RegisterEnumDescriptor(_POKEMONMOVEMENTTYPE)
 
 PokemonMovementType = enum_type_wrapper.EnumTypeWrapper(_POKEMONMOVEMENTTYPE)
-POKEMON_ENC_MOVEMENT_STATIC = 0
-POKEMON_ENC_MOVEMENT_JUMP = 1
-POKEMON_ENC_MOVEMENT_VERTICAL = 2
-POKEMON_ENC_MOVEMENT_PSYCHIC = 3
-POKEMON_ENC_MOVEMENT_ELECTRIC = 4
-POKEMON_ENC_MOVEMENT_FLYING = 5
-POKEMON_ENC_MOVEMENT_HOVERING = 6
+MOVEMENT_STATIC = 0
+MOVEMENT_JUMP = 1
+MOVEMENT_VERTICAL = 2
+MOVEMENT_PSYCHIC = 3
+MOVEMENT_ELECTRIC = 4
+MOVEMENT_FLYING = 5
+MOVEMENT_HOVERING = 6
 
 
 DESCRIPTOR.enum_types_by_name['PokemonMovementType'] = _POKEMONMOVEMENTTYPE

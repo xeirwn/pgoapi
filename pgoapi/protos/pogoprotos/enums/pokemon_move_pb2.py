@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/enums/pokemon_move.proto',
   package='pogoprotos.enums',
   syntax='proto3',
-  serialized_pb=_b('\n#pogoprotos/enums/pokemon_move.proto\x12\x10pogoprotos.enums*\xab\x30\n\x0bPokemonMove\x12\x0e\n\nMOVE_UNSET\x10\x00\x12\x1c\n\x18V0001_MOVE_THUNDER_SHOCK\x10\x01\x12\x1b\n\x17V0002_MOVE_QUICK_ATTACK\x10\x02\x12\x16\n\x12V0003_MOVE_SCRATCH\x10\x03\x12\x14\n\x10V0004_MOVE_EMBER\x10\x04\x12\x18\n\x14V0005_MOVE_VINE_WHIP\x10\x05\x12\x15\n\x11V0006_MOVE_TACKLE\x10\x06\x12\x19\n\x15V0007_MOVE_RAZOR_LEAF\x10\x07\x12\x18\n\x14V0008_MOVE_TAKE_DOWN\x10\x08\x12\x18\n\x14V0009_MOVE_WATER_GUN\x10\t\x12\x13\n\x0fV0010_MOVE_BITE\x10\n\x12\x14\n\x10V0011_MOVE_POUND\x10\x0b\x12\x1a\n\x16V0012_MOVE_DOUBLE_SLAP\x10\x0c\x12\x13\n\x0fV0013_MOVE_WRAP\x10\r\x12\x19\n\x15V0014_MOVE_HYPER_BEAM\x10\x0e\x12\x13\n\x0fV0015_MOVE_LICK\x10\x0f\x12\x19\n\x15V0016_MOVE_DARK_PULSE\x10\x10\x12\x13\n\x0fV0017_MOVE_SMOG\x10\x11\x12\x15\n\x11V0018_MOVE_SLUDGE\x10\x12\x12\x19\n\x15V0019_MOVE_METAL_CLAW\x10\x13\x12\x18\n\x14V0020_MOVE_VICE_GRIP\x10\x14\x12\x1a\n\x16V0021_MOVE_FLAME_WHEEL\x10\x15\x12\x17\n\x13V0022_MOVE_MEGAHORN\x10\x16\x12\x1a\n\x16V0023_MOVE_WING_ATTACK\x10\x17\x12\x1b\n\x17V0024_MOVE_FLAMETHROWER\x10\x18\x12\x1b\n\x17V0025_MOVE_SUCKER_PUNCH\x10\x19\x12\x12\n\x0eV0026_MOVE_DIG\x10\x1a\x12\x17\n\x13V0027_MOVE_LOW_KICK\x10\x1b\x12\x19\n\x15V0028_MOVE_CROSS_CHOP\x10\x1c\x12\x19\n\x15V0029_MOVE_PSYCHO_CUT\x10\x1d\x12\x16\n\x12V0030_MOVE_PSYBEAM\x10\x1e\x12\x19\n\x15V0031_MOVE_EARTHQUAKE\x10\x1f\x12\x19\n\x15V0032_MOVE_STONE_EDGE\x10 \x12\x18\n\x14V0033_MOVE_ICE_PUNCH\x10!\x12\x1a\n\x16V0034_MOVE_HEART_STAMP\x10\"\x12\x18\n\x14V0035_MOVE_DISCHARGE\x10#\x12\x1b\n\x17V0036_MOVE_FLASH_CANNON\x10$\x12\x13\n\x0fV0037_MOVE_PECK\x10%\x12\x19\n\x15V0038_MOVE_DRILL_PECK\x10&\x12\x17\n\x13V0039_MOVE_ICE_BEAM\x10\'\x12\x17\n\x13V0040_MOVE_BLIZZARD\x10(\x12\x18\n\x14V0041_MOVE_AIR_SLASH\x10)\x12\x18\n\x14V0042_MOVE_HEAT_WAVE\x10*\x12\x18\n\x14V0043_MOVE_TWINEEDLE\x10+\x12\x19\n\x15V0044_MOVE_POISON_JAB\x10,\x12\x19\n\x15V0045_MOVE_AERIAL_ACE\x10-\x12\x18\n\x14V0046_MOVE_DRILL_RUN\x10.\x12\x1d\n\x19V0047_MOVE_PETAL_BLIZZARD\x10/\x12\x19\n\x15V0048_MOVE_MEGA_DRAIN\x10\x30\x12\x17\n\x13V0049_MOVE_BUG_BUZZ\x10\x31\x12\x1a\n\x16V0050_MOVE_POISON_FANG\x10\x32\x12\x1a\n\x16V0051_MOVE_NIGHT_SLASH\x10\x33\x12\x14\n\x10V0052_MOVE_SLASH\x10\x34\x12\x1a\n\x16V0053_MOVE_BUBBLE_BEAM\x10\x35\x12\x19\n\x15V0054_MOVE_SUBMISSION\x10\x36\x12\x1a\n\x16V0055_MOVE_KARATE_CHOP\x10\x37\x12\x18\n\x14V0056_MOVE_LOW_SWEEP\x10\x38\x12\x17\n\x13V0057_MOVE_AQUA_JET\x10\x39\x12\x18\n\x14V0058_MOVE_AQUA_TAIL\x10:\x12\x18\n\x14V0059_MOVE_SEED_BOMB\x10;\x12\x17\n\x13V0060_MOVE_PSYSHOCK\x10<\x12\x19\n\x15V0061_MOVE_ROCK_THROW\x10=\x12\x1c\n\x18V0062_MOVE_ANCIENT_POWER\x10>\x12\x18\n\x14V0063_MOVE_ROCK_TOMB\x10?\x12\x19\n\x15V0064_MOVE_ROCK_SLIDE\x10@\x12\x18\n\x14V0065_MOVE_POWER_GEM\x10\x41\x12\x1b\n\x17V0066_MOVE_SHADOW_SNEAK\x10\x42\x12\x1b\n\x17V0067_MOVE_SHADOW_PUNCH\x10\x43\x12\x1a\n\x16V0068_MOVE_SHADOW_CLAW\x10\x44\x12\x1b\n\x17V0069_MOVE_OMINOUS_WIND\x10\x45\x12\x1a\n\x16V0070_MOVE_SHADOW_BALL\x10\x46\x12\x1b\n\x17V0071_MOVE_BULLET_PUNCH\x10G\x12\x1a\n\x16V0072_MOVE_MAGNET_BOMB\x10H\x12\x19\n\x15V0073_MOVE_STEEL_WING\x10I\x12\x18\n\x14V0074_MOVE_IRON_HEAD\x10J\x12\x1f\n\x1bV0075_MOVE_PARABOLIC_CHARGE\x10K\x12\x14\n\x10V0076_MOVE_SPARK\x10L\x12\x1c\n\x18V0077_MOVE_THUNDER_PUNCH\x10M\x12\x16\n\x12V0078_MOVE_THUNDER\x10N\x12\x1a\n\x16V0079_MOVE_THUNDERBOLT\x10O\x12\x16\n\x12V0080_MOVE_TWISTER\x10P\x12\x1c\n\x18V0081_MOVE_DRAGON_BREATH\x10Q\x12\x1b\n\x17V0082_MOVE_DRAGON_PULSE\x10R\x12\x1a\n\x16V0083_MOVE_DRAGON_CLAW\x10S\x12\x1e\n\x1aV0084_MOVE_DISARMING_VOICE\x10T\x12\x1c\n\x18V0085_MOVE_DRAINING_KISS\x10U\x12\x1d\n\x19V0086_MOVE_DAZZLING_GLEAM\x10V\x12\x18\n\x14V0087_MOVE_MOONBLAST\x10W\x12\x19\n\x15V0088_MOVE_PLAY_ROUGH\x10X\x12\x1b\n\x17V0089_MOVE_CROSS_POISON\x10Y\x12\x1a\n\x16V0090_MOVE_SLUDGE_BOMB\x10Z\x12\x1a\n\x16V0091_MOVE_SLUDGE_WAVE\x10[\x12\x18\n\x14V0092_MOVE_GUNK_SHOT\x10\\\x12\x17\n\x13V0093_MOVE_MUD_SHOT\x10]\x12\x18\n\x14V0094_MOVE_BONE_CLUB\x10^\x12\x17\n\x13V0095_MOVE_BULLDOZE\x10_\x12\x17\n\x13V0096_MOVE_MUD_BOMB\x10`\x12\x1a\n\x16V0097_MOVE_FURY_CUTTER\x10\x61\x12\x17\n\x13V0098_MOVE_BUG_BITE\x10\x62\x12\x1a\n\x16V0099_MOVE_SIGNAL_BEAM\x10\x63\x12\x18\n\x14V0100_MOVE_X_SCISSOR\x10\x64\x12\x1b\n\x17V0101_MOVE_FLAME_CHARGE\x10\x65\x12\x1a\n\x16V0102_MOVE_FLAME_BURST\x10\x66\x12\x19\n\x15V0103_MOVE_FIRE_BLAST\x10g\x12\x14\n\x10V0104_MOVE_BRINE\x10h\x12\x1a\n\x16V0105_MOVE_WATER_PULSE\x10i\x12\x14\n\x10V0106_MOVE_SCALD\x10j\x12\x19\n\x15V0107_MOVE_HYDRO_PUMP\x10k\x12\x16\n\x12V0108_MOVE_PSYCHIC\x10l\x12\x18\n\x14V0109_MOVE_PSYSTRIKE\x10m\x12\x18\n\x14V0110_MOVE_ICE_SHARD\x10n\x12\x17\n\x13V0111_MOVE_ICY_WIND\x10o\x12\x1b\n\x17V0112_MOVE_FROST_BREATH\x10p\x12\x15\n\x11V0113_MOVE_ABSORB\x10q\x12\x19\n\x15V0114_MOVE_GIGA_DRAIN\x10r\x12\x19\n\x15V0115_MOVE_FIRE_PUNCH\x10s\x12\x19\n\x15V0116_MOVE_SOLAR_BEAM\x10t\x12\x19\n\x15V0117_MOVE_LEAF_BLADE\x10u\x12\x19\n\x15V0118_MOVE_POWER_WHIP\x10v\x12\x15\n\x11V0119_MOVE_SPLASH\x10w\x12\x13\n\x0fV0120_MOVE_ACID\x10x\x12\x19\n\x15V0121_MOVE_AIR_CUTTER\x10y\x12\x18\n\x14V0122_MOVE_HURRICANE\x10z\x12\x1a\n\x16V0123_MOVE_BRICK_BREAK\x10{\x12\x12\n\x0eV0124_MOVE_CUT\x10|\x12\x14\n\x10V0125_MOVE_SWIFT\x10}\x12\x1a\n\x16V0126_MOVE_HORN_ATTACK\x10~\x12\x14\n\x10V0127_MOVE_STOMP\x10\x7f\x12\x18\n\x13V0128_MOVE_HEADBUTT\x10\x80\x01\x12\x1a\n\x15V0129_MOVE_HYPER_FANG\x10\x81\x01\x12\x14\n\x0fV0130_MOVE_SLAM\x10\x82\x01\x12\x19\n\x14V0131_MOVE_BODY_SLAM\x10\x83\x01\x12\x14\n\x0fV0132_MOVE_REST\x10\x84\x01\x12\x18\n\x13V0133_MOVE_STRUGGLE\x10\x85\x01\x12\x1f\n\x1aV0134_MOVE_SCALD_BLASTOISE\x10\x86\x01\x12$\n\x1fV0135_MOVE_HYDRO_PUMP_BLASTOISE\x10\x87\x01\x12\x1a\n\x15V0136_MOVE_WRAP_GREEN\x10\x88\x01\x12\x19\n\x14V0137_MOVE_WRAP_PINK\x10\x89\x01\x12 \n\x1bV0200_MOVE_FURY_CUTTER_FAST\x10\xc8\x01\x12\x1d\n\x18V0201_MOVE_BUG_BITE_FAST\x10\xc9\x01\x12\x19\n\x14V0202_MOVE_BITE_FAST\x10\xca\x01\x12!\n\x1cV0203_MOVE_SUCKER_PUNCH_FAST\x10\xcb\x01\x12\"\n\x1dV0204_MOVE_DRAGON_BREATH_FAST\x10\xcc\x01\x12\"\n\x1dV0205_MOVE_THUNDER_SHOCK_FAST\x10\xcd\x01\x12\x1a\n\x15V0206_MOVE_SPARK_FAST\x10\xce\x01\x12\x1d\n\x18V0207_MOVE_LOW_KICK_FAST\x10\xcf\x01\x12 \n\x1bV0208_MOVE_KARATE_CHOP_FAST\x10\xd0\x01\x12\x1a\n\x15V0209_MOVE_EMBER_FAST\x10\xd1\x01\x12 \n\x1bV0210_MOVE_WING_ATTACK_FAST\x10\xd2\x01\x12\x19\n\x14V0211_MOVE_PECK_FAST\x10\xd3\x01\x12\x19\n\x14V0212_MOVE_LICK_FAST\x10\xd4\x01\x12 \n\x1bV0213_MOVE_SHADOW_CLAW_FAST\x10\xd5\x01\x12\x1e\n\x19V0214_MOVE_VINE_WHIP_FAST\x10\xd6\x01\x12\x1f\n\x1aV0215_MOVE_RAZOR_LEAF_FAST\x10\xd7\x01\x12\x1d\n\x18V0216_MOVE_MUD_SHOT_FAST\x10\xd8\x01\x12\x1e\n\x19V0217_MOVE_ICE_SHARD_FAST\x10\xd9\x01\x12!\n\x1cV0218_MOVE_FROST_BREATH_FAST\x10\xda\x01\x12!\n\x1cV0219_MOVE_QUICK_ATTACK_FAST\x10\xdb\x01\x12\x1c\n\x17V0220_MOVE_SCRATCH_FAST\x10\xdc\x01\x12\x1b\n\x16V0221_MOVE_TACKLE_FAST\x10\xdd\x01\x12\x1a\n\x15V0222_MOVE_POUND_FAST\x10\xde\x01\x12\x18\n\x13V0223_MOVE_CUT_FAST\x10\xdf\x01\x12\x1f\n\x1aV0224_MOVE_POISON_JAB_FAST\x10\xe0\x01\x12\x19\n\x14V0225_MOVE_ACID_FAST\x10\xe1\x01\x12\x1f\n\x1aV0226_MOVE_PSYCHO_CUT_FAST\x10\xe2\x01\x12\x1f\n\x1aV0227_MOVE_ROCK_THROW_FAST\x10\xe3\x01\x12\x1f\n\x1aV0228_MOVE_METAL_CLAW_FAST\x10\xe4\x01\x12!\n\x1cV0229_MOVE_BULLET_PUNCH_FAST\x10\xe5\x01\x12\x1e\n\x19V0230_MOVE_WATER_GUN_FAST\x10\xe6\x01\x12\x1b\n\x16V0231_MOVE_SPLASH_FAST\x10\xe7\x01\x12(\n#V0232_MOVE_WATER_GUN_FAST_BLASTOISE\x10\xe8\x01\x12\x1d\n\x18V0233_MOVE_MUD_SLAP_FAST\x10\xe9\x01\x12!\n\x1cV0234_MOVE_ZEN_HEADBUTT_FAST\x10\xea\x01\x12\x1e\n\x19V0235_MOVE_CONFUSION_FAST\x10\xeb\x01\x12!\n\x1cV0236_MOVE_POISON_STING_FAST\x10\xec\x01\x12\x1b\n\x16V0237_MOVE_BUBBLE_FAST\x10\xed\x01\x12!\n\x1cV0238_MOVE_FEINT_ATTACK_FAST\x10\xee\x01\x12\x1f\n\x1aV0239_MOVE_STEEL_WING_FAST\x10\xef\x01\x12\x1e\n\x19V0240_MOVE_FIRE_FANG_FAST\x10\xf0\x01\x12\x1f\n\x1aV0241_MOVE_ROCK_SMASH_FAST\x10\xf1\x01\x12\x1e\n\x19V0242_MOVE_TRANSFORM_FAST\x10\xf2\x01\x12\x1c\n\x17V0243_MOVE_COUNTER_FAST\x10\xf3\x01\x12 \n\x1bV0244_MOVE_POWDER_SNOW_FAST\x10\xf4\x01\x12\x1c\n\x17V0245_MOVE_CLOSE_COMBAT\x10\xf5\x01\x12\x1d\n\x18V0246_MOVE_DYNAMIC_PUNCH\x10\xf6\x01\x12\x1b\n\x16V0247_MOVE_FOCUS_BLAST\x10\xf7\x01\x12\x1b\n\x16V0248_MOVE_AURORA_BEAM\x10\xf8\x01\x12 \n\x1bV0249_MOVE_CHARGE_BEAM_FAST\x10\xf9\x01\x12 \n\x1bV0250_MOVE_VOLT_SWITCH_FAST\x10\xfa\x01\x12\x1b\n\x16V0251_MOVE_WILD_CHARGE\x10\xfb\x01\x12\x1a\n\x15V0252_MOVE_ZAP_CANNON\x10\xfc\x01\x12 \n\x1bV0253_MOVE_DRAGON_TAIL_FAST\x10\xfd\x01\x12\x19\n\x14V0254_MOVE_AVALANCHE\x10\xfe\x01\x12\x1e\n\x19V0255_MOVE_AIR_SLASH_FAST\x10\xff\x01\x12\x1a\n\x15V0256_MOVE_BRAVE_BIRD\x10\x80\x02\x12\x1a\n\x15V0257_MOVE_SKY_ATTACK\x10\x81\x02\x12\x19\n\x14V0258_MOVE_SAND_TOMB\x10\x82\x02\x12\x1a\n\x15V0259_MOVE_ROCK_BLAST\x10\x83\x02\x12 \n\x1bV0260_MOVE_INFESTATION_FAST\x10\x84\x02\x12!\n\x1cV0261_MOVE_STRUGGLE_BUG_FAST\x10\x85\x02\x12\x1b\n\x16V0262_MOVE_SILVER_WIND\x10\x86\x02\x12\x1d\n\x18V0263_MOVE_ASTONISH_FAST\x10\x87\x02\x12\x18\n\x13V0264_MOVE_HEX_FAST\x10\x88\x02\x12\x1b\n\x16V0265_MOVE_NIGHT_SHADE\x10\x89\x02\x12\x1e\n\x19V0266_MOVE_IRON_TAIL_FAST\x10\x8a\x02\x12\x19\n\x14V0267_MOVE_GYRO_BALL\x10\x8b\x02\x12\x1a\n\x15V0268_MOVE_HEAVY_SLAM\x10\x8c\x02\x12\x1e\n\x19V0269_MOVE_FIRE_SPIN_FAST\x10\x8d\x02\x12\x18\n\x13V0270_MOVE_OVERHEAT\x10\x8e\x02\x12 \n\x1bV0271_MOVE_BULLET_SEED_FAST\x10\x8f\x02\x12\x1a\n\x15V0272_MOVE_GRASS_KNOT\x10\x90\x02\x12\x1b\n\x16V0273_MOVE_ENERGY_BALL\x10\x91\x02\x12!\n\x1cV0274_MOVE_EXTRASENSORY_FAST\x10\x92\x02\x12\x1b\n\x16V0275_MOVE_FUTURESIGHT\x10\x93\x02\x12\x1b\n\x16V0276_MOVE_MIRROR_COAT\x10\x94\x02\x12\x17\n\x12V0277_MOVE_OUTRAGE\x10\x95\x02\x12\x1a\n\x15V0278_MOVE_SNARL_FAST\x10\x96\x02\x12\x16\n\x11V0279_MOVE_CRUNCH\x10\x97\x02\x12\x19\n\x14V0280_MOVE_FOUL_PLAY\x10\x98\x02\x12!\n\x1cV0281_MOVE_HIDDEN_POWER_FAST\x10\x99\x02\x62\x06proto3')
+  serialized_pb=_b('\n#pogoprotos/enums/pokemon_move.proto\x12\x10pogoprotos.enums*\xc2\x1d\n\x0bPokemonMove\x12\x0e\n\nMOVE_UNSET\x10\x00\x12\x11\n\rTHUNDER_SHOCK\x10\x01\x12\x10\n\x0cQUICK_ATTACK\x10\x02\x12\x0b\n\x07SCRATCH\x10\x03\x12\t\n\x05\x45MBER\x10\x04\x12\r\n\tVINE_WHIP\x10\x05\x12\n\n\x06TACKLE\x10\x06\x12\x0e\n\nRAZOR_LEAF\x10\x07\x12\r\n\tTAKE_DOWN\x10\x08\x12\r\n\tWATER_GUN\x10\t\x12\x08\n\x04\x42ITE\x10\n\x12\t\n\x05POUND\x10\x0b\x12\x0f\n\x0b\x44OUBLE_SLAP\x10\x0c\x12\x08\n\x04WRAP\x10\r\x12\x0e\n\nHYPER_BEAM\x10\x0e\x12\x08\n\x04LICK\x10\x0f\x12\x0e\n\nDARK_PULSE\x10\x10\x12\x08\n\x04SMOG\x10\x11\x12\n\n\x06SLUDGE\x10\x12\x12\x0e\n\nMETAL_CLAW\x10\x13\x12\r\n\tVICE_GRIP\x10\x14\x12\x0f\n\x0b\x46LAME_WHEEL\x10\x15\x12\x0c\n\x08MEGAHORN\x10\x16\x12\x0f\n\x0bWING_ATTACK\x10\x17\x12\x10\n\x0c\x46LAMETHROWER\x10\x18\x12\x10\n\x0cSUCKER_PUNCH\x10\x19\x12\x07\n\x03\x44IG\x10\x1a\x12\x0c\n\x08LOW_KICK\x10\x1b\x12\x0e\n\nCROSS_CHOP\x10\x1c\x12\x0e\n\nPSYCHO_CUT\x10\x1d\x12\x0b\n\x07PSYBEAM\x10\x1e\x12\x0e\n\nEARTHQUAKE\x10\x1f\x12\x0e\n\nSTONE_EDGE\x10 \x12\r\n\tICE_PUNCH\x10!\x12\x0f\n\x0bHEART_STAMP\x10\"\x12\r\n\tDISCHARGE\x10#\x12\x10\n\x0c\x46LASH_CANNON\x10$\x12\x08\n\x04PECK\x10%\x12\x0e\n\nDRILL_PECK\x10&\x12\x0c\n\x08ICE_BEAM\x10\'\x12\x0c\n\x08\x42LIZZARD\x10(\x12\r\n\tAIR_SLASH\x10)\x12\r\n\tHEAT_WAVE\x10*\x12\r\n\tTWINEEDLE\x10+\x12\x0e\n\nPOISON_JAB\x10,\x12\x0e\n\nAERIAL_ACE\x10-\x12\r\n\tDRILL_RUN\x10.\x12\x12\n\x0ePETAL_BLIZZARD\x10/\x12\x0e\n\nMEGA_DRAIN\x10\x30\x12\x0c\n\x08\x42UG_BUZZ\x10\x31\x12\x0f\n\x0bPOISON_FANG\x10\x32\x12\x0f\n\x0bNIGHT_SLASH\x10\x33\x12\t\n\x05SLASH\x10\x34\x12\x0f\n\x0b\x42UBBLE_BEAM\x10\x35\x12\x0e\n\nSUBMISSION\x10\x36\x12\x0f\n\x0bKARATE_CHOP\x10\x37\x12\r\n\tLOW_SWEEP\x10\x38\x12\x0c\n\x08\x41QUA_JET\x10\x39\x12\r\n\tAQUA_TAIL\x10:\x12\r\n\tSEED_BOMB\x10;\x12\x0c\n\x08PSYSHOCK\x10<\x12\x0e\n\nROCK_THROW\x10=\x12\x11\n\rANCIENT_POWER\x10>\x12\r\n\tROCK_TOMB\x10?\x12\x0e\n\nROCK_SLIDE\x10@\x12\r\n\tPOWER_GEM\x10\x41\x12\x10\n\x0cSHADOW_SNEAK\x10\x42\x12\x10\n\x0cSHADOW_PUNCH\x10\x43\x12\x0f\n\x0bSHADOW_CLAW\x10\x44\x12\x10\n\x0cOMINOUS_WIND\x10\x45\x12\x0f\n\x0bSHADOW_BALL\x10\x46\x12\x10\n\x0c\x42ULLET_PUNCH\x10G\x12\x0f\n\x0bMAGNET_BOMB\x10H\x12\x0e\n\nSTEEL_WING\x10I\x12\r\n\tIRON_HEAD\x10J\x12\x14\n\x10PARABOLIC_CHARGE\x10K\x12\t\n\x05SPARK\x10L\x12\x11\n\rTHUNDER_PUNCH\x10M\x12\x0b\n\x07THUNDER\x10N\x12\x0f\n\x0bTHUNDERBOLT\x10O\x12\x0b\n\x07TWISTER\x10P\x12\x11\n\rDRAGON_BREATH\x10Q\x12\x10\n\x0c\x44RAGON_PULSE\x10R\x12\x0f\n\x0b\x44RAGON_CLAW\x10S\x12\x13\n\x0f\x44ISARMING_VOICE\x10T\x12\x11\n\rDRAINING_KISS\x10U\x12\x12\n\x0e\x44\x41ZZLING_GLEAM\x10V\x12\r\n\tMOONBLAST\x10W\x12\x0e\n\nPLAY_ROUGH\x10X\x12\x10\n\x0c\x43ROSS_POISON\x10Y\x12\x0f\n\x0bSLUDGE_BOMB\x10Z\x12\x0f\n\x0bSLUDGE_WAVE\x10[\x12\r\n\tGUNK_SHOT\x10\\\x12\x0c\n\x08MUD_SHOT\x10]\x12\r\n\tBONE_CLUB\x10^\x12\x0c\n\x08\x42ULLDOZE\x10_\x12\x0c\n\x08MUD_BOMB\x10`\x12\x0f\n\x0b\x46URY_CUTTER\x10\x61\x12\x0c\n\x08\x42UG_BITE\x10\x62\x12\x0f\n\x0bSIGNAL_BEAM\x10\x63\x12\r\n\tX_SCISSOR\x10\x64\x12\x10\n\x0c\x46LAME_CHARGE\x10\x65\x12\x0f\n\x0b\x46LAME_BURST\x10\x66\x12\x0e\n\nFIRE_BLAST\x10g\x12\t\n\x05\x42RINE\x10h\x12\x0f\n\x0bWATER_PULSE\x10i\x12\t\n\x05SCALD\x10j\x12\x0e\n\nHYDRO_PUMP\x10k\x12\x0b\n\x07PSYCHIC\x10l\x12\r\n\tPSYSTRIKE\x10m\x12\r\n\tICE_SHARD\x10n\x12\x0c\n\x08ICY_WIND\x10o\x12\x10\n\x0c\x46ROST_BREATH\x10p\x12\n\n\x06\x41\x42SORB\x10q\x12\x0e\n\nGIGA_DRAIN\x10r\x12\x0e\n\nFIRE_PUNCH\x10s\x12\x0e\n\nSOLAR_BEAM\x10t\x12\x0e\n\nLEAF_BLADE\x10u\x12\x0e\n\nPOWER_WHIP\x10v\x12\n\n\x06SPLASH\x10w\x12\x08\n\x04\x41\x43ID\x10x\x12\x0e\n\nAIR_CUTTER\x10y\x12\r\n\tHURRICANE\x10z\x12\x0f\n\x0b\x42RICK_BREAK\x10{\x12\x07\n\x03\x43UT\x10|\x12\t\n\x05SWIFT\x10}\x12\x0f\n\x0bHORN_ATTACK\x10~\x12\t\n\x05STOMP\x10\x7f\x12\r\n\x08HEADBUTT\x10\x80\x01\x12\x0f\n\nHYPER_FANG\x10\x81\x01\x12\t\n\x04SLAM\x10\x82\x01\x12\x0e\n\tBODY_SLAM\x10\x83\x01\x12\t\n\x04REST\x10\x84\x01\x12\r\n\x08STRUGGLE\x10\x85\x01\x12\x14\n\x0fSCALD_BLASTOISE\x10\x86\x01\x12\x19\n\x14HYDRO_PUMP_BLASTOISE\x10\x87\x01\x12\x0f\n\nWRAP_GREEN\x10\x88\x01\x12\x0e\n\tWRAP_PINK\x10\x89\x01\x12\x15\n\x10\x46URY_CUTTER_FAST\x10\xc8\x01\x12\x12\n\rBUG_BITE_FAST\x10\xc9\x01\x12\x0e\n\tBITE_FAST\x10\xca\x01\x12\x16\n\x11SUCKER_PUNCH_FAST\x10\xcb\x01\x12\x17\n\x12\x44RAGON_BREATH_FAST\x10\xcc\x01\x12\x17\n\x12THUNDER_SHOCK_FAST\x10\xcd\x01\x12\x0f\n\nSPARK_FAST\x10\xce\x01\x12\x12\n\rLOW_KICK_FAST\x10\xcf\x01\x12\x15\n\x10KARATE_CHOP_FAST\x10\xd0\x01\x12\x0f\n\nEMBER_FAST\x10\xd1\x01\x12\x15\n\x10WING_ATTACK_FAST\x10\xd2\x01\x12\x0e\n\tPECK_FAST\x10\xd3\x01\x12\x0e\n\tLICK_FAST\x10\xd4\x01\x12\x15\n\x10SHADOW_CLAW_FAST\x10\xd5\x01\x12\x13\n\x0eVINE_WHIP_FAST\x10\xd6\x01\x12\x14\n\x0fRAZOR_LEAF_FAST\x10\xd7\x01\x12\x12\n\rMUD_SHOT_FAST\x10\xd8\x01\x12\x13\n\x0eICE_SHARD_FAST\x10\xd9\x01\x12\x16\n\x11\x46ROST_BREATH_FAST\x10\xda\x01\x12\x16\n\x11QUICK_ATTACK_FAST\x10\xdb\x01\x12\x11\n\x0cSCRATCH_FAST\x10\xdc\x01\x12\x10\n\x0bTACKLE_FAST\x10\xdd\x01\x12\x0f\n\nPOUND_FAST\x10\xde\x01\x12\r\n\x08\x43UT_FAST\x10\xdf\x01\x12\x14\n\x0fPOISON_JAB_FAST\x10\xe0\x01\x12\x0e\n\tACID_FAST\x10\xe1\x01\x12\x14\n\x0fPSYCHO_CUT_FAST\x10\xe2\x01\x12\x14\n\x0fROCK_THROW_FAST\x10\xe3\x01\x12\x14\n\x0fMETAL_CLAW_FAST\x10\xe4\x01\x12\x16\n\x11\x42ULLET_PUNCH_FAST\x10\xe5\x01\x12\x13\n\x0eWATER_GUN_FAST\x10\xe6\x01\x12\x10\n\x0bSPLASH_FAST\x10\xe7\x01\x12\x1d\n\x18WATER_GUN_FAST_BLASTOISE\x10\xe8\x01\x12\x12\n\rMUD_SLAP_FAST\x10\xe9\x01\x12\x16\n\x11ZEN_HEADBUTT_FAST\x10\xea\x01\x12\x13\n\x0e\x43ONFUSION_FAST\x10\xeb\x01\x12\x16\n\x11POISON_STING_FAST\x10\xec\x01\x12\x10\n\x0b\x42UBBLE_FAST\x10\xed\x01\x12\x16\n\x11\x46\x45INT_ATTACK_FAST\x10\xee\x01\x12\x14\n\x0fSTEEL_WING_FAST\x10\xef\x01\x12\x13\n\x0e\x46IRE_FANG_FAST\x10\xf0\x01\x12\x14\n\x0fROCK_SMASH_FAST\x10\xf1\x01\x12\x13\n\x0eTRANSFORM_FAST\x10\xf2\x01\x12\x11\n\x0c\x43OUNTER_FAST\x10\xf3\x01\x12\x15\n\x10POWDER_SNOW_FAST\x10\xf4\x01\x12\x11\n\x0c\x43LOSE_COMBAT\x10\xf5\x01\x12\x12\n\rDYNAMIC_PUNCH\x10\xf6\x01\x12\x10\n\x0b\x46OCUS_BLAST\x10\xf7\x01\x12\x10\n\x0b\x41URORA_BEAM\x10\xf8\x01\x12\x15\n\x10\x43HARGE_BEAM_FAST\x10\xf9\x01\x12\x15\n\x10VOLT_SWITCH_FAST\x10\xfa\x01\x12\x10\n\x0bWILD_CHARGE\x10\xfb\x01\x12\x0f\n\nZAP_CANNON\x10\xfc\x01\x12\x15\n\x10\x44RAGON_TAIL_FAST\x10\xfd\x01\x12\x0e\n\tAVALANCHE\x10\xfe\x01\x12\x13\n\x0e\x41IR_SLASH_FAST\x10\xff\x01\x12\x0f\n\nBRAVE_BIRD\x10\x80\x02\x12\x0f\n\nSKY_ATTACK\x10\x81\x02\x12\x0e\n\tSAND_TOMB\x10\x82\x02\x12\x0f\n\nROCK_BLAST\x10\x83\x02\x12\x15\n\x10INFESTATION_FAST\x10\x84\x02\x12\x16\n\x11STRUGGLE_BUG_FAST\x10\x85\x02\x12\x10\n\x0bSILVER_WIND\x10\x86\x02\x12\x12\n\rASTONISH_FAST\x10\x87\x02\x12\r\n\x08HEX_FAST\x10\x88\x02\x12\x10\n\x0bNIGHT_SHADE\x10\x89\x02\x12\x13\n\x0eIRON_TAIL_FAST\x10\x8a\x02\x12\x0e\n\tGYRO_BALL\x10\x8b\x02\x12\x0f\n\nHEAVY_SLAM\x10\x8c\x02\x12\x13\n\x0e\x46IRE_SPIN_FAST\x10\x8d\x02\x12\r\n\x08OVERHEAT\x10\x8e\x02\x12\x15\n\x10\x42ULLET_SEED_FAST\x10\x8f\x02\x12\x0f\n\nGRASS_KNOT\x10\x90\x02\x12\x10\n\x0b\x45NERGY_BALL\x10\x91\x02\x12\x16\n\x11\x45XTRASENSORY_FAST\x10\x92\x02\x12\x10\n\x0b\x46UTURESIGHT\x10\x93\x02\x12\x10\n\x0bMIRROR_COAT\x10\x94\x02\x12\x0c\n\x07OUTRAGE\x10\x95\x02\x12\x0f\n\nSNARL_FAST\x10\x96\x02\x12\x0b\n\x06\x43RUNCH\x10\x97\x02\x12\x0e\n\tFOUL_PLAY\x10\x98\x02\x12\x16\n\x11HIDDEN_POWER_FAST\x10\x99\x02\x62\x06proto3')
 )
 
 _POKEMONMOVE = _descriptor.EnumDescriptor(
@@ -34,1110 +34,1110 @@ _POKEMONMOVE = _descriptor.EnumDescriptor(
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0001_MOVE_THUNDER_SHOCK', index=1, number=1,
+      name='THUNDER_SHOCK', index=1, number=1,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0002_MOVE_QUICK_ATTACK', index=2, number=2,
+      name='QUICK_ATTACK', index=2, number=2,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0003_MOVE_SCRATCH', index=3, number=3,
+      name='SCRATCH', index=3, number=3,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0004_MOVE_EMBER', index=4, number=4,
+      name='EMBER', index=4, number=4,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0005_MOVE_VINE_WHIP', index=5, number=5,
+      name='VINE_WHIP', index=5, number=5,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0006_MOVE_TACKLE', index=6, number=6,
+      name='TACKLE', index=6, number=6,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0007_MOVE_RAZOR_LEAF', index=7, number=7,
+      name='RAZOR_LEAF', index=7, number=7,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0008_MOVE_TAKE_DOWN', index=8, number=8,
+      name='TAKE_DOWN', index=8, number=8,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0009_MOVE_WATER_GUN', index=9, number=9,
+      name='WATER_GUN', index=9, number=9,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0010_MOVE_BITE', index=10, number=10,
+      name='BITE', index=10, number=10,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0011_MOVE_POUND', index=11, number=11,
+      name='POUND', index=11, number=11,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0012_MOVE_DOUBLE_SLAP', index=12, number=12,
+      name='DOUBLE_SLAP', index=12, number=12,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0013_MOVE_WRAP', index=13, number=13,
+      name='WRAP', index=13, number=13,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0014_MOVE_HYPER_BEAM', index=14, number=14,
+      name='HYPER_BEAM', index=14, number=14,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0015_MOVE_LICK', index=15, number=15,
+      name='LICK', index=15, number=15,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0016_MOVE_DARK_PULSE', index=16, number=16,
+      name='DARK_PULSE', index=16, number=16,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0017_MOVE_SMOG', index=17, number=17,
+      name='SMOG', index=17, number=17,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0018_MOVE_SLUDGE', index=18, number=18,
+      name='SLUDGE', index=18, number=18,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0019_MOVE_METAL_CLAW', index=19, number=19,
+      name='METAL_CLAW', index=19, number=19,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0020_MOVE_VICE_GRIP', index=20, number=20,
+      name='VICE_GRIP', index=20, number=20,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0021_MOVE_FLAME_WHEEL', index=21, number=21,
+      name='FLAME_WHEEL', index=21, number=21,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0022_MOVE_MEGAHORN', index=22, number=22,
+      name='MEGAHORN', index=22, number=22,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0023_MOVE_WING_ATTACK', index=23, number=23,
+      name='WING_ATTACK', index=23, number=23,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0024_MOVE_FLAMETHROWER', index=24, number=24,
+      name='FLAMETHROWER', index=24, number=24,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0025_MOVE_SUCKER_PUNCH', index=25, number=25,
+      name='SUCKER_PUNCH', index=25, number=25,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0026_MOVE_DIG', index=26, number=26,
+      name='DIG', index=26, number=26,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0027_MOVE_LOW_KICK', index=27, number=27,
+      name='LOW_KICK', index=27, number=27,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0028_MOVE_CROSS_CHOP', index=28, number=28,
+      name='CROSS_CHOP', index=28, number=28,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0029_MOVE_PSYCHO_CUT', index=29, number=29,
+      name='PSYCHO_CUT', index=29, number=29,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0030_MOVE_PSYBEAM', index=30, number=30,
+      name='PSYBEAM', index=30, number=30,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0031_MOVE_EARTHQUAKE', index=31, number=31,
+      name='EARTHQUAKE', index=31, number=31,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0032_MOVE_STONE_EDGE', index=32, number=32,
+      name='STONE_EDGE', index=32, number=32,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0033_MOVE_ICE_PUNCH', index=33, number=33,
+      name='ICE_PUNCH', index=33, number=33,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0034_MOVE_HEART_STAMP', index=34, number=34,
+      name='HEART_STAMP', index=34, number=34,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0035_MOVE_DISCHARGE', index=35, number=35,
+      name='DISCHARGE', index=35, number=35,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0036_MOVE_FLASH_CANNON', index=36, number=36,
+      name='FLASH_CANNON', index=36, number=36,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0037_MOVE_PECK', index=37, number=37,
+      name='PECK', index=37, number=37,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0038_MOVE_DRILL_PECK', index=38, number=38,
+      name='DRILL_PECK', index=38, number=38,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0039_MOVE_ICE_BEAM', index=39, number=39,
+      name='ICE_BEAM', index=39, number=39,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0040_MOVE_BLIZZARD', index=40, number=40,
+      name='BLIZZARD', index=40, number=40,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0041_MOVE_AIR_SLASH', index=41, number=41,
+      name='AIR_SLASH', index=41, number=41,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0042_MOVE_HEAT_WAVE', index=42, number=42,
+      name='HEAT_WAVE', index=42, number=42,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0043_MOVE_TWINEEDLE', index=43, number=43,
+      name='TWINEEDLE', index=43, number=43,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0044_MOVE_POISON_JAB', index=44, number=44,
+      name='POISON_JAB', index=44, number=44,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0045_MOVE_AERIAL_ACE', index=45, number=45,
+      name='AERIAL_ACE', index=45, number=45,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0046_MOVE_DRILL_RUN', index=46, number=46,
+      name='DRILL_RUN', index=46, number=46,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0047_MOVE_PETAL_BLIZZARD', index=47, number=47,
+      name='PETAL_BLIZZARD', index=47, number=47,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0048_MOVE_MEGA_DRAIN', index=48, number=48,
+      name='MEGA_DRAIN', index=48, number=48,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0049_MOVE_BUG_BUZZ', index=49, number=49,
+      name='BUG_BUZZ', index=49, number=49,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0050_MOVE_POISON_FANG', index=50, number=50,
+      name='POISON_FANG', index=50, number=50,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0051_MOVE_NIGHT_SLASH', index=51, number=51,
+      name='NIGHT_SLASH', index=51, number=51,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0052_MOVE_SLASH', index=52, number=52,
+      name='SLASH', index=52, number=52,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0053_MOVE_BUBBLE_BEAM', index=53, number=53,
+      name='BUBBLE_BEAM', index=53, number=53,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0054_MOVE_SUBMISSION', index=54, number=54,
+      name='SUBMISSION', index=54, number=54,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0055_MOVE_KARATE_CHOP', index=55, number=55,
+      name='KARATE_CHOP', index=55, number=55,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0056_MOVE_LOW_SWEEP', index=56, number=56,
+      name='LOW_SWEEP', index=56, number=56,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0057_MOVE_AQUA_JET', index=57, number=57,
+      name='AQUA_JET', index=57, number=57,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0058_MOVE_AQUA_TAIL', index=58, number=58,
+      name='AQUA_TAIL', index=58, number=58,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0059_MOVE_SEED_BOMB', index=59, number=59,
+      name='SEED_BOMB', index=59, number=59,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0060_MOVE_PSYSHOCK', index=60, number=60,
+      name='PSYSHOCK', index=60, number=60,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0061_MOVE_ROCK_THROW', index=61, number=61,
+      name='ROCK_THROW', index=61, number=61,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0062_MOVE_ANCIENT_POWER', index=62, number=62,
+      name='ANCIENT_POWER', index=62, number=62,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0063_MOVE_ROCK_TOMB', index=63, number=63,
+      name='ROCK_TOMB', index=63, number=63,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0064_MOVE_ROCK_SLIDE', index=64, number=64,
+      name='ROCK_SLIDE', index=64, number=64,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0065_MOVE_POWER_GEM', index=65, number=65,
+      name='POWER_GEM', index=65, number=65,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0066_MOVE_SHADOW_SNEAK', index=66, number=66,
+      name='SHADOW_SNEAK', index=66, number=66,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0067_MOVE_SHADOW_PUNCH', index=67, number=67,
+      name='SHADOW_PUNCH', index=67, number=67,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0068_MOVE_SHADOW_CLAW', index=68, number=68,
+      name='SHADOW_CLAW', index=68, number=68,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0069_MOVE_OMINOUS_WIND', index=69, number=69,
+      name='OMINOUS_WIND', index=69, number=69,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0070_MOVE_SHADOW_BALL', index=70, number=70,
+      name='SHADOW_BALL', index=70, number=70,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0071_MOVE_BULLET_PUNCH', index=71, number=71,
+      name='BULLET_PUNCH', index=71, number=71,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0072_MOVE_MAGNET_BOMB', index=72, number=72,
+      name='MAGNET_BOMB', index=72, number=72,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0073_MOVE_STEEL_WING', index=73, number=73,
+      name='STEEL_WING', index=73, number=73,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0074_MOVE_IRON_HEAD', index=74, number=74,
+      name='IRON_HEAD', index=74, number=74,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0075_MOVE_PARABOLIC_CHARGE', index=75, number=75,
+      name='PARABOLIC_CHARGE', index=75, number=75,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0076_MOVE_SPARK', index=76, number=76,
+      name='SPARK', index=76, number=76,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0077_MOVE_THUNDER_PUNCH', index=77, number=77,
+      name='THUNDER_PUNCH', index=77, number=77,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0078_MOVE_THUNDER', index=78, number=78,
+      name='THUNDER', index=78, number=78,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0079_MOVE_THUNDERBOLT', index=79, number=79,
+      name='THUNDERBOLT', index=79, number=79,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0080_MOVE_TWISTER', index=80, number=80,
+      name='TWISTER', index=80, number=80,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0081_MOVE_DRAGON_BREATH', index=81, number=81,
+      name='DRAGON_BREATH', index=81, number=81,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0082_MOVE_DRAGON_PULSE', index=82, number=82,
+      name='DRAGON_PULSE', index=82, number=82,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0083_MOVE_DRAGON_CLAW', index=83, number=83,
+      name='DRAGON_CLAW', index=83, number=83,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0084_MOVE_DISARMING_VOICE', index=84, number=84,
+      name='DISARMING_VOICE', index=84, number=84,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0085_MOVE_DRAINING_KISS', index=85, number=85,
+      name='DRAINING_KISS', index=85, number=85,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0086_MOVE_DAZZLING_GLEAM', index=86, number=86,
+      name='DAZZLING_GLEAM', index=86, number=86,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0087_MOVE_MOONBLAST', index=87, number=87,
+      name='MOONBLAST', index=87, number=87,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0088_MOVE_PLAY_ROUGH', index=88, number=88,
+      name='PLAY_ROUGH', index=88, number=88,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0089_MOVE_CROSS_POISON', index=89, number=89,
+      name='CROSS_POISON', index=89, number=89,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0090_MOVE_SLUDGE_BOMB', index=90, number=90,
+      name='SLUDGE_BOMB', index=90, number=90,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0091_MOVE_SLUDGE_WAVE', index=91, number=91,
+      name='SLUDGE_WAVE', index=91, number=91,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0092_MOVE_GUNK_SHOT', index=92, number=92,
+      name='GUNK_SHOT', index=92, number=92,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0093_MOVE_MUD_SHOT', index=93, number=93,
+      name='MUD_SHOT', index=93, number=93,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0094_MOVE_BONE_CLUB', index=94, number=94,
+      name='BONE_CLUB', index=94, number=94,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0095_MOVE_BULLDOZE', index=95, number=95,
+      name='BULLDOZE', index=95, number=95,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0096_MOVE_MUD_BOMB', index=96, number=96,
+      name='MUD_BOMB', index=96, number=96,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0097_MOVE_FURY_CUTTER', index=97, number=97,
+      name='FURY_CUTTER', index=97, number=97,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0098_MOVE_BUG_BITE', index=98, number=98,
+      name='BUG_BITE', index=98, number=98,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0099_MOVE_SIGNAL_BEAM', index=99, number=99,
+      name='SIGNAL_BEAM', index=99, number=99,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0100_MOVE_X_SCISSOR', index=100, number=100,
+      name='X_SCISSOR', index=100, number=100,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0101_MOVE_FLAME_CHARGE', index=101, number=101,
+      name='FLAME_CHARGE', index=101, number=101,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0102_MOVE_FLAME_BURST', index=102, number=102,
+      name='FLAME_BURST', index=102, number=102,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0103_MOVE_FIRE_BLAST', index=103, number=103,
+      name='FIRE_BLAST', index=103, number=103,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0104_MOVE_BRINE', index=104, number=104,
+      name='BRINE', index=104, number=104,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0105_MOVE_WATER_PULSE', index=105, number=105,
+      name='WATER_PULSE', index=105, number=105,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0106_MOVE_SCALD', index=106, number=106,
+      name='SCALD', index=106, number=106,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0107_MOVE_HYDRO_PUMP', index=107, number=107,
+      name='HYDRO_PUMP', index=107, number=107,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0108_MOVE_PSYCHIC', index=108, number=108,
+      name='PSYCHIC', index=108, number=108,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0109_MOVE_PSYSTRIKE', index=109, number=109,
+      name='PSYSTRIKE', index=109, number=109,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0110_MOVE_ICE_SHARD', index=110, number=110,
+      name='ICE_SHARD', index=110, number=110,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0111_MOVE_ICY_WIND', index=111, number=111,
+      name='ICY_WIND', index=111, number=111,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0112_MOVE_FROST_BREATH', index=112, number=112,
+      name='FROST_BREATH', index=112, number=112,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0113_MOVE_ABSORB', index=113, number=113,
+      name='ABSORB', index=113, number=113,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0114_MOVE_GIGA_DRAIN', index=114, number=114,
+      name='GIGA_DRAIN', index=114, number=114,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0115_MOVE_FIRE_PUNCH', index=115, number=115,
+      name='FIRE_PUNCH', index=115, number=115,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0116_MOVE_SOLAR_BEAM', index=116, number=116,
+      name='SOLAR_BEAM', index=116, number=116,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0117_MOVE_LEAF_BLADE', index=117, number=117,
+      name='LEAF_BLADE', index=117, number=117,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0118_MOVE_POWER_WHIP', index=118, number=118,
+      name='POWER_WHIP', index=118, number=118,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0119_MOVE_SPLASH', index=119, number=119,
+      name='SPLASH', index=119, number=119,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0120_MOVE_ACID', index=120, number=120,
+      name='ACID', index=120, number=120,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0121_MOVE_AIR_CUTTER', index=121, number=121,
+      name='AIR_CUTTER', index=121, number=121,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0122_MOVE_HURRICANE', index=122, number=122,
+      name='HURRICANE', index=122, number=122,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0123_MOVE_BRICK_BREAK', index=123, number=123,
+      name='BRICK_BREAK', index=123, number=123,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0124_MOVE_CUT', index=124, number=124,
+      name='CUT', index=124, number=124,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0125_MOVE_SWIFT', index=125, number=125,
+      name='SWIFT', index=125, number=125,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0126_MOVE_HORN_ATTACK', index=126, number=126,
+      name='HORN_ATTACK', index=126, number=126,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0127_MOVE_STOMP', index=127, number=127,
+      name='STOMP', index=127, number=127,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0128_MOVE_HEADBUTT', index=128, number=128,
+      name='HEADBUTT', index=128, number=128,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0129_MOVE_HYPER_FANG', index=129, number=129,
+      name='HYPER_FANG', index=129, number=129,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0130_MOVE_SLAM', index=130, number=130,
+      name='SLAM', index=130, number=130,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0131_MOVE_BODY_SLAM', index=131, number=131,
+      name='BODY_SLAM', index=131, number=131,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0132_MOVE_REST', index=132, number=132,
+      name='REST', index=132, number=132,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0133_MOVE_STRUGGLE', index=133, number=133,
+      name='STRUGGLE', index=133, number=133,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0134_MOVE_SCALD_BLASTOISE', index=134, number=134,
+      name='SCALD_BLASTOISE', index=134, number=134,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0135_MOVE_HYDRO_PUMP_BLASTOISE', index=135, number=135,
+      name='HYDRO_PUMP_BLASTOISE', index=135, number=135,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0136_MOVE_WRAP_GREEN', index=136, number=136,
+      name='WRAP_GREEN', index=136, number=136,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0137_MOVE_WRAP_PINK', index=137, number=137,
+      name='WRAP_PINK', index=137, number=137,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0200_MOVE_FURY_CUTTER_FAST', index=138, number=200,
+      name='FURY_CUTTER_FAST', index=138, number=200,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0201_MOVE_BUG_BITE_FAST', index=139, number=201,
+      name='BUG_BITE_FAST', index=139, number=201,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0202_MOVE_BITE_FAST', index=140, number=202,
+      name='BITE_FAST', index=140, number=202,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0203_MOVE_SUCKER_PUNCH_FAST', index=141, number=203,
+      name='SUCKER_PUNCH_FAST', index=141, number=203,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0204_MOVE_DRAGON_BREATH_FAST', index=142, number=204,
+      name='DRAGON_BREATH_FAST', index=142, number=204,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0205_MOVE_THUNDER_SHOCK_FAST', index=143, number=205,
+      name='THUNDER_SHOCK_FAST', index=143, number=205,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0206_MOVE_SPARK_FAST', index=144, number=206,
+      name='SPARK_FAST', index=144, number=206,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0207_MOVE_LOW_KICK_FAST', index=145, number=207,
+      name='LOW_KICK_FAST', index=145, number=207,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0208_MOVE_KARATE_CHOP_FAST', index=146, number=208,
+      name='KARATE_CHOP_FAST', index=146, number=208,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0209_MOVE_EMBER_FAST', index=147, number=209,
+      name='EMBER_FAST', index=147, number=209,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0210_MOVE_WING_ATTACK_FAST', index=148, number=210,
+      name='WING_ATTACK_FAST', index=148, number=210,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0211_MOVE_PECK_FAST', index=149, number=211,
+      name='PECK_FAST', index=149, number=211,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0212_MOVE_LICK_FAST', index=150, number=212,
+      name='LICK_FAST', index=150, number=212,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0213_MOVE_SHADOW_CLAW_FAST', index=151, number=213,
+      name='SHADOW_CLAW_FAST', index=151, number=213,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0214_MOVE_VINE_WHIP_FAST', index=152, number=214,
+      name='VINE_WHIP_FAST', index=152, number=214,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0215_MOVE_RAZOR_LEAF_FAST', index=153, number=215,
+      name='RAZOR_LEAF_FAST', index=153, number=215,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0216_MOVE_MUD_SHOT_FAST', index=154, number=216,
+      name='MUD_SHOT_FAST', index=154, number=216,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0217_MOVE_ICE_SHARD_FAST', index=155, number=217,
+      name='ICE_SHARD_FAST', index=155, number=217,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0218_MOVE_FROST_BREATH_FAST', index=156, number=218,
+      name='FROST_BREATH_FAST', index=156, number=218,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0219_MOVE_QUICK_ATTACK_FAST', index=157, number=219,
+      name='QUICK_ATTACK_FAST', index=157, number=219,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0220_MOVE_SCRATCH_FAST', index=158, number=220,
+      name='SCRATCH_FAST', index=158, number=220,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0221_MOVE_TACKLE_FAST', index=159, number=221,
+      name='TACKLE_FAST', index=159, number=221,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0222_MOVE_POUND_FAST', index=160, number=222,
+      name='POUND_FAST', index=160, number=222,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0223_MOVE_CUT_FAST', index=161, number=223,
+      name='CUT_FAST', index=161, number=223,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0224_MOVE_POISON_JAB_FAST', index=162, number=224,
+      name='POISON_JAB_FAST', index=162, number=224,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0225_MOVE_ACID_FAST', index=163, number=225,
+      name='ACID_FAST', index=163, number=225,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0226_MOVE_PSYCHO_CUT_FAST', index=164, number=226,
+      name='PSYCHO_CUT_FAST', index=164, number=226,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0227_MOVE_ROCK_THROW_FAST', index=165, number=227,
+      name='ROCK_THROW_FAST', index=165, number=227,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0228_MOVE_METAL_CLAW_FAST', index=166, number=228,
+      name='METAL_CLAW_FAST', index=166, number=228,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0229_MOVE_BULLET_PUNCH_FAST', index=167, number=229,
+      name='BULLET_PUNCH_FAST', index=167, number=229,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0230_MOVE_WATER_GUN_FAST', index=168, number=230,
+      name='WATER_GUN_FAST', index=168, number=230,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0231_MOVE_SPLASH_FAST', index=169, number=231,
+      name='SPLASH_FAST', index=169, number=231,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0232_MOVE_WATER_GUN_FAST_BLASTOISE', index=170, number=232,
+      name='WATER_GUN_FAST_BLASTOISE', index=170, number=232,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0233_MOVE_MUD_SLAP_FAST', index=171, number=233,
+      name='MUD_SLAP_FAST', index=171, number=233,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0234_MOVE_ZEN_HEADBUTT_FAST', index=172, number=234,
+      name='ZEN_HEADBUTT_FAST', index=172, number=234,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0235_MOVE_CONFUSION_FAST', index=173, number=235,
+      name='CONFUSION_FAST', index=173, number=235,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0236_MOVE_POISON_STING_FAST', index=174, number=236,
+      name='POISON_STING_FAST', index=174, number=236,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0237_MOVE_BUBBLE_FAST', index=175, number=237,
+      name='BUBBLE_FAST', index=175, number=237,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0238_MOVE_FEINT_ATTACK_FAST', index=176, number=238,
+      name='FEINT_ATTACK_FAST', index=176, number=238,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0239_MOVE_STEEL_WING_FAST', index=177, number=239,
+      name='STEEL_WING_FAST', index=177, number=239,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0240_MOVE_FIRE_FANG_FAST', index=178, number=240,
+      name='FIRE_FANG_FAST', index=178, number=240,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0241_MOVE_ROCK_SMASH_FAST', index=179, number=241,
+      name='ROCK_SMASH_FAST', index=179, number=241,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0242_MOVE_TRANSFORM_FAST', index=180, number=242,
+      name='TRANSFORM_FAST', index=180, number=242,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0243_MOVE_COUNTER_FAST', index=181, number=243,
+      name='COUNTER_FAST', index=181, number=243,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0244_MOVE_POWDER_SNOW_FAST', index=182, number=244,
+      name='POWDER_SNOW_FAST', index=182, number=244,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0245_MOVE_CLOSE_COMBAT', index=183, number=245,
+      name='CLOSE_COMBAT', index=183, number=245,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0246_MOVE_DYNAMIC_PUNCH', index=184, number=246,
+      name='DYNAMIC_PUNCH', index=184, number=246,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0247_MOVE_FOCUS_BLAST', index=185, number=247,
+      name='FOCUS_BLAST', index=185, number=247,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0248_MOVE_AURORA_BEAM', index=186, number=248,
+      name='AURORA_BEAM', index=186, number=248,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0249_MOVE_CHARGE_BEAM_FAST', index=187, number=249,
+      name='CHARGE_BEAM_FAST', index=187, number=249,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0250_MOVE_VOLT_SWITCH_FAST', index=188, number=250,
+      name='VOLT_SWITCH_FAST', index=188, number=250,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0251_MOVE_WILD_CHARGE', index=189, number=251,
+      name='WILD_CHARGE', index=189, number=251,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0252_MOVE_ZAP_CANNON', index=190, number=252,
+      name='ZAP_CANNON', index=190, number=252,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0253_MOVE_DRAGON_TAIL_FAST', index=191, number=253,
+      name='DRAGON_TAIL_FAST', index=191, number=253,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0254_MOVE_AVALANCHE', index=192, number=254,
+      name='AVALANCHE', index=192, number=254,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0255_MOVE_AIR_SLASH_FAST', index=193, number=255,
+      name='AIR_SLASH_FAST', index=193, number=255,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0256_MOVE_BRAVE_BIRD', index=194, number=256,
+      name='BRAVE_BIRD', index=194, number=256,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0257_MOVE_SKY_ATTACK', index=195, number=257,
+      name='SKY_ATTACK', index=195, number=257,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0258_MOVE_SAND_TOMB', index=196, number=258,
+      name='SAND_TOMB', index=196, number=258,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0259_MOVE_ROCK_BLAST', index=197, number=259,
+      name='ROCK_BLAST', index=197, number=259,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0260_MOVE_INFESTATION_FAST', index=198, number=260,
+      name='INFESTATION_FAST', index=198, number=260,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0261_MOVE_STRUGGLE_BUG_FAST', index=199, number=261,
+      name='STRUGGLE_BUG_FAST', index=199, number=261,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0262_MOVE_SILVER_WIND', index=200, number=262,
+      name='SILVER_WIND', index=200, number=262,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0263_MOVE_ASTONISH_FAST', index=201, number=263,
+      name='ASTONISH_FAST', index=201, number=263,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0264_MOVE_HEX_FAST', index=202, number=264,
+      name='HEX_FAST', index=202, number=264,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0265_MOVE_NIGHT_SHADE', index=203, number=265,
+      name='NIGHT_SHADE', index=203, number=265,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0266_MOVE_IRON_TAIL_FAST', index=204, number=266,
+      name='IRON_TAIL_FAST', index=204, number=266,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0267_MOVE_GYRO_BALL', index=205, number=267,
+      name='GYRO_BALL', index=205, number=267,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0268_MOVE_HEAVY_SLAM', index=206, number=268,
+      name='HEAVY_SLAM', index=206, number=268,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0269_MOVE_FIRE_SPIN_FAST', index=207, number=269,
+      name='FIRE_SPIN_FAST', index=207, number=269,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0270_MOVE_OVERHEAT', index=208, number=270,
+      name='OVERHEAT', index=208, number=270,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0271_MOVE_BULLET_SEED_FAST', index=209, number=271,
+      name='BULLET_SEED_FAST', index=209, number=271,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0272_MOVE_GRASS_KNOT', index=210, number=272,
+      name='GRASS_KNOT', index=210, number=272,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0273_MOVE_ENERGY_BALL', index=211, number=273,
+      name='ENERGY_BALL', index=211, number=273,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0274_MOVE_EXTRASENSORY_FAST', index=212, number=274,
+      name='EXTRASENSORY_FAST', index=212, number=274,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0275_MOVE_FUTURESIGHT', index=213, number=275,
+      name='FUTURESIGHT', index=213, number=275,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0276_MOVE_MIRROR_COAT', index=214, number=276,
+      name='MIRROR_COAT', index=214, number=276,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0277_MOVE_OUTRAGE', index=215, number=277,
+      name='OUTRAGE', index=215, number=277,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0278_MOVE_SNARL_FAST', index=216, number=278,
+      name='SNARL_FAST', index=216, number=278,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0279_MOVE_CRUNCH', index=217, number=279,
+      name='CRUNCH', index=217, number=279,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0280_MOVE_FOUL_PLAY', index=218, number=280,
+      name='FOUL_PLAY', index=218, number=280,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='V0281_MOVE_HIDDEN_POWER_FAST', index=219, number=281,
+      name='HIDDEN_POWER_FAST', index=219, number=281,
       options=None,
       type=None),
   ],
   containing_type=None,
   options=None,
   serialized_start=58,
-  serialized_end=6245,
+  serialized_end=3836,
 )
 _sym_db.RegisterEnumDescriptor(_POKEMONMOVE)
 
 PokemonMove = enum_type_wrapper.EnumTypeWrapper(_POKEMONMOVE)
 MOVE_UNSET = 0
-V0001_MOVE_THUNDER_SHOCK = 1
-V0002_MOVE_QUICK_ATTACK = 2
-V0003_MOVE_SCRATCH = 3
-V0004_MOVE_EMBER = 4
-V0005_MOVE_VINE_WHIP = 5
-V0006_MOVE_TACKLE = 6
-V0007_MOVE_RAZOR_LEAF = 7
-V0008_MOVE_TAKE_DOWN = 8
-V0009_MOVE_WATER_GUN = 9
-V0010_MOVE_BITE = 10
-V0011_MOVE_POUND = 11
-V0012_MOVE_DOUBLE_SLAP = 12
-V0013_MOVE_WRAP = 13
-V0014_MOVE_HYPER_BEAM = 14
-V0015_MOVE_LICK = 15
-V0016_MOVE_DARK_PULSE = 16
-V0017_MOVE_SMOG = 17
-V0018_MOVE_SLUDGE = 18
-V0019_MOVE_METAL_CLAW = 19
-V0020_MOVE_VICE_GRIP = 20
-V0021_MOVE_FLAME_WHEEL = 21
-V0022_MOVE_MEGAHORN = 22
-V0023_MOVE_WING_ATTACK = 23
-V0024_MOVE_FLAMETHROWER = 24
-V0025_MOVE_SUCKER_PUNCH = 25
-V0026_MOVE_DIG = 26
-V0027_MOVE_LOW_KICK = 27
-V0028_MOVE_CROSS_CHOP = 28
-V0029_MOVE_PSYCHO_CUT = 29
-V0030_MOVE_PSYBEAM = 30
-V0031_MOVE_EARTHQUAKE = 31
-V0032_MOVE_STONE_EDGE = 32
-V0033_MOVE_ICE_PUNCH = 33
-V0034_MOVE_HEART_STAMP = 34
-V0035_MOVE_DISCHARGE = 35
-V0036_MOVE_FLASH_CANNON = 36
-V0037_MOVE_PECK = 37
-V0038_MOVE_DRILL_PECK = 38
-V0039_MOVE_ICE_BEAM = 39
-V0040_MOVE_BLIZZARD = 40
-V0041_MOVE_AIR_SLASH = 41
-V0042_MOVE_HEAT_WAVE = 42
-V0043_MOVE_TWINEEDLE = 43
-V0044_MOVE_POISON_JAB = 44
-V0045_MOVE_AERIAL_ACE = 45
-V0046_MOVE_DRILL_RUN = 46
-V0047_MOVE_PETAL_BLIZZARD = 47
-V0048_MOVE_MEGA_DRAIN = 48
-V0049_MOVE_BUG_BUZZ = 49
-V0050_MOVE_POISON_FANG = 50
-V0051_MOVE_NIGHT_SLASH = 51
-V0052_MOVE_SLASH = 52
-V0053_MOVE_BUBBLE_BEAM = 53
-V0054_MOVE_SUBMISSION = 54
-V0055_MOVE_KARATE_CHOP = 55
-V0056_MOVE_LOW_SWEEP = 56
-V0057_MOVE_AQUA_JET = 57
-V0058_MOVE_AQUA_TAIL = 58
-V0059_MOVE_SEED_BOMB = 59
-V0060_MOVE_PSYSHOCK = 60
-V0061_MOVE_ROCK_THROW = 61
-V0062_MOVE_ANCIENT_POWER = 62
-V0063_MOVE_ROCK_TOMB = 63
-V0064_MOVE_ROCK_SLIDE = 64
-V0065_MOVE_POWER_GEM = 65
-V0066_MOVE_SHADOW_SNEAK = 66
-V0067_MOVE_SHADOW_PUNCH = 67
-V0068_MOVE_SHADOW_CLAW = 68
-V0069_MOVE_OMINOUS_WIND = 69
-V0070_MOVE_SHADOW_BALL = 70
-V0071_MOVE_BULLET_PUNCH = 71
-V0072_MOVE_MAGNET_BOMB = 72
-V0073_MOVE_STEEL_WING = 73
-V0074_MOVE_IRON_HEAD = 74
-V0075_MOVE_PARABOLIC_CHARGE = 75
-V0076_MOVE_SPARK = 76
-V0077_MOVE_THUNDER_PUNCH = 77
-V0078_MOVE_THUNDER = 78
-V0079_MOVE_THUNDERBOLT = 79
-V0080_MOVE_TWISTER = 80
-V0081_MOVE_DRAGON_BREATH = 81
-V0082_MOVE_DRAGON_PULSE = 82
-V0083_MOVE_DRAGON_CLAW = 83
-V0084_MOVE_DISARMING_VOICE = 84
-V0085_MOVE_DRAINING_KISS = 85
-V0086_MOVE_DAZZLING_GLEAM = 86
-V0087_MOVE_MOONBLAST = 87
-V0088_MOVE_PLAY_ROUGH = 88
-V0089_MOVE_CROSS_POISON = 89
-V0090_MOVE_SLUDGE_BOMB = 90
-V0091_MOVE_SLUDGE_WAVE = 91
-V0092_MOVE_GUNK_SHOT = 92
-V0093_MOVE_MUD_SHOT = 93
-V0094_MOVE_BONE_CLUB = 94
-V0095_MOVE_BULLDOZE = 95
-V0096_MOVE_MUD_BOMB = 96
-V0097_MOVE_FURY_CUTTER = 97
-V0098_MOVE_BUG_BITE = 98
-V0099_MOVE_SIGNAL_BEAM = 99
-V0100_MOVE_X_SCISSOR = 100
-V0101_MOVE_FLAME_CHARGE = 101
-V0102_MOVE_FLAME_BURST = 102
-V0103_MOVE_FIRE_BLAST = 103
-V0104_MOVE_BRINE = 104
-V0105_MOVE_WATER_PULSE = 105
-V0106_MOVE_SCALD = 106
-V0107_MOVE_HYDRO_PUMP = 107
-V0108_MOVE_PSYCHIC = 108
-V0109_MOVE_PSYSTRIKE = 109
-V0110_MOVE_ICE_SHARD = 110
-V0111_MOVE_ICY_WIND = 111
-V0112_MOVE_FROST_BREATH = 112
-V0113_MOVE_ABSORB = 113
-V0114_MOVE_GIGA_DRAIN = 114
-V0115_MOVE_FIRE_PUNCH = 115
-V0116_MOVE_SOLAR_BEAM = 116
-V0117_MOVE_LEAF_BLADE = 117
-V0118_MOVE_POWER_WHIP = 118
-V0119_MOVE_SPLASH = 119
-V0120_MOVE_ACID = 120
-V0121_MOVE_AIR_CUTTER = 121
-V0122_MOVE_HURRICANE = 122
-V0123_MOVE_BRICK_BREAK = 123
-V0124_MOVE_CUT = 124
-V0125_MOVE_SWIFT = 125
-V0126_MOVE_HORN_ATTACK = 126
-V0127_MOVE_STOMP = 127
-V0128_MOVE_HEADBUTT = 128
-V0129_MOVE_HYPER_FANG = 129
-V0130_MOVE_SLAM = 130
-V0131_MOVE_BODY_SLAM = 131
-V0132_MOVE_REST = 132
-V0133_MOVE_STRUGGLE = 133
-V0134_MOVE_SCALD_BLASTOISE = 134
-V0135_MOVE_HYDRO_PUMP_BLASTOISE = 135
-V0136_MOVE_WRAP_GREEN = 136
-V0137_MOVE_WRAP_PINK = 137
-V0200_MOVE_FURY_CUTTER_FAST = 200
-V0201_MOVE_BUG_BITE_FAST = 201
-V0202_MOVE_BITE_FAST = 202
-V0203_MOVE_SUCKER_PUNCH_FAST = 203
-V0204_MOVE_DRAGON_BREATH_FAST = 204
-V0205_MOVE_THUNDER_SHOCK_FAST = 205
-V0206_MOVE_SPARK_FAST = 206
-V0207_MOVE_LOW_KICK_FAST = 207
-V0208_MOVE_KARATE_CHOP_FAST = 208
-V0209_MOVE_EMBER_FAST = 209
-V0210_MOVE_WING_ATTACK_FAST = 210
-V0211_MOVE_PECK_FAST = 211
-V0212_MOVE_LICK_FAST = 212
-V0213_MOVE_SHADOW_CLAW_FAST = 213
-V0214_MOVE_VINE_WHIP_FAST = 214
-V0215_MOVE_RAZOR_LEAF_FAST = 215
-V0216_MOVE_MUD_SHOT_FAST = 216
-V0217_MOVE_ICE_SHARD_FAST = 217
-V0218_MOVE_FROST_BREATH_FAST = 218
-V0219_MOVE_QUICK_ATTACK_FAST = 219
-V0220_MOVE_SCRATCH_FAST = 220
-V0221_MOVE_TACKLE_FAST = 221
-V0222_MOVE_POUND_FAST = 222
-V0223_MOVE_CUT_FAST = 223
-V0224_MOVE_POISON_JAB_FAST = 224
-V0225_MOVE_ACID_FAST = 225
-V0226_MOVE_PSYCHO_CUT_FAST = 226
-V0227_MOVE_ROCK_THROW_FAST = 227
-V0228_MOVE_METAL_CLAW_FAST = 228
-V0229_MOVE_BULLET_PUNCH_FAST = 229
-V0230_MOVE_WATER_GUN_FAST = 230
-V0231_MOVE_SPLASH_FAST = 231
-V0232_MOVE_WATER_GUN_FAST_BLASTOISE = 232
-V0233_MOVE_MUD_SLAP_FAST = 233
-V0234_MOVE_ZEN_HEADBUTT_FAST = 234
-V0235_MOVE_CONFUSION_FAST = 235
-V0236_MOVE_POISON_STING_FAST = 236
-V0237_MOVE_BUBBLE_FAST = 237
-V0238_MOVE_FEINT_ATTACK_FAST = 238
-V0239_MOVE_STEEL_WING_FAST = 239
-V0240_MOVE_FIRE_FANG_FAST = 240
-V0241_MOVE_ROCK_SMASH_FAST = 241
-V0242_MOVE_TRANSFORM_FAST = 242
-V0243_MOVE_COUNTER_FAST = 243
-V0244_MOVE_POWDER_SNOW_FAST = 244
-V0245_MOVE_CLOSE_COMBAT = 245
-V0246_MOVE_DYNAMIC_PUNCH = 246
-V0247_MOVE_FOCUS_BLAST = 247
-V0248_MOVE_AURORA_BEAM = 248
-V0249_MOVE_CHARGE_BEAM_FAST = 249
-V0250_MOVE_VOLT_SWITCH_FAST = 250
-V0251_MOVE_WILD_CHARGE = 251
-V0252_MOVE_ZAP_CANNON = 252
-V0253_MOVE_DRAGON_TAIL_FAST = 253
-V0254_MOVE_AVALANCHE = 254
-V0255_MOVE_AIR_SLASH_FAST = 255
-V0256_MOVE_BRAVE_BIRD = 256
-V0257_MOVE_SKY_ATTACK = 257
-V0258_MOVE_SAND_TOMB = 258
-V0259_MOVE_ROCK_BLAST = 259
-V0260_MOVE_INFESTATION_FAST = 260
-V0261_MOVE_STRUGGLE_BUG_FAST = 261
-V0262_MOVE_SILVER_WIND = 262
-V0263_MOVE_ASTONISH_FAST = 263
-V0264_MOVE_HEX_FAST = 264
-V0265_MOVE_NIGHT_SHADE = 265
-V0266_MOVE_IRON_TAIL_FAST = 266
-V0267_MOVE_GYRO_BALL = 267
-V0268_MOVE_HEAVY_SLAM = 268
-V0269_MOVE_FIRE_SPIN_FAST = 269
-V0270_MOVE_OVERHEAT = 270
-V0271_MOVE_BULLET_SEED_FAST = 271
-V0272_MOVE_GRASS_KNOT = 272
-V0273_MOVE_ENERGY_BALL = 273
-V0274_MOVE_EXTRASENSORY_FAST = 274
-V0275_MOVE_FUTURESIGHT = 275
-V0276_MOVE_MIRROR_COAT = 276
-V0277_MOVE_OUTRAGE = 277
-V0278_MOVE_SNARL_FAST = 278
-V0279_MOVE_CRUNCH = 279
-V0280_MOVE_FOUL_PLAY = 280
-V0281_MOVE_HIDDEN_POWER_FAST = 281
+THUNDER_SHOCK = 1
+QUICK_ATTACK = 2
+SCRATCH = 3
+EMBER = 4
+VINE_WHIP = 5
+TACKLE = 6
+RAZOR_LEAF = 7
+TAKE_DOWN = 8
+WATER_GUN = 9
+BITE = 10
+POUND = 11
+DOUBLE_SLAP = 12
+WRAP = 13
+HYPER_BEAM = 14
+LICK = 15
+DARK_PULSE = 16
+SMOG = 17
+SLUDGE = 18
+METAL_CLAW = 19
+VICE_GRIP = 20
+FLAME_WHEEL = 21
+MEGAHORN = 22
+WING_ATTACK = 23
+FLAMETHROWER = 24
+SUCKER_PUNCH = 25
+DIG = 26
+LOW_KICK = 27
+CROSS_CHOP = 28
+PSYCHO_CUT = 29
+PSYBEAM = 30
+EARTHQUAKE = 31
+STONE_EDGE = 32
+ICE_PUNCH = 33
+HEART_STAMP = 34
+DISCHARGE = 35
+FLASH_CANNON = 36
+PECK = 37
+DRILL_PECK = 38
+ICE_BEAM = 39
+BLIZZARD = 40
+AIR_SLASH = 41
+HEAT_WAVE = 42
+TWINEEDLE = 43
+POISON_JAB = 44
+AERIAL_ACE = 45
+DRILL_RUN = 46
+PETAL_BLIZZARD = 47
+MEGA_DRAIN = 48
+BUG_BUZZ = 49
+POISON_FANG = 50
+NIGHT_SLASH = 51
+SLASH = 52
+BUBBLE_BEAM = 53
+SUBMISSION = 54
+KARATE_CHOP = 55
+LOW_SWEEP = 56
+AQUA_JET = 57
+AQUA_TAIL = 58
+SEED_BOMB = 59
+PSYSHOCK = 60
+ROCK_THROW = 61
+ANCIENT_POWER = 62
+ROCK_TOMB = 63
+ROCK_SLIDE = 64
+POWER_GEM = 65
+SHADOW_SNEAK = 66
+SHADOW_PUNCH = 67
+SHADOW_CLAW = 68
+OMINOUS_WIND = 69
+SHADOW_BALL = 70
+BULLET_PUNCH = 71
+MAGNET_BOMB = 72
+STEEL_WING = 73
+IRON_HEAD = 74
+PARABOLIC_CHARGE = 75
+SPARK = 76
+THUNDER_PUNCH = 77
+THUNDER = 78
+THUNDERBOLT = 79
+TWISTER = 80
+DRAGON_BREATH = 81
+DRAGON_PULSE = 82
+DRAGON_CLAW = 83
+DISARMING_VOICE = 84
+DRAINING_KISS = 85
+DAZZLING_GLEAM = 86
+MOONBLAST = 87
+PLAY_ROUGH = 88
+CROSS_POISON = 89
+SLUDGE_BOMB = 90
+SLUDGE_WAVE = 91
+GUNK_SHOT = 92
+MUD_SHOT = 93
+BONE_CLUB = 94
+BULLDOZE = 95
+MUD_BOMB = 96
+FURY_CUTTER = 97
+BUG_BITE = 98
+SIGNAL_BEAM = 99
+X_SCISSOR = 100
+FLAME_CHARGE = 101
+FLAME_BURST = 102
+FIRE_BLAST = 103
+BRINE = 104
+WATER_PULSE = 105
+SCALD = 106
+HYDRO_PUMP = 107
+PSYCHIC = 108
+PSYSTRIKE = 109
+ICE_SHARD = 110
+ICY_WIND = 111
+FROST_BREATH = 112
+ABSORB = 113
+GIGA_DRAIN = 114
+FIRE_PUNCH = 115
+SOLAR_BEAM = 116
+LEAF_BLADE = 117
+POWER_WHIP = 118
+SPLASH = 119
+ACID = 120
+AIR_CUTTER = 121
+HURRICANE = 122
+BRICK_BREAK = 123
+CUT = 124
+SWIFT = 125
+HORN_ATTACK = 126
+STOMP = 127
+HEADBUTT = 128
+HYPER_FANG = 129
+SLAM = 130
+BODY_SLAM = 131
+REST = 132
+STRUGGLE = 133
+SCALD_BLASTOISE = 134
+HYDRO_PUMP_BLASTOISE = 135
+WRAP_GREEN = 136
+WRAP_PINK = 137
+FURY_CUTTER_FAST = 200
+BUG_BITE_FAST = 201
+BITE_FAST = 202
+SUCKER_PUNCH_FAST = 203
+DRAGON_BREATH_FAST = 204
+THUNDER_SHOCK_FAST = 205
+SPARK_FAST = 206
+LOW_KICK_FAST = 207
+KARATE_CHOP_FAST = 208
+EMBER_FAST = 209
+WING_ATTACK_FAST = 210
+PECK_FAST = 211
+LICK_FAST = 212
+SHADOW_CLAW_FAST = 213
+VINE_WHIP_FAST = 214
+RAZOR_LEAF_FAST = 215
+MUD_SHOT_FAST = 216
+ICE_SHARD_FAST = 217
+FROST_BREATH_FAST = 218
+QUICK_ATTACK_FAST = 219
+SCRATCH_FAST = 220
+TACKLE_FAST = 221
+POUND_FAST = 222
+CUT_FAST = 223
+POISON_JAB_FAST = 224
+ACID_FAST = 225
+PSYCHO_CUT_FAST = 226
+ROCK_THROW_FAST = 227
+METAL_CLAW_FAST = 228
+BULLET_PUNCH_FAST = 229
+WATER_GUN_FAST = 230
+SPLASH_FAST = 231
+WATER_GUN_FAST_BLASTOISE = 232
+MUD_SLAP_FAST = 233
+ZEN_HEADBUTT_FAST = 234
+CONFUSION_FAST = 235
+POISON_STING_FAST = 236
+BUBBLE_FAST = 237
+FEINT_ATTACK_FAST = 238
+STEEL_WING_FAST = 239
+FIRE_FANG_FAST = 240
+ROCK_SMASH_FAST = 241
+TRANSFORM_FAST = 242
+COUNTER_FAST = 243
+POWDER_SNOW_FAST = 244
+CLOSE_COMBAT = 245
+DYNAMIC_PUNCH = 246
+FOCUS_BLAST = 247
+AURORA_BEAM = 248
+CHARGE_BEAM_FAST = 249
+VOLT_SWITCH_FAST = 250
+WILD_CHARGE = 251
+ZAP_CANNON = 252
+DRAGON_TAIL_FAST = 253
+AVALANCHE = 254
+AIR_SLASH_FAST = 255
+BRAVE_BIRD = 256
+SKY_ATTACK = 257
+SAND_TOMB = 258
+ROCK_BLAST = 259
+INFESTATION_FAST = 260
+STRUGGLE_BUG_FAST = 261
+SILVER_WIND = 262
+ASTONISH_FAST = 263
+HEX_FAST = 264
+NIGHT_SHADE = 265
+IRON_TAIL_FAST = 266
+GYRO_BALL = 267
+HEAVY_SLAM = 268
+FIRE_SPIN_FAST = 269
+OVERHEAT = 270
+BULLET_SEED_FAST = 271
+GRASS_KNOT = 272
+ENERGY_BALL = 273
+EXTRASENSORY_FAST = 274
+FUTURESIGHT = 275
+MIRROR_COAT = 276
+OUTRAGE = 277
+SNARL_FAST = 278
+CRUNCH = 279
+FOUL_PLAY = 280
+HIDDEN_POWER_FAST = 281
 
 
 DESCRIPTOR.enum_types_by_name['PokemonMove'] = _POKEMONMOVE

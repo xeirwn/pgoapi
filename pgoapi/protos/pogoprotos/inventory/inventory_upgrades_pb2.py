@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/inventory/inventory_upgrades.proto',
   package='pogoprotos.inventory',
   syntax='proto3',
-  serialized_pb=_b('\n-pogoprotos/inventory/inventory_upgrades.proto\x12\x14pogoprotos.inventory\x1a,pogoprotos/inventory/inventory_upgrade.proto\"V\n\x11InventoryUpgrades\x12\x41\n\x11inventory_upgrade\x18\x01 \x03(\x0b\x32&.pogoprotos.inventory.InventoryUpgradeb\x06proto3')
+  serialized_pb=_b('\n-pogoprotos/inventory/inventory_upgrades.proto\x12\x14pogoprotos.inventory\x1a,pogoprotos/inventory/inventory_upgrade.proto\"W\n\x11InventoryUpgrades\x12\x42\n\x12inventory_upgrades\x18\x01 \x03(\x0b\x32&.pogoprotos.inventory.InventoryUpgradeb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_inventory_dot_inventory__upgrade__pb2.DESCRIPTOR,])
 
@@ -35,7 +35,7 @@ _INVENTORYUPGRADES = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='inventory_upgrade', full_name='pogoprotos.inventory.InventoryUpgrades.inventory_upgrade', index=0,
+      name='inventory_upgrades', full_name='pogoprotos.inventory.InventoryUpgrades.inventory_upgrades', index=0,
       number=1, type=11, cpp_type=10, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -54,10 +54,10 @@ _INVENTORYUPGRADES = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=117,
-  serialized_end=203,
+  serialized_end=204,
 )
 
-_INVENTORYUPGRADES.fields_by_name['inventory_upgrade'].message_type = pogoprotos_dot_inventory_dot_inventory__upgrade__pb2._INVENTORYUPGRADE
+_INVENTORYUPGRADES.fields_by_name['inventory_upgrades'].message_type = pogoprotos_dot_inventory_dot_inventory__upgrade__pb2._INVENTORYUPGRADE
 DESCRIPTOR.message_types_by_name['InventoryUpgrades'] = _INVENTORYUPGRADES
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

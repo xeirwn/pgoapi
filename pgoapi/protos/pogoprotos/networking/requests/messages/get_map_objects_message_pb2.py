@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/get_map_objects_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nEpogoprotos/networking/requests/messages/get_map_objects_message.proto\x12\'pogoprotos.networking.requests.messages\"f\n\x14GetMapObjectsMessage\x12\x0f\n\x07\x63\x65ll_id\x18\x01 \x03(\x04\x12\x15\n\rsince_time_ms\x18\x02 \x03(\x03\x12\x12\n\nplayer_lat\x18\x03 \x01(\x01\x12\x12\n\nplayer_lng\x18\x04 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\nEpogoprotos/networking/requests/messages/get_map_objects_message.proto\x12\'pogoprotos.networking.requests.messages\"p\n\x14GetMapObjectsMessage\x12\x13\n\x07\x63\x65ll_id\x18\x01 \x03(\x04\x42\x02\x10\x01\x12\x1e\n\x12since_timestamp_ms\x18\x02 \x03(\x03\x42\x02\x10\x01\x12\x10\n\x08latitude\x18\x03 \x01(\x01\x12\x11\n\tlongitude\x18\x04 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -38,23 +38,23 @@ _GETMAPOBJECTSMESSAGE = _descriptor.Descriptor(
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
-      options=None),
+      options=_descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('\020\001'))),
     _descriptor.FieldDescriptor(
-      name='since_time_ms', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.since_time_ms', index=1,
+      name='since_timestamp_ms', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.since_timestamp_ms', index=1,
       number=2, type=3, cpp_type=2, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
-      options=None),
+      options=_descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('\020\001'))),
     _descriptor.FieldDescriptor(
-      name='player_lat', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.player_lat', index=2,
+      name='latitude', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.latitude', index=2,
       number=3, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player_lng', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.player_lng', index=3,
+      name='longitude', full_name='pogoprotos.networking.requests.messages.GetMapObjectsMessage.longitude', index=3,
       number=4, type=1, cpp_type=5, label=1,
       has_default_value=False, default_value=float(0),
       message_type=None, enum_type=None, containing_type=None,
@@ -73,7 +73,7 @@ _GETMAPOBJECTSMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=114,
-  serialized_end=216,
+  serialized_end=226,
 )
 
 DESCRIPTOR.message_types_by_name['GetMapObjectsMessage'] = _GETMAPOBJECTSMESSAGE
@@ -87,4 +87,8 @@ GetMapObjectsMessage = _reflection.GeneratedProtocolMessageType('GetMapObjectsMe
 _sym_db.RegisterMessage(GetMapObjectsMessage)
 
 
+_GETMAPOBJECTSMESSAGE.fields_by_name['cell_id'].has_options = True
+_GETMAPOBJECTSMESSAGE.fields_by_name['cell_id']._options = _descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('\020\001'))
+_GETMAPOBJECTSMESSAGE.fields_by_name['since_timestamp_ms'].has_options = True
+_GETMAPOBJECTSMESSAGE.fields_by_name['since_timestamp_ms']._options = _descriptor._ParseOptions(descriptor_pb2.FieldOptions(), _b('\020\001'))
 # @@protoc_insertion_point(module_scope)

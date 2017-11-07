@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/data/player/player_stats.proto',
   package='pogoprotos.data.player',
   syntax='proto3',
-  serialized_pb=_b('\n)pogoprotos/data/player/player_stats.proto\x12\x16pogoprotos.data.player\x1a%pogoprotos/enums/gym_badge_type.proto\"\xc3\x07\n\x0bPlayerStats\x12\r\n\x05level\x18\x01 \x01(\x05\x12\x12\n\nexperience\x18\x02 \x01(\x03\x12\x16\n\x0eprev_level_exp\x18\x03 \x01(\x03\x12\x16\n\x0enext_level_exp\x18\x04 \x01(\x03\x12\x11\n\tkm_walked\x18\x05 \x01(\x02\x12\x1f\n\x17num_pokemon_encountered\x18\x06 \x01(\x05\x12\"\n\x1anum_unique_pokedex_entries\x18\x07 \x01(\x05\x12\x1c\n\x14num_pokemon_captured\x18\x08 \x01(\x05\x12\x16\n\x0enum_evolutions\x18\t \x01(\x05\x12\x18\n\x10poke_stop_visits\x18\n \x01(\x05\x12!\n\x19number_of_pokeball_thrown\x18\x0b \x01(\x05\x12\x18\n\x10num_eggs_hatched\x18\x0c \x01(\x05\x12\x1b\n\x13\x62ig_magikarp_caught\x18\r \x01(\x05\x12\x1d\n\x15num_battle_attack_won\x18\x0e \x01(\x05\x12\x1f\n\x17num_battle_attack_total\x18\x0f \x01(\x05\x12\x1f\n\x17num_battle_defended_won\x18\x10 \x01(\x05\x12\x1f\n\x17num_battle_training_won\x18\x11 \x01(\x05\x12!\n\x19num_battle_training_total\x18\x12 \x01(\x05\x12\x1d\n\x15prestige_raised_total\x18\x13 \x01(\x05\x12\x1e\n\x16prestige_dropped_total\x18\x14 \x01(\x05\x12\x1c\n\x14num_pokemon_deployed\x18\x15 \x01(\x05\x12\"\n\x1anum_pokemon_caught_by_type\x18\x16 \x03(\x05\x12\x1c\n\x14small_rattata_caught\x18\x17 \x01(\x05\x12\x14\n\x0cused_km_pool\x18\x18 \x01(\x01\x12\x19\n\x11last_km_refill_ms\x18\x19 \x01(\x03\x12\x1b\n\x13num_raid_battle_won\x18\x1a \x01(\x05\x12\x1d\n\x15num_raid_battle_total\x18\x1b \x01(\x05\x12 \n\x18num_legendary_battle_won\x18\x1c \x01(\x05\x12\"\n\x1anum_legendary_battle_total\x18\x1d \x01(\x05\x12\x17\n\x0fnum_berries_fed\x18\x1e \x01(\x05\x12\x19\n\x11total_defended_ms\x18\x1f \x01(\x03\x12\x34\n\x0c\x65vent_badges\x18  \x03(\x0e\x32\x1e.pogoprotos.enums.GymBadgeTypeb\x06proto3')
+  serialized_pb=_b('\n)pogoprotos/data/player/player_stats.proto\x12\x16pogoprotos.data.player\x1a%pogoprotos/enums/gym_badge_type.proto\"\x8a\x07\n\x0bPlayerStats\x12\r\n\x05level\x18\x01 \x01(\x05\x12\x12\n\nexperience\x18\x02 \x01(\x03\x12\x15\n\rprev_level_xp\x18\x03 \x01(\x03\x12\x15\n\rnext_level_xp\x18\x04 \x01(\x03\x12\x11\n\tkm_walked\x18\x05 \x01(\x02\x12\x1c\n\x14pokemons_encountered\x18\x06 \x01(\x05\x12\x1e\n\x16unique_pokedex_entries\x18\x07 \x01(\x05\x12\x19\n\x11pokemons_captured\x18\x08 \x01(\x05\x12\x12\n\nevolutions\x18\t \x01(\x05\x12\x18\n\x10poke_stop_visits\x18\n \x01(\x05\x12\x18\n\x10pokeballs_thrown\x18\x0b \x01(\x05\x12\x14\n\x0c\x65ggs_hatched\x18\x0c \x01(\x05\x12\x1b\n\x13\x62ig_magikarp_caught\x18\r \x01(\x05\x12\x19\n\x11\x62\x61ttle_attack_won\x18\x0e \x01(\x05\x12\x1b\n\x13\x62\x61ttle_attack_total\x18\x0f \x01(\x05\x12\x1b\n\x13\x62\x61ttle_defended_won\x18\x10 \x01(\x05\x12\x1b\n\x13\x62\x61ttle_training_won\x18\x11 \x01(\x05\x12\x1d\n\x15\x62\x61ttle_training_total\x18\x12 \x01(\x05\x12\x1d\n\x15prestige_raised_total\x18\x13 \x01(\x05\x12\x1e\n\x16prestige_dropped_total\x18\x14 \x01(\x05\x12\x18\n\x10pokemon_deployed\x18\x15 \x01(\x05\x12\x1e\n\x16pokemon_caught_by_type\x18\x16 \x03(\x05\x12\x1c\n\x14small_rattata_caught\x18\x17 \x01(\x05\x12\x14\n\x0cused_km_pool\x18\x18 \x01(\x01\x12\x19\n\x11last_km_refill_ms\x18\x19 \x01(\x03\x12\x1b\n\x13num_raid_battle_won\x18\x1a \x01(\x05\x12\x1d\n\x15num_raid_battle_total\x18\x1b \x01(\x05\x12 \n\x18num_legendary_battle_won\x18\x1c \x01(\x05\x12\"\n\x1anum_legendary_battle_total\x18\x1d \x01(\x05\x12\x17\n\x0fnum_berries_fed\x18\x1e \x01(\x05\x12\x19\n\x11total_defended_ms\x18\x1f \x01(\x03\x12\x34\n\x0c\x65vent_badges\x18  \x03(\x0e\x32\x1e.pogoprotos.enums.GymBadgeTypeb\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_gym__badge__type__pb2.DESCRIPTOR,])
 
@@ -49,14 +49,14 @@ _PLAYERSTATS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='prev_level_exp', full_name='pogoprotos.data.player.PlayerStats.prev_level_exp', index=2,
+      name='prev_level_xp', full_name='pogoprotos.data.player.PlayerStats.prev_level_xp', index=2,
       number=3, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='next_level_exp', full_name='pogoprotos.data.player.PlayerStats.next_level_exp', index=3,
+      name='next_level_xp', full_name='pogoprotos.data.player.PlayerStats.next_level_xp', index=3,
       number=4, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -70,28 +70,28 @@ _PLAYERSTATS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_pokemon_encountered', full_name='pogoprotos.data.player.PlayerStats.num_pokemon_encountered', index=5,
+      name='pokemons_encountered', full_name='pogoprotos.data.player.PlayerStats.pokemons_encountered', index=5,
       number=6, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_unique_pokedex_entries', full_name='pogoprotos.data.player.PlayerStats.num_unique_pokedex_entries', index=6,
+      name='unique_pokedex_entries', full_name='pogoprotos.data.player.PlayerStats.unique_pokedex_entries', index=6,
       number=7, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_pokemon_captured', full_name='pogoprotos.data.player.PlayerStats.num_pokemon_captured', index=7,
+      name='pokemons_captured', full_name='pogoprotos.data.player.PlayerStats.pokemons_captured', index=7,
       number=8, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_evolutions', full_name='pogoprotos.data.player.PlayerStats.num_evolutions', index=8,
+      name='evolutions', full_name='pogoprotos.data.player.PlayerStats.evolutions', index=8,
       number=9, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -105,14 +105,14 @@ _PLAYERSTATS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='number_of_pokeball_thrown', full_name='pogoprotos.data.player.PlayerStats.number_of_pokeball_thrown', index=10,
+      name='pokeballs_thrown', full_name='pogoprotos.data.player.PlayerStats.pokeballs_thrown', index=10,
       number=11, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_eggs_hatched', full_name='pogoprotos.data.player.PlayerStats.num_eggs_hatched', index=11,
+      name='eggs_hatched', full_name='pogoprotos.data.player.PlayerStats.eggs_hatched', index=11,
       number=12, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -126,35 +126,35 @@ _PLAYERSTATS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_battle_attack_won', full_name='pogoprotos.data.player.PlayerStats.num_battle_attack_won', index=13,
+      name='battle_attack_won', full_name='pogoprotos.data.player.PlayerStats.battle_attack_won', index=13,
       number=14, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_battle_attack_total', full_name='pogoprotos.data.player.PlayerStats.num_battle_attack_total', index=14,
+      name='battle_attack_total', full_name='pogoprotos.data.player.PlayerStats.battle_attack_total', index=14,
       number=15, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_battle_defended_won', full_name='pogoprotos.data.player.PlayerStats.num_battle_defended_won', index=15,
+      name='battle_defended_won', full_name='pogoprotos.data.player.PlayerStats.battle_defended_won', index=15,
       number=16, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_battle_training_won', full_name='pogoprotos.data.player.PlayerStats.num_battle_training_won', index=16,
+      name='battle_training_won', full_name='pogoprotos.data.player.PlayerStats.battle_training_won', index=16,
       number=17, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_battle_training_total', full_name='pogoprotos.data.player.PlayerStats.num_battle_training_total', index=17,
+      name='battle_training_total', full_name='pogoprotos.data.player.PlayerStats.battle_training_total', index=17,
       number=18, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -175,14 +175,14 @@ _PLAYERSTATS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_pokemon_deployed', full_name='pogoprotos.data.player.PlayerStats.num_pokemon_deployed', index=20,
+      name='pokemon_deployed', full_name='pogoprotos.data.player.PlayerStats.pokemon_deployed', index=20,
       number=21, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='num_pokemon_caught_by_type', full_name='pogoprotos.data.player.PlayerStats.num_pokemon_caught_by_type', index=21,
+      name='pokemon_caught_by_type', full_name='pogoprotos.data.player.PlayerStats.pokemon_caught_by_type', index=21,
       number=22, type=5, cpp_type=1, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -271,7 +271,7 @@ _PLAYERSTATS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=109,
-  serialized_end=1072,
+  serialized_end=1015,
 )
 
 _PLAYERSTATS.fields_by_name['event_badges'].enum_type = pogoprotos_dot_enums_dot_gym__badge__type__pb2._GYMBADGETYPE

@@ -22,7 +22,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/incense_encounter_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n@pogoprotos/networking/responses/incense_encounter_response.proto\x12\x1fpogoprotos.networking.responses\x1a\x31pogoprotos/data/capture/capture_probability.proto\x1a\"pogoprotos/data/pokemon_data.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xa7\x03\n\x18IncenseEncounterResponse\x12P\n\x06result\x18\x01 \x01(\x0e\x32@.pogoprotos.networking.responses.IncenseEncounterResponse.Result\x12-\n\x07pokemon\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12H\n\x13\x63\x61pture_probability\x18\x03 \x01(\x0b\x32+.pogoprotos.data.capture.CaptureProbability\x12\x36\n\x0b\x61\x63tive_item\x18\x04 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemId\"\x87\x01\n\x06Result\x12\x1d\n\x19INCENSE_ENCOUNTER_UNKNOWN\x10\x00\x12\x1d\n\x19INCENSE_ENCOUNTER_SUCCESS\x10\x01\x12#\n\x1fINCENSE_ENCOUNTER_NOT_AVAILABLE\x10\x02\x12\x1a\n\x16POKEMON_INVENTORY_FULL\x10\x03\x62\x06proto3')
+  serialized_pb=_b('\n@pogoprotos/networking/responses/incense_encounter_response.proto\x12\x1fpogoprotos.networking.responses\x1a\x31pogoprotos/data/capture/capture_probability.proto\x1a\"pogoprotos/data/pokemon_data.proto\x1a\'pogoprotos/inventory/item/item_id.proto\"\xac\x03\n\x18IncenseEncounterResponse\x12P\n\x06result\x18\x01 \x01(\x0e\x32@.pogoprotos.networking.responses.IncenseEncounterResponse.Result\x12\x32\n\x0cpokemon_data\x18\x02 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12H\n\x13\x63\x61pture_probability\x18\x03 \x01(\x0b\x32+.pogoprotos.data.capture.CaptureProbability\x12\x36\n\x0b\x61\x63tive_item\x18\x04 \x01(\x0e\x32!.pogoprotos.inventory.item.ItemId\"\x87\x01\n\x06Result\x12\x1d\n\x19INCENSE_ENCOUNTER_UNKNOWN\x10\x00\x12\x1d\n\x19INCENSE_ENCOUNTER_SUCCESS\x10\x01\x12#\n\x1fINCENSE_ENCOUNTER_NOT_AVAILABLE\x10\x02\x12\x1a\n\x16POKEMON_INVENTORY_FULL\x10\x03\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2.DESCRIPTOR,pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,pogoprotos_dot_inventory_dot_item_dot_item__id__pb2.DESCRIPTOR,])
 
@@ -53,8 +53,8 @@ _INCENSEENCOUNTERRESPONSE_RESULT = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   options=None,
-  serialized_start=518,
-  serialized_end=653,
+  serialized_start=523,
+  serialized_end=658,
 )
 _sym_db.RegisterEnumDescriptor(_INCENSEENCOUNTERRESPONSE_RESULT)
 
@@ -74,7 +74,7 @@ _INCENSEENCOUNTERRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pokemon', full_name='pogoprotos.networking.responses.IncenseEncounterResponse.pokemon', index=1,
+      name='pokemon_data', full_name='pogoprotos.networking.responses.IncenseEncounterResponse.pokemon_data', index=1,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -108,11 +108,11 @@ _INCENSEENCOUNTERRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=230,
-  serialized_end=653,
+  serialized_end=658,
 )
 
 _INCENSEENCOUNTERRESPONSE.fields_by_name['result'].enum_type = _INCENSEENCOUNTERRESPONSE_RESULT
-_INCENSEENCOUNTERRESPONSE.fields_by_name['pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
+_INCENSEENCOUNTERRESPONSE.fields_by_name['pokemon_data'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 _INCENSEENCOUNTERRESPONSE.fields_by_name['capture_probability'].message_type = pogoprotos_dot_data_dot_capture_dot_capture__probability__pb2._CAPTUREPROBABILITY
 _INCENSEENCOUNTERRESPONSE.fields_by_name['active_item'].enum_type = pogoprotos_dot_inventory_dot_item_dot_item__id__pb2._ITEMID
 _INCENSEENCOUNTERRESPONSE_RESULT.containing_type = _INCENSEENCOUNTERRESPONSE

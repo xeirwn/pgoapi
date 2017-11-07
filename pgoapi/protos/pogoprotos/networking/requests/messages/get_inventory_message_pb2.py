@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/get_inventory_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nCpogoprotos/networking/requests/messages/get_inventory_message.proto\x12\'pogoprotos.networking.requests.messages\"/\n\x13GetInventoryMessage\x12\x18\n\x10timestamp_millis\x18\x01 \x01(\x03\x62\x06proto3')
+  serialized_pb=_b('\nCpogoprotos/networking/requests/messages/get_inventory_message.proto\x12\'pogoprotos.networking.requests.messages\"0\n\x13GetInventoryMessage\x12\x19\n\x11last_timestamp_ms\x18\x01 \x01(\x03\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _GETINVENTORYMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='timestamp_millis', full_name='pogoprotos.networking.requests.messages.GetInventoryMessage.timestamp_millis', index=0,
+      name='last_timestamp_ms', full_name='pogoprotos.networking.requests.messages.GetInventoryMessage.last_timestamp_ms', index=0,
       number=1, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -52,7 +52,7 @@ _GETINVENTORYMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=112,
-  serialized_end=159,
+  serialized_end=160,
 )
 
 DESCRIPTOR.message_types_by_name['GetInventoryMessage'] = _GETINVENTORYMESSAGE

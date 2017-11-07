@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/item/incense_attributes.proto',
   package='pogoprotos.settings.master.item',
   syntax='proto3',
-  serialized_pb=_b('\n8pogoprotos/settings/master/item/incense_attributes.proto\x12\x1fpogoprotos.settings.master.item\x1a#pogoprotos/enums/pokemon_type.proto\"\xca\x02\n\x11IncenseAttributes\x12 \n\x18incense_lifetime_seconds\x18\x01 \x01(\x05\x12\x33\n\x0cpokemon_type\x18\x02 \x03(\x0e\x32\x1d.pogoprotos.enums.PokemonType\x12(\n pokemon_incense_type_probability\x18\x03 \x01(\x02\x12,\n$standing_time_between_encounters_sec\x18\x04 \x01(\x05\x12)\n!moving_time_between_encounter_sec\x18\x05 \x01(\x05\x12\x35\n-distance_required_for_shorter_interval_meters\x18\x06 \x01(\x05\x12$\n\x1cpokemon_attracted_length_sec\x18\x07 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n8pogoprotos/settings/master/item/incense_attributes.proto\x12\x1fpogoprotos.settings.master.item\x1a#pogoprotos/enums/pokemon_type.proto\"\xd2\x02\n\x11IncenseAttributes\x12 \n\x18incense_lifetime_seconds\x18\x01 \x01(\x05\x12\x33\n\x0cpokemon_type\x18\x02 \x03(\x0e\x32\x1d.pogoprotos.enums.PokemonType\x12(\n pokemon_incense_type_probability\x18\x03 \x01(\x02\x12\x30\n(standing_time_between_encounters_seconds\x18\x04 \x01(\x05\x12-\n%moving_time_between_encounter_seconds\x18\x05 \x01(\x05\x12\x35\n-distance_required_for_shorter_interval_meters\x18\x06 \x01(\x05\x12$\n\x1cpokemon_attracted_length_sec\x18\x07 \x01(\x05\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_pokemon__type__pb2.DESCRIPTOR,])
 
@@ -56,14 +56,14 @@ _INCENSEATTRIBUTES = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='standing_time_between_encounters_sec', full_name='pogoprotos.settings.master.item.IncenseAttributes.standing_time_between_encounters_sec', index=3,
+      name='standing_time_between_encounters_seconds', full_name='pogoprotos.settings.master.item.IncenseAttributes.standing_time_between_encounters_seconds', index=3,
       number=4, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='moving_time_between_encounter_sec', full_name='pogoprotos.settings.master.item.IncenseAttributes.moving_time_between_encounter_sec', index=4,
+      name='moving_time_between_encounter_seconds', full_name='pogoprotos.settings.master.item.IncenseAttributes.moving_time_between_encounter_seconds', index=4,
       number=5, type=5, cpp_type=1, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -96,7 +96,7 @@ _INCENSEATTRIBUTES = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=131,
-  serialized_end=461,
+  serialized_end=469,
 )
 
 _INCENSEATTRIBUTES.fields_by_name['pokemon_type'].enum_type = pogoprotos_dot_enums_dot_pokemon__type__pb2._POKEMONTYPE

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/enums/platform.proto',
   package='pogoprotos.enums',
   syntax='proto3',
-  serialized_pb=_b('\n\x1fpogoprotos/enums/platform.proto\x12\x10pogoprotos.enums*\x88\x01\n\x08Platform\x12\x12\n\x0ePLATFORM_UNSET\x10\x00\x12\x10\n\x0cPLATFORM_IOS\x10\x01\x12\x14\n\x10PLATFORM_ANDROID\x10\x02\x12\x10\n\x0cPLATFORM_OSX\x10\x03\x12\x14\n\x10PLATFORM_WINDOWS\x10\x04\x12\x18\n\x14PLATFORM_APPLE_WATCH\x10\x05\x62\x06proto3')
+  serialized_pb=_b('\n\x1fpogoprotos/enums/platform.proto\x12\x10pogoprotos.enums*R\n\x08Platform\x12\t\n\x05UNSET\x10\x00\x12\x07\n\x03IOS\x10\x01\x12\x0b\n\x07\x41NDROID\x10\x02\x12\x07\n\x03OSX\x10\x03\x12\x0b\n\x07WINDOWS\x10\x04\x12\x0f\n\x0b\x41PPLE_WATCH\x10\x05\x62\x06proto3')
 )
 
 _PLATFORM = _descriptor.EnumDescriptor(
@@ -30,44 +30,44 @@ _PLATFORM = _descriptor.EnumDescriptor(
   file=DESCRIPTOR,
   values=[
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_UNSET', index=0, number=0,
+      name='UNSET', index=0, number=0,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_IOS', index=1, number=1,
+      name='IOS', index=1, number=1,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_ANDROID', index=2, number=2,
+      name='ANDROID', index=2, number=2,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_OSX', index=3, number=3,
+      name='OSX', index=3, number=3,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_WINDOWS', index=4, number=4,
+      name='WINDOWS', index=4, number=4,
       options=None,
       type=None),
     _descriptor.EnumValueDescriptor(
-      name='PLATFORM_APPLE_WATCH', index=5, number=5,
+      name='APPLE_WATCH', index=5, number=5,
       options=None,
       type=None),
   ],
   containing_type=None,
   options=None,
-  serialized_start=54,
-  serialized_end=190,
+  serialized_start=53,
+  serialized_end=135,
 )
 _sym_db.RegisterEnumDescriptor(_PLATFORM)
 
 Platform = enum_type_wrapper.EnumTypeWrapper(_PLATFORM)
-PLATFORM_UNSET = 0
-PLATFORM_IOS = 1
-PLATFORM_ANDROID = 2
-PLATFORM_OSX = 3
-PLATFORM_WINDOWS = 4
-PLATFORM_APPLE_WATCH = 5
+UNSET = 0
+IOS = 1
+ANDROID = 2
+OSX = 3
+WINDOWS = 4
+APPLE_WATCH = 5
 
 
 DESCRIPTOR.enum_types_by_name['Platform'] = _PLATFORM

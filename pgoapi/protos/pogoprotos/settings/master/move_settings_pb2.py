@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/move_settings.proto',
   package='pogoprotos.settings.master',
   syntax='proto3',
-  serialized_pb=_b('\n.pogoprotos/settings/master/move_settings.proto\x12\x1apogoprotos.settings.master\x1a#pogoprotos/enums/pokemon_type.proto\x1a#pogoprotos/enums/pokemon_move.proto\"\xa7\x03\n\x0cMoveSettings\x12\x30\n\tunique_id\x18\x01 \x01(\x0e\x32\x1d.pogoprotos.enums.PokemonMove\x12\x14\n\x0c\x61nimation_id\x18\x02 \x01(\x05\x12+\n\x04type\x18\x03 \x01(\x0e\x32\x1d.pogoprotos.enums.PokemonType\x12\r\n\x05power\x18\x04 \x01(\x02\x12\x17\n\x0f\x61\x63\x63uracy_chance\x18\x05 \x01(\x02\x12\x17\n\x0f\x63ritical_chance\x18\x06 \x01(\x02\x12\x13\n\x0bheal_scalar\x18\x07 \x01(\x02\x12\x1b\n\x13stamina_loss_scalar\x18\x08 \x01(\x02\x12\x19\n\x11trainer_level_min\x18\t \x01(\x05\x12\x19\n\x11trainer_level_max\x18\n \x01(\x05\x12\x10\n\x08vfx_name\x18\x0b \x01(\t\x12\x13\n\x0b\x64uration_ms\x18\x0c \x01(\x05\x12\x1e\n\x16\x64\x61mage_window_start_ms\x18\r \x01(\x05\x12\x1c\n\x14\x64\x61mage_window_end_ms\x18\x0e \x01(\x05\x12\x14\n\x0c\x65nergy_delta\x18\x0f \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n.pogoprotos/settings/master/move_settings.proto\x12\x1apogoprotos.settings.master\x1a#pogoprotos/enums/pokemon_type.proto\x1a#pogoprotos/enums/pokemon_move.proto\"\xb1\x03\n\x0cMoveSettings\x12\x32\n\x0bmovement_id\x18\x01 \x01(\x0e\x32\x1d.pogoprotos.enums.PokemonMove\x12\x14\n\x0c\x61nimation_id\x18\x02 \x01(\x05\x12\x33\n\x0cpokemon_type\x18\x03 \x01(\x0e\x32\x1d.pogoprotos.enums.PokemonType\x12\r\n\x05power\x18\x04 \x01(\x02\x12\x17\n\x0f\x61\x63\x63uracy_chance\x18\x05 \x01(\x02\x12\x17\n\x0f\x63ritical_chance\x18\x06 \x01(\x02\x12\x13\n\x0bheal_scalar\x18\x07 \x01(\x02\x12\x1b\n\x13stamina_loss_scalar\x18\x08 \x01(\x02\x12\x19\n\x11trainer_level_min\x18\t \x01(\x05\x12\x19\n\x11trainer_level_max\x18\n \x01(\x05\x12\x10\n\x08vfx_name\x18\x0b \x01(\t\x12\x13\n\x0b\x64uration_ms\x18\x0c \x01(\x05\x12\x1e\n\x16\x64\x61mage_window_start_ms\x18\r \x01(\x05\x12\x1c\n\x14\x64\x61mage_window_end_ms\x18\x0e \x01(\x05\x12\x14\n\x0c\x65nergy_delta\x18\x0f \x01(\x05\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_pokemon__type__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_pokemon__move__pb2.DESCRIPTOR,])
 
@@ -36,7 +36,7 @@ _MOVESETTINGS = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='unique_id', full_name='pogoprotos.settings.master.MoveSettings.unique_id', index=0,
+      name='movement_id', full_name='pogoprotos.settings.master.MoveSettings.movement_id', index=0,
       number=1, type=14, cpp_type=8, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -50,7 +50,7 @@ _MOVESETTINGS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='type', full_name='pogoprotos.settings.master.MoveSettings.type', index=2,
+      name='pokemon_type', full_name='pogoprotos.settings.master.MoveSettings.pokemon_type', index=2,
       number=3, type=14, cpp_type=8, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -153,11 +153,11 @@ _MOVESETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=153,
-  serialized_end=576,
+  serialized_end=586,
 )
 
-_MOVESETTINGS.fields_by_name['unique_id'].enum_type = pogoprotos_dot_enums_dot_pokemon__move__pb2._POKEMONMOVE
-_MOVESETTINGS.fields_by_name['type'].enum_type = pogoprotos_dot_enums_dot_pokemon__type__pb2._POKEMONTYPE
+_MOVESETTINGS.fields_by_name['movement_id'].enum_type = pogoprotos_dot_enums_dot_pokemon__move__pb2._POKEMONMOVE
+_MOVESETTINGS.fields_by_name['pokemon_type'].enum_type = pogoprotos_dot_enums_dot_pokemon__type__pb2._POKEMONTYPE
 DESCRIPTOR.message_types_by_name['MoveSettings'] = _MOVESETTINGS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

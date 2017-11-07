@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/map/pokemon/wild_pokemon.proto',
   package='pogoprotos.map.pokemon',
   syntax='proto3',
-  serialized_pb=_b('\n)pogoprotos/map/pokemon/wild_pokemon.proto\x12\x16pogoprotos.map.pokemon\x1a\"pogoprotos/data/pokemon_data.proto\"\xc6\x01\n\x0bWildPokemon\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x06\x12\x18\n\x10last_modified_ms\x18\x02 \x01(\x03\x12\x10\n\x08latitude\x18\x03 \x01(\x01\x12\x11\n\tlongitude\x18\x04 \x01(\x01\x12\x16\n\x0espawn_point_id\x18\x05 \x01(\t\x12-\n\x07pokemon\x18\x07 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x1b\n\x13time_till_hidden_ms\x18\x0b \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n)pogoprotos/map/pokemon/wild_pokemon.proto\x12\x16pogoprotos.map.pokemon\x1a\"pogoprotos/data/pokemon_data.proto\"\xd5\x01\n\x0bWildPokemon\x12\x14\n\x0c\x65ncounter_id\x18\x01 \x01(\x06\x12\"\n\x1alast_modified_timestamp_ms\x18\x02 \x01(\x03\x12\x10\n\x08latitude\x18\x03 \x01(\x01\x12\x11\n\tlongitude\x18\x04 \x01(\x01\x12\x16\n\x0espawn_point_id\x18\x05 \x01(\t\x12\x32\n\x0cpokemon_data\x18\x07 \x01(\x0b\x32\x1c.pogoprotos.data.PokemonData\x12\x1b\n\x13time_till_hidden_ms\x18\x0b \x01(\x05\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_pokemon__data__pb2.DESCRIPTOR,])
 
@@ -42,7 +42,7 @@ _WILDPOKEMON = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='last_modified_ms', full_name='pogoprotos.map.pokemon.WildPokemon.last_modified_ms', index=1,
+      name='last_modified_timestamp_ms', full_name='pogoprotos.map.pokemon.WildPokemon.last_modified_timestamp_ms', index=1,
       number=2, type=3, cpp_type=2, label=1,
       has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
@@ -70,7 +70,7 @@ _WILDPOKEMON = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pokemon', full_name='pogoprotos.map.pokemon.WildPokemon.pokemon', index=5,
+      name='pokemon_data', full_name='pogoprotos.map.pokemon.WildPokemon.pokemon_data', index=5,
       number=7, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -96,10 +96,10 @@ _WILDPOKEMON = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=106,
-  serialized_end=304,
+  serialized_end=319,
 )
 
-_WILDPOKEMON.fields_by_name['pokemon'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
+_WILDPOKEMON.fields_by_name['pokemon_data'].message_type = pogoprotos_dot_data_dot_pokemon__data__pb2._POKEMONDATA
 DESCRIPTOR.message_types_by_name['WildPokemon'] = _WILDPOKEMON
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 

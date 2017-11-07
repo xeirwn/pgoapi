@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/download_settings_action.proto',
   package='pogoprotos.settings',
   syntax='proto3',
-  serialized_pb=_b('\n2pogoprotos/settings/download_settings_action.proto\x12\x13pogoprotos.settings\"&\n\x16\x44ownloadSettingsAction\x12\x0c\n\x04sha1\x18\x01 \x01(\tb\x06proto3')
+  serialized_pb=_b('\n2pogoprotos/settings/download_settings_action.proto\x12\x13pogoprotos.settings\"&\n\x16\x44ownloadSettingsAction\x12\x0c\n\x04hash\x18\x01 \x01(\tb\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _DOWNLOADSETTINGSACTION = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='sha1', full_name='pogoprotos.settings.DownloadSettingsAction.sha1', index=0,
+      name='hash', full_name='pogoprotos.settings.DownloadSettingsAction.hash', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,

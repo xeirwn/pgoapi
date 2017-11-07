@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/requests/messages/fort_details_message.proto',
   package='pogoprotos.networking.requests.messages',
   syntax='proto3',
-  serialized_pb=_b('\nBpogoprotos/networking/requests/messages/fort_details_message.proto\x12\'pogoprotos.networking.requests.messages\"E\n\x12\x46ortDetailsMessage\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08latitude\x18\x02 \x01(\x01\x12\x11\n\tlongitude\x18\x03 \x01(\x01\x62\x06proto3')
+  serialized_pb=_b('\nBpogoprotos/networking/requests/messages/fort_details_message.proto\x12\'pogoprotos.networking.requests.messages\"J\n\x12\x46ortDetailsMessage\x12\x0f\n\x07\x66ort_id\x18\x01 \x01(\t\x12\x10\n\x08latitude\x18\x02 \x01(\x01\x12\x11\n\tlongitude\x18\x03 \x01(\x01\x62\x06proto3')
 )
 
 
@@ -33,7 +33,7 @@ _FORTDETAILSMESSAGE = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='id', full_name='pogoprotos.networking.requests.messages.FortDetailsMessage.id', index=0,
+      name='fort_id', full_name='pogoprotos.networking.requests.messages.FortDetailsMessage.fort_id', index=0,
       number=1, type=9, cpp_type=9, label=1,
       has_default_value=False, default_value=_b("").decode('utf-8'),
       message_type=None, enum_type=None, containing_type=None,
@@ -66,7 +66,7 @@ _FORTDETAILSMESSAGE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=111,
-  serialized_end=180,
+  serialized_end=185,
 )
 
 DESCRIPTOR.message_types_by_name['FortDetailsMessage'] = _FORTDETAILSMESSAGE

@@ -21,7 +21,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/settings/master/camera_settings.proto',
   package='pogoprotos.settings.master',
   syntax='proto3',
-  serialized_pb=_b('\n0pogoprotos/settings/master/camera_settings.proto\x12\x1apogoprotos.settings.master\x1a$pogoprotos/enums/camera_target.proto\x1a+pogoprotos/enums/camera_interpolation.proto\"\xb1\x03\n\x0e\x43\x61meraSettings\x12\x13\n\x0bnext_camera\x18\x01 \x01(\t\x12<\n\rinterpolation\x18\x02 \x03(\x0e\x32%.pogoprotos.enums.CameraInterpolation\x12\x33\n\x0btarget_type\x18\x03 \x03(\x0e\x32\x1e.pogoprotos.enums.CameraTarget\x12\x15\n\rease_in_speed\x18\x04 \x03(\x02\x12\x16\n\x0e\x65\x61se_out_speed\x18\x05 \x03(\x02\x12\x12\n\nduration_s\x18\x06 \x03(\x02\x12\x0e\n\x06wait_s\x18\x07 \x03(\x02\x12\x14\n\x0ctransition_s\x18\x08 \x03(\x02\x12\x11\n\tangle_deg\x18\t \x03(\x02\x12\x18\n\x10\x61ngle_offset_deg\x18\n \x03(\x02\x12\x11\n\tpitch_deg\x18\x0b \x03(\x02\x12\x18\n\x10pitch_offset_deg\x18\x0c \x03(\x02\x12\x10\n\x08roll_deg\x18\r \x03(\x02\x12\x12\n\ndistance_m\x18\x0e \x03(\x02\x12\x16\n\x0eheight_percent\x18\x0f \x03(\x02\x12\x16\n\x0evert_ctr_ratio\x18\x10 \x03(\x02\x62\x06proto3')
+  serialized_pb=_b('\n0pogoprotos/settings/master/camera_settings.proto\x12\x1apogoprotos.settings.master\x1a$pogoprotos/enums/camera_target.proto\x1a+pogoprotos/enums/camera_interpolation.proto\"\xd7\x03\n\x0e\x43\x61meraSettings\x12\x13\n\x0bnext_camera\x18\x01 \x01(\t\x12<\n\rinterpolation\x18\x02 \x03(\x0e\x32%.pogoprotos.enums.CameraInterpolation\x12\x33\n\x0btarget_type\x18\x03 \x03(\x0e\x32\x1e.pogoprotos.enums.CameraTarget\x12\x15\n\rease_in_speed\x18\x04 \x03(\x02\x12\x16\n\x0e\x65\x61se_out_speed\x18\x05 \x03(\x02\x12\x18\n\x10\x64uration_seconds\x18\x06 \x03(\x02\x12\x14\n\x0cwait_seconds\x18\x07 \x03(\x02\x12\x1a\n\x12transition_seconds\x18\x08 \x03(\x02\x12\x14\n\x0c\x61ngle_degree\x18\t \x03(\x02\x12\x1b\n\x13\x61ngle_offset_degree\x18\n \x03(\x02\x12\x14\n\x0cpitch_degree\x18\x0b \x03(\x02\x12\x1b\n\x13pitch_offset_degree\x18\x0c \x03(\x02\x12\x13\n\x0broll_degree\x18\r \x03(\x02\x12\x17\n\x0f\x64istance_meters\x18\x0e \x03(\x02\x12\x16\n\x0eheight_percent\x18\x0f \x03(\x02\x12\x16\n\x0evert_ctr_ratio\x18\x10 \x03(\x02\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_enums_dot_camera__target__pb2.DESCRIPTOR,pogoprotos_dot_enums_dot_camera__interpolation__pb2.DESCRIPTOR,])
 
@@ -71,63 +71,63 @@ _CAMERASETTINGS = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='duration_s', full_name='pogoprotos.settings.master.CameraSettings.duration_s', index=5,
+      name='duration_seconds', full_name='pogoprotos.settings.master.CameraSettings.duration_seconds', index=5,
       number=6, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='wait_s', full_name='pogoprotos.settings.master.CameraSettings.wait_s', index=6,
+      name='wait_seconds', full_name='pogoprotos.settings.master.CameraSettings.wait_seconds', index=6,
       number=7, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='transition_s', full_name='pogoprotos.settings.master.CameraSettings.transition_s', index=7,
+      name='transition_seconds', full_name='pogoprotos.settings.master.CameraSettings.transition_seconds', index=7,
       number=8, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='angle_deg', full_name='pogoprotos.settings.master.CameraSettings.angle_deg', index=8,
+      name='angle_degree', full_name='pogoprotos.settings.master.CameraSettings.angle_degree', index=8,
       number=9, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='angle_offset_deg', full_name='pogoprotos.settings.master.CameraSettings.angle_offset_deg', index=9,
+      name='angle_offset_degree', full_name='pogoprotos.settings.master.CameraSettings.angle_offset_degree', index=9,
       number=10, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pitch_deg', full_name='pogoprotos.settings.master.CameraSettings.pitch_deg', index=10,
+      name='pitch_degree', full_name='pogoprotos.settings.master.CameraSettings.pitch_degree', index=10,
       number=11, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='pitch_offset_deg', full_name='pogoprotos.settings.master.CameraSettings.pitch_offset_deg', index=11,
+      name='pitch_offset_degree', full_name='pogoprotos.settings.master.CameraSettings.pitch_offset_degree', index=11,
       number=12, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='roll_deg', full_name='pogoprotos.settings.master.CameraSettings.roll_deg', index=12,
+      name='roll_degree', full_name='pogoprotos.settings.master.CameraSettings.roll_degree', index=12,
       number=13, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='distance_m', full_name='pogoprotos.settings.master.CameraSettings.distance_m', index=13,
+      name='distance_meters', full_name='pogoprotos.settings.master.CameraSettings.distance_meters', index=13,
       number=14, type=2, cpp_type=6, label=3,
       has_default_value=False, default_value=[],
       message_type=None, enum_type=None, containing_type=None,
@@ -160,7 +160,7 @@ _CAMERASETTINGS = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=164,
-  serialized_end=597,
+  serialized_end=635,
 )
 
 _CAMERASETTINGS.fields_by_name['interpolation'].enum_type = pogoprotos_dot_enums_dot_camera__interpolation__pb2._CAMERAINTERPOLATION

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='pogoprotos/networking/responses/get_player_response.proto',
   package='pogoprotos.networking.responses',
   syntax='proto3',
-  serialized_pb=_b('\n9pogoprotos/networking/responses/get_player_response.proto\x12\x1fpogoprotos.networking.responses\x1a!pogoprotos/data/player_data.proto\"o\n\x11GetPlayerResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x12+\n\x06player\x18\x02 \x01(\x0b\x32\x1b.pogoprotos.data.PlayerData\x12\x0e\n\x06\x62\x61nned\x18\x03 \x01(\x08\x12\x0c\n\x04warn\x18\x04 \x01(\x08\x62\x06proto3')
+  serialized_pb=_b('\n9pogoprotos/networking/responses/get_player_response.proto\x12\x1fpogoprotos.networking.responses\x1a!pogoprotos/data/player_data.proto\"t\n\x11GetPlayerResponse\x12\x0f\n\x07success\x18\x01 \x01(\x08\x12\x30\n\x0bplayer_data\x18\x02 \x01(\x0b\x32\x1b.pogoprotos.data.PlayerData\x12\x0e\n\x06\x62\x61nned\x18\x03 \x01(\x08\x12\x0c\n\x04warn\x18\x04 \x01(\x08\x62\x06proto3')
   ,
   dependencies=[pogoprotos_dot_data_dot_player__data__pb2.DESCRIPTOR,])
 
@@ -42,7 +42,7 @@ _GETPLAYERRESPONSE = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='player', full_name='pogoprotos.networking.responses.GetPlayerResponse.player', index=1,
+      name='player_data', full_name='pogoprotos.networking.responses.GetPlayerResponse.player_data', index=1,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -75,10 +75,10 @@ _GETPLAYERRESPONSE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=129,
-  serialized_end=240,
+  serialized_end=245,
 )
 
-_GETPLAYERRESPONSE.fields_by_name['player'].message_type = pogoprotos_dot_data_dot_player__data__pb2._PLAYERDATA
+_GETPLAYERRESPONSE.fields_by_name['player_data'].message_type = pogoprotos_dot_data_dot_player__data__pb2._PLAYERDATA
 DESCRIPTOR.message_types_by_name['GetPlayerResponse'] = _GETPLAYERRESPONSE
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
